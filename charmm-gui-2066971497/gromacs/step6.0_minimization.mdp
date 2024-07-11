@@ -1,9 +1,12 @@
 define                  = -DPOSRES -DPOSRES_FC_LIPID=1000.0 -DDIHRES -DDIHRES_FC=1000.0
 integrator              = steep
-emtol                   = 1000.0
-nsteps                  = 5000
+emtol                   = 100.0 ; 1000.0
+nsteps                  = 100000 ; 5000
+
+; Neighborsearching and short-range nonbonded interactions
 nstlist                 = 10
 cutoff-scheme           = Verlet
+pbc                     = xy ; periodic boundary conditions
 rlist                   = 1.2
 vdwtype                 = Cut-off
 vdw-modifier            = Force-switch
@@ -14,3 +17,4 @@ rcoulomb                = 1.2
 ;
 constraints             = h-bonds
 constraint_algorithm    = LINCS
+
