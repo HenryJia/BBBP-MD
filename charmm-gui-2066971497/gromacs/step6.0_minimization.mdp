@@ -18,12 +18,12 @@ rcoulomb                = 1.2
 constraints             = h-bonds
 constraint_algorithm    = LINCS
 
-ewald-geometry          = 3d ; Will be set to 3dc when we do the 3 times z with vacuum thing
+ewald-geometry          = 3dc ; Will be set to 3dc when we do the 3 times z with vacuum thing
 
 ; Walls, only needed if we're doing the 3 times z with vacuum thing
-;nwall                    = 2
-;wall-atomtype            = C C      ; atom types for the walls
-;wall-type                = 12-6     ; Lennard-Jones 12-6 potential for the walls
-;wall-r-linpot            = 1.0
-;wall-density             = 10 10
-;wall-ewald-zfac          = 2 ; I think this should be set for when we do ewald-geometry = 3dc?
+nwall                    = 2
+wall-atomtype            = C C      ; atom types for the walls
+wall-type                = 12-6     ; Lennard-Jones 12-6 potential for the walls
+wall-r-linpot            = 1.0
+wall-density             = 10 10
+wall-ewald-zfac          = 2 ; I think this should be set for when we do ewald-geometry = 3dc?
