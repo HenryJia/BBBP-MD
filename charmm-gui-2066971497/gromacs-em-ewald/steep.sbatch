@@ -14,5 +14,5 @@ module purge
 module load GCC/11.3.0 OpenMPI/4.1.4
 module load GROMACS/2024.1-CUDA-11.7.0
 
-srun bash -c 'gmx grompp -f step6.0_minimization.mdp -o step6.0_minimization.tpr -c step5_input.gro -r step5_input.gro -p topol.top -n index.ndx && gmx mdrun -v -deffnm step6.0_minimization'
+srun bash -c 'gmx grompp -f step6.0_minimization.mdp -o step6.0_minimization.tpr -c step5_editconf.gro -r step5_editconf.gro -p topol.top -n index.ndx && gmx mdrun -v -deffnm step6.0_minimization'
 

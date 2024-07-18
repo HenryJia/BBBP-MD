@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (69893)
-;	On host: gpu019.sulis.hpc
-;	At date: Tue Jul 16 23:19:56 2024
+;	On host: gpu013.sulis.hpc
+;	At date: Thu Jul 18 05:45:20 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2024.1 (-:
@@ -84,9 +84,9 @@ energygrps               =
 ; cut-off scheme (Verlet: particle based cut-offs)
 cutoff-scheme            = Verlet
 ; nblist update frequency
-nstlist                  = 200
+nstlist                  = 10
 ; Periodic boundary conditions: xyz, no, xy
-pbc                      = xy
+pbc                      = xyz
 periodic-molecules       = no
 ; Allowed energy drift due to the Verlet buffer in kJ/mol/ps per atom,
 ; a value of -1 means: use rlist
@@ -129,7 +129,7 @@ pme-order                = 4
 ewald-rtol               = 1e-05
 ewald-rtol-lj            = 0.001
 lj-pme-comb-rule         = Geometric
-ewald-geometry           = 3dc
+ewald-geometry           = 3d
 epsilon-surface          = 0
 implicit-solvent         = no
 
@@ -175,7 +175,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -1966853
+gen-seed                 = -323097609
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
@@ -205,12 +205,12 @@ energygrp-excl           =
 
 ; WALLS                
 ; Number of walls, type, atom types, densities and box-z scale factor for Ewald
-nwall                    = 2
-wall-type                = 12-6
-wall-r-linpot            = 1.0
-wall-atomtype            = C C
-wall-density             = 10 10
-wall-ewald-zfac          = 2
+nwall                    = 0
+wall-type                = 9-3
+wall-r-linpot            = -1
+wall-atomtype            = 
+wall-density             = 
+wall-ewald-zfac          = 3
 
 ; COM PULLING          
 pull                     = no

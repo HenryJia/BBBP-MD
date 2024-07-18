@@ -6,7 +6,7 @@ nsteps                  = 100000 ; 5000
 ; Neighborsearching and short-range nonbonded interactions
 nstlist                 = 10
 cutoff-scheme           = Verlet
-pbc                     = xy ; periodic boundary conditions
+pbc                     = xyz ; periodic boundary conditions
 rlist                   = 1.2
 vdwtype                 = Cut-off
 vdw-modifier            = Force-switch
