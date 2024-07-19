@@ -4,7 +4,7 @@ emtol                   = 100.0 ; 1000.0
 nsteps                  = 100000 ; 5000
 
 ; Neighborsearching and short-range nonbonded interactions
-nstlist                 = 10
+nstlist                 = 200
 cutoff-scheme           = Verlet
 pbc                     = xyz ; periodic boundary conditions
 rlist                   = 1.2
