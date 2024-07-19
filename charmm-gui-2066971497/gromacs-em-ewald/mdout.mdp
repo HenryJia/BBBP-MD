@@ -1,17 +1,17 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (69893)
-;	On host: gpu019.sulis.hpc
-;	At date: Tue Jul 16 23:19:56 2024
+;	On host: gpu005.sulis.hpc
+;	At date: Fri Jul 19 03:15:59 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2024.1 (-:
 ;	
 ;	Executable:   /sulis/easybuild/software/GROMACS/2024.1-foss-2022a-CUDA-11.7.0/bin/gmx
 ;	Data prefix:  /sulis/easybuild/software/GROMACS/2024.1-foss-2022a-CUDA-11.7.0
-;	Working dir:  /gpfs/home/m/matgms/BBBP-MD/charmm-gui-2066971497/gromacs
+;	Working dir:  /gpfs/home/m/matgms/BBBP-MD/charmm-gui-2066971497/gromacs-em-ewald
 ;	Command line:
-;	  gmx grompp -f step6.0_minimization.mdp -o step6.0_minimization.tpr -c step5_input.gro -r step5_input.gro -p topol.top -n index.ndx
+;	  gmx grompp -f step6.0_minimization.mdp -o step6.0_minimization.tpr -c step5_editconf.gro -r step5_editconf.gro -p topol.top -n index.ndx
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -175,7 +175,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -1966853
+gen-seed                 = -8683572
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
@@ -210,7 +210,7 @@ wall-type                = 12-6
 wall-r-linpot            = 1.0
 wall-atomtype            = C C
 wall-density             = 10 10
-wall-ewald-zfac          = 2
+wall-ewald-zfac          = 3
 
 ; COM PULLING          
 pull                     = no
