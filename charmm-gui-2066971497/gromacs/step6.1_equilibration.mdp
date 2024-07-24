@@ -10,6 +10,7 @@ nstcalcenergy           = 100
 nstenergy               = 2000
 nstlog                  = 2000
 ;
+pbc                     = xyz ; periodic boundary conditions
 cutoff-scheme           = Verlet
 nstlist                 = 200
 rlist                   = 1.2
