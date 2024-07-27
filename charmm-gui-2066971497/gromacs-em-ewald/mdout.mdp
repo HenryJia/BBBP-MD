@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (69893)
-;	On host: gpu019.sulis.hpc
-;	At date: Wed Jul 24 16:18:24 2024
+;	On host: gpu009.sulis.hpc
+;	At date: Sat Jul 27 03:37:43 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2024.1 (-:
@@ -175,7 +175,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = yes
 gen-temp                 = 303.15
-gen-seed                 = -205817889
+gen-seed                 = 159219323
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
@@ -207,7 +207,7 @@ energygrp-excl           =
 ; Number of walls, type, atom types, densities and box-z scale factor for Ewald
 nwall                    = 2
 wall-type                = 12-6
-wall-r-linpot            = 1.0
+wall-r-linpot            = -1
 wall-atomtype            = C C
 wall-density             = 10 10
 wall-ewald-zfac          = 3
