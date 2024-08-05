@@ -1,4 +1,4 @@
-# This file was created Mon Aug  5 14:03:59 2024
+# This file was created Mon Aug  5 14:05:40 2024
 # Created by:
 #                      :-) GROMACS - gmx energy, 2024.1 (-:
 # 
@@ -9,7 +9,7 @@
 #   gmx energy -f step6.3_equilibration.edr -o step6.3_equilibration.xvg
 # gmx energy is part of G R O M A C S:
 #
-# Gromacs Runs One Microsecond At Cannonball Speeds
+# God Rules Over Mankind, Animals, Cosmos and Such
 #
 @    title "GROMACS Energies"
 @    xaxis  label "Time (ps)"
