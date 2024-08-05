@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (69893)
-;	On host: gpu020.sulis.hpc
-;	At date: Thu Aug  1 19:50:06 2024
+;	On host: gpu021.sulis.hpc
+;	At date: Mon Aug  5 14:16:37 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2024.1 (-:
@@ -148,7 +148,7 @@ tau_t                    = 1.0
 ref_t                    = 300
 ; pressure coupling     
 pcoupl                   = C-rescale
-pcoupltype               = Isotropic
+pcoupltype               = semiisotropic
 nstpcouple               = -1
 ; Time constant (ps), compressibility (1/bar) and reference P (bar)
 tau-p                    = 2.0
@@ -175,7 +175,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -19933447
+gen-seed                 = -509642434
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds

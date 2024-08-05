@@ -30,6 +30,7 @@ ld-seed                 = -1
 ref_t                   = 300
 ;
 pcoupl                  = C-rescale
+pcoupltype              = semiisotropic
 tau-p                   = 2.0
 compressibility         = 4.5e-5 0.0 ; 0.0 for the z direction as you don't want the box to change along z
 ref-p                   = 1.01325 1.01325 ; two values here, one for the reference pressure in the xy plane, one for the pressure along z. Note this is in bars
