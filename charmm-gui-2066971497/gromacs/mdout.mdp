@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (69893)
-;	On host: gpu021.sulis.hpc
-;	At date: Mon Aug  5 14:16:37 2024
+;	On host: gpu010.sulis.hpc
+;	At date: Mon Aug 12 16:01:07 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2024.1 (-:
@@ -18,14 +18,14 @@
 ; e.g.: -I/home/joe/doe -I/home/mary/roe
 include                  = 
 ; e.g.: -DPOSRES -DFLEXIBLE (note these variable names are case sensitive)
-define                   = 
+define                   = -DPOSRES -DPOSRES_FC_LIPID=1000.0 -DDIHRES -DDIHRES_FC=1000.0
 
 ; RUN CONTROL PARAMETERS
 integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
 dt                       = 0.002
-nsteps                   = 5000000
+nsteps                   = 2500000
 ; For exact run continuation or redoing part of a run
 init-step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
@@ -175,7 +175,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -509642434
+gen-seed                 = 1071574877
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
