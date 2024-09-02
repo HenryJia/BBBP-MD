@@ -48,7 +48,6 @@ nstcomm                 = 100
 comm_mode               = linear
 comm_grps               = MEMB SOLV
 ;
-gen-vel                 = yes
-gen-temp                = 303.15
-gen-seed                = -1
+gen-vel                 = no
+continuation            = yes
 ;

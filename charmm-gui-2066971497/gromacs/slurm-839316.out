@@ -1,0 +1,86 @@
+                      :-) GROMACS - gmx grompp, 2024.1 (-:
+
+Executable:   /sulis/easybuild/software/GROMACS/2024.1-foss-2022a-CUDA-11.7.0/bin/gmx
+Data prefix:  /sulis/easybuild/software/GROMACS/2024.1-foss-2022a-CUDA-11.7.0
+Working dir:  /gpfs/home/m/matgms/BBBP-MD/charmm-gui-2066971497/gromacs
+Command line:
+  gmx grompp -f step6.3_equilibration.mdp -o step6.3_equilibration.tpr -c step6.2_equilibration.gro -r step6.2_equilibration.gro -p topol.top -n index.ndx
+
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Generating 1-4 interactions: fudge = 1
+Number of degrees of freedom in T-Coupling group SYSTEM is 120698.00
+
+WARNING 1 [file step6.3_equilibration.mdp]:
+  You are not using center of mass motion removal (mdp option comm-mode),
+  numerical rounding errors can lead to build up of kinetic energy of the
+  center of mass
+
+
+NOTE 1 [file step6.3_equilibration.mdp]:
+  This run will generate roughly 7702 Mb of data
+
+
+There was 1 NOTE
+
+There was 1 WARNING
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2024.1
+Source file: src/gromacs/gmxpreprocess/grompp.cpp (line 2751)
+
+Fatal error:
+Too many warnings (1).
+If you are sure all warnings are harmless, use the -maxwarn option.
+Setting the LD random seed to -1007167489
+
+Generated 615 of the 630 non-bonded parameter combinations
+
+Generated 334 of the 630 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'DOPE'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type '23SM'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'CHL1'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'DOPC'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'SOD'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CLA'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'TIP3'
+
+turning H bonds into constraints...
+
+The largest distance between excluded atoms is 0.418 nm between atom 470 and 479
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.853 nm, buffer size 0.653 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.678 nm, buffer size 0.478 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 72x72x84, spacing 0.107 0.107 0.119
+
+Estimate for the relative computational load of the PME mesh part: 0.09
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+srun: error: gpu002: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=839316.0

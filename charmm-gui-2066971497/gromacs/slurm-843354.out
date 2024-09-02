@@ -1,0 +1,69 @@
+                      :-) GROMACS - gmx grompp, 2024.1 (-:
+
+Executable:   /sulis/easybuild/software/GROMACS/2024.1-foss-2022a-CUDA-11.7.0/bin/gmx
+Data prefix:  /sulis/easybuild/software/GROMACS/2024.1-foss-2022a-CUDA-11.7.0
+Working dir:  /gpfs/home/m/matgms/BBBP-MD/charmm-gui-2066971497/gromacs
+Command line:
+  gmx grompp -f step6.3_equilibration.mdp -o step6.3_equilibration.tpr -c step6.2_equilibration.gro -r step6.2_equilibration.gro -p topol.top -n index.ndx
+
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Generating 1-4 interactions: fudge = 1
+Number of degrees of freedom in T-Coupling group SYSTEM is 120692.01
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2024.1
+Source file: src/gromacs/gmxpreprocess/grompp.cpp (line 1751)
+
+Fatal error:
+The pair-list cut-off (4.542 nm) is longer than half the shortest box vector
+or longer than the smallest box diagonal element (3.84025 nm). Increase the
+box size or decrease nstlist or increase verlet-buffer-tolerance.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Setting the LD random seed to -12809
+
+Generated 615 of the 630 non-bonded parameter combinations
+
+Generated 334 of the 630 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'DOPE'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type '23SM'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'CHL1'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'DOPC'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'SOD'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CLA'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'TIP3'
+
+turning H bonds into constraints...
+
+The largest distance between excluded atoms is 0.418 nm between atom 470 and 479
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 5.071 nm, buffer size 3.871 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 4.542 nm, buffer size 3.342 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+srun: error: gpu017: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=843354.0

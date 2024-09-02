@@ -2,7 +2,7 @@
 ; define                  = -DPOSRES -DPOSRES_FC_LIPID=1000.0 -DDIHRES -DDIHRES_FC=1000.0
 integrator              = md
 dt                      = 0.002 ; Note this is in picoseconds
-nsteps                  = 2500000 ; 10ns should be enough for NVT, maybe?
+nsteps                  = 10000000 ; 20ns should be enough for NVT, maybe?
 nstxtcout               = 2000
 nstvout                 = 2000
 nstfout                 = 2000
@@ -51,7 +51,7 @@ constraints             = h-bonds
 constraint_algorithm    = LINCS
 ;
 nstcomm                 = 100
-comm_mode               = None ; linear
+comm_mode               = linear
 comm_grps               = MEMB SOLV
 ;
 gen-vel                 = no
