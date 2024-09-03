@@ -40,7 +40,7 @@ constraint_algorithm    = LINCS
 ;
 nstcomm                 = 100
 comm_mode               = linear
-comm_grps               = MEMB SOLV
+comm_grps               = system
 ;
 gen-vel                 = no
 continuation            = yes

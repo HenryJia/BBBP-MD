@@ -46,7 +46,7 @@ constraint_algorithm    = LINCS
 ;
 nstcomm                 = 100
 comm_mode               = linear
-comm_grps               = MEMB SOLV
+comm_grps               = system
 ;
 ;gen-vel                 = no ; This seems to cause the simulation to slide down the box, which we don't want.
 ;continuation            = yes ; We should be able to get away with generating new velocities each time if we equilibrate long enough
