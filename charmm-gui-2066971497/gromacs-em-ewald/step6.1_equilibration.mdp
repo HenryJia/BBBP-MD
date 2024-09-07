@@ -12,7 +12,7 @@ nstlog                  = 2000
 ;
 pbc                     = xy ; periodic boundary conditions
 cutoff-scheme           = Verlet
-nstlist                 = 40
+nstlist                 = 100
 rlist                   = 1.2
 vdwtype                 = Cut-off
 vdw-modifier            = Force-switch
