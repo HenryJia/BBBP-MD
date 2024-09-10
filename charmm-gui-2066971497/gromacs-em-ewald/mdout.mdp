@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (16253)
-;	On host: gpu006.avon.hpc
-;	At date: Tue Sep 10 11:40:53 2024
+;	On host: gpu003.avon.hpc
+;	At date: Tue Sep 10 16:50:02 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
@@ -11,14 +11,14 @@
 ;	Data prefix:  /scrtp/avon/eb/software/GROMACS/2023.3-foss-2021b-CUDA-11.4.1
 ;	Working dir:  /gpfs/home/rawsys/matgms/BBBP-MD/charmm-gui-2066971497/gromacs-em-ewald
 ;	Command line:
-;	  gmx grompp -f step6.2_equilibration.mdp -o step6.2_equilibration.tpr -c step6.1_equilibration.gro -r step6.1_equilibration.gro -p topol.top -n index.ndx
+;	  gmx grompp -f step6.1_equilibration.mdp -o step6.1_equilibration.tpr -c step6.0_minimization.gro -r step6.0_minimization.gro -p topol.top -n index.ndx
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
 ; e.g.: -I/home/joe/doe -I/home/mary/roe
 include                  = 
 ; e.g.: -DPOSRES -DFLEXIBLE (note these variable names are case sensitive)
-define                   = 
+define                   = -DPOSRES -DPOSRES_FC_LIPID=10.0 -DDIHRES -DDIHRES_FC=10.0
 
 ; RUN CONTROL PARAMETERS
 integrator               = md
@@ -169,16 +169,16 @@ annealing-time           =
 annealing-temp           = 
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
-gen-vel                  = no
-gen-temp                 = 300
-gen-seed                 = -213553
+gen-vel                  = yes
+gen-temp                 = 303.15
+gen-seed                 = -227024915
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
 ; Type of constraint algorithm
 constraint_algorithm     = LINCS
 ; Do not constrain the start configuration
-continuation             = yes
+continuation             = no
 ; Use successive overrelaxation to reduce the number of shake iterations
 Shake-SOR                = no
 ; Relative tolerance of shake
