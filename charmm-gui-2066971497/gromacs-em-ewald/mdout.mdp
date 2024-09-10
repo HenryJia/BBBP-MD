@@ -1,24 +1,24 @@
 ;
 ;	File 'mdout.mdp' was generated
-;	By user: unknown (69893)
-;	On host: gpu016.sulis.hpc
-;	At date: Sat Sep  7 16:59:45 2024
+;	By user: unknown (16253)
+;	On host: gpu002.avon.hpc
+;	At date: Tue Sep 10 04:54:04 2024
 ;
 ;	Created by:
-;	                     :-) GROMACS - gmx grompp, 2024.1 (-:
+;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
 ;	
-;	Executable:   /sulis/easybuild/software/GROMACS/2024.1-foss-2022a-CUDA-11.7.0/bin/gmx
-;	Data prefix:  /sulis/easybuild/software/GROMACS/2024.1-foss-2022a-CUDA-11.7.0
-;	Working dir:  /gpfs/home/m/matgms/BBBP-MD/charmm-gui-2066971497/gromacs-em-ewald
+;	Executable:   /scrtp/avon/eb/software/GROMACS/2023.3-foss-2021b-CUDA-11.4.1/bin/gmx
+;	Data prefix:  /scrtp/avon/eb/software/GROMACS/2023.3-foss-2021b-CUDA-11.4.1
+;	Working dir:  /gpfs/home/rawsys/matgms/BBBP-MD/charmm-gui-2066971497/gromacs-em-ewald
 ;	Command line:
-;	  gmx grompp -f step6.3_equilibration.mdp -o step6.3_equilibration.tpr -c step6.2_equilibration.gro -r step6.2_equilibration.gro -p topol.top -n index.ndx
+;	  gmx grompp -f step6.2_equilibration.mdp -o step6.2_equilibration.tpr -c step6.1_equilibration.gro -r step6.1_equilibration.gro -p topol.top -n index.ndx
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
 ; e.g.: -I/home/joe/doe -I/home/mary/roe
 include                  = 
 ; e.g.: -DPOSRES -DFLEXIBLE (note these variable names are case sensitive)
-define                   = -DPOSRES -DPOSRES_FC_LIPID=1000.0 -DDIHRES -DDIHRES_FC=1000.0
+define                   = 
 
 ; RUN CONTROL PARAMETERS
 integrator               = md
@@ -32,8 +32,6 @@ init-step                = 0
 simulation-part          = 1
 ; Multiple time-stepping
 mts                      = no
-; factor by which to increase the mass of the lightest atoms
-mass-repartition-factor  = 1
 ; mode for center of mass motion removal
 comm_mode                = linear
 ; number of steps for center of mass motion removal
@@ -88,11 +86,9 @@ nstlist                  = 100
 ; Periodic boundary conditions: xyz, no, xy
 pbc                      = xy
 periodic-molecules       = no
-; Allowed energy drift due to the Verlet buffer in kJ/mol/ps per atom,
+; Allowed energy error due to the Verlet buffer in kJ/mol/ps per atom,
 ; a value of -1 means: use rlist
 verlet-buffer-tolerance  = 0.005
-; Allowed error in the average pressure due to the Verlet buffer for LJ interactions
-verlet-buffer-pressure-tolerance = 0.5
 ; nblist cut-off        
 rlist                    = 1.2
 ; long-range cut-off for switched potentials
@@ -147,13 +143,13 @@ tc_grps                  = system
 tau_t                    = 1.0
 ref_t                    = 300
 ; pressure coupling     
-pcoupl                   = C-rescale
-pcoupltype               = semiisotropic
+pcoupl                   = No
+pcoupltype               = Isotropic
 nstpcouple               = -1
 ; Time constant (ps), compressibility (1/bar) and reference P (bar)
-tau-p                    = 2.0
-compressibility          = 4.5e-5 0.0
-ref-p                    = 1.01325 1.01325
+tau-p                    = 1
+compressibility          = 
+ref-p                    = 
 ; Scaling of reference coordinates, No, All or COM
 refcoord-scaling         = No
 
@@ -175,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = yes
 gen-temp                 = 303.15
-gen-seed                 = 939126109
+gen-seed                 = -31492371
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
@@ -286,7 +282,6 @@ freezegrps               =
 freezedim                = 
 cos-acceleration         = 0
 deform                   = 
-deform-init-flow         = no
 
 ; simulated tempering variables
 simulated-tempering      = no
@@ -324,6 +319,3 @@ density-guided-simulation-active = false
 
 ; QM/MM with CP2K
 qmmm-cp2k-active         = false
-
-; Colvars bias
-colvars-active           = false
