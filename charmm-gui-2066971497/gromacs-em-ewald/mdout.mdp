@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (16253)
-;	On host: gpu001.avon.hpc
-;	At date: Sun Sep 15 05:52:12 2024
+;	On host: gpu003.avon.hpc
+;	At date: Sun Sep 15 21:18:14 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = yes
 gen-temp                 = 303.15
-gen-seed                 = -78219319
+gen-seed                 = -129264649
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
