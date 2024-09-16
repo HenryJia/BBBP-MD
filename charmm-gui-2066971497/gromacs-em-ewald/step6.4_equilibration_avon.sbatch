@@ -13,5 +13,5 @@ module purge
 module load GCC/11.2.0 OpenMPI/4.1.1
 module load GROMACS/2023.3-CUDA-11.4.1
 
-srun bash -c 'gmx grompp -f step6.3_equilibration.mdp -o step6.3_equilibration.tpr -c step6.2_equilibration.gro -r step6.2_equilibration.gro -p topol.top -n index.ndx && gmx mdrun -v -deffnm step6.3_equilibration'
+srun bash -c 'gmx grompp -f step6.4_equilibration.mdp -o step6.4_equilibration.tpr -c step6.3_equilibration.gro -r step6.3_equilibration.gro -p topol.top -n index.ndx && gmx mdrun -v -deffnm step6.4_equilibration'
 
