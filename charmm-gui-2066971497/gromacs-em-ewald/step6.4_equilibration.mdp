@@ -1,5 +1,5 @@
 ; NPT without constraints and v-rescale thermostat
-define                  = -DPOSRES -DPOSRES_FC_LIPID=0.0001 ;-DDIHRES -DDIHRES_FC=1000.0
+; define                  = -DPOSRES -DPOSRES_FC_LIPID=0.0001 -DDIHRES -DDIHRES_FC=1000.0
 integrator              = md
 dt                      = 0.002 ; Note this is in picoseconds
 nsteps                  = 10000000 ; 20ns should be enough for NVT, maybe?

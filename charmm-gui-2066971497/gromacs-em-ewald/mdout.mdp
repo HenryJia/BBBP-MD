@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (16253)
-;	On host: gpu001.avon.hpc
-;	At date: Mon Sep 16 07:46:14 2024
+;	On host: gpu007.avon.hpc
+;	At date: Mon Sep 16 13:26:36 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
@@ -18,7 +18,7 @@
 ; e.g.: -I/home/joe/doe -I/home/mary/roe
 include                  = 
 ; e.g.: -DPOSRES -DFLEXIBLE (note these variable names are case sensitive)
-define                   = -DPOSRES -DPOSRES_FC_LIPID=0.0001
+define                   = 
 
 ; RUN CONTROL PARAMETERS
 integrator               = md
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = yes
 gen-temp                 = 303.15
-gen-seed                 = 1979054550
+gen-seed                 = -704807458
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
