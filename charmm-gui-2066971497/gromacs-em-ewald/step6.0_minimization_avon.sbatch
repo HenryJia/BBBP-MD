@@ -1,12 +1,11 @@
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=42
-#SBATCH --gres=gpu:ampere_a100:1
-#SBATCH --time=01:00:00 # We do not need a lot of time for each of this step. Asking for less time on the queue means we get scheduled faster
-#SBATCH --mem-per-cpu=3850 
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:quadro_rtx_6000:1
+#SBATCH --time=1:00:00
+#SBATCH --mem-per-cpu=3700
 #SBATCH --partition=gpu
-#SBATCH --account=su007-gcs-gpu
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=h.jia.2@warwick.ac.uk
 
