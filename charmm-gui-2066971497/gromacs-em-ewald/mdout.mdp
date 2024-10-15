@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (16253)
-;	On host: gpu012.avon.hpc
-;	At date: Tue Oct 15 04:38:42 2024
+;	On host: gpu013.avon.hpc
+;	At date: Mon Oct 14 22:06:47 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
@@ -11,7 +11,7 @@
 ;	Data prefix:  /scrtp/avon/eb/software/GROMACS/2023.3-foss-2021b-CUDA-11.4.1
 ;	Working dir:  /gpfs/home/rawsys/matgms/BBBP-MD/charmm-gui-2066971497/gromacs-em-ewald
 ;	Command line:
-;	  gmx grompp -f step6.4_equilibration.mdp -o step6.4_equilibration.tpr -c step6.3_equilibration.gro -r step6.3_equilibration.gro -p topol.top -n index.ndx
+;	  gmx grompp -f step6.3_equilibration.mdp -o step6.3_equilibration.tpr -c step6.2_equilibration.gro -r step6.2_equilibration.gro -p topol.top -n index.ndx
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = yes
 gen-temp                 = 303.15
-gen-seed                 = -168220681
+gen-seed                 = -1079055501
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
