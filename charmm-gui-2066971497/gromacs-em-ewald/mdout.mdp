@@ -1,31 +1,31 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (16253)
-;	On host: gpu013.avon.hpc
-;	At date: Thu Oct 17 02:50:50 2024
+;	On host: gpu012.avon.hpc
+;	At date: Thu Oct 17 22:32:46 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
 ;	
 ;	Executable:   /scrtp/avon/eb/software/GROMACS/2023.3-foss-2021b-CUDA-11.4.1/bin/gmx
 ;	Data prefix:  /scrtp/avon/eb/software/GROMACS/2023.3-foss-2021b-CUDA-11.4.1
-;	Working dir:  /gpfs/home/rawsys/matgms/BBBP-MD/charmm-gui-2066971497/gromacs-em-ewald
+;	Working dir:  /gpfs/home/rawsys/matgms/BBBP-MD1/charmm-gui-2066971497/gromacs-em-ewald
 ;	Command line:
-;	  gmx grompp -f step6.5_equilibration.mdp -o step6.5_equilibration.tpr -c step6.4_recentered.gro -r step6.4_recentered.gro -p topol.top -n index.ndx
+;	  gmx grompp -f step6.6_equilibration.mdp -o step6.6_equilibration.tpr -c step6.5_equilibration.gro -r step6.5_equilibration.gro -p topol.top -n index.ndx
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
 ; e.g.: -I/home/joe/doe -I/home/mary/roe
 include                  = 
 ; e.g.: -DPOSRES -DFLEXIBLE (note these variable names are case sensitive)
-define                   = 
+define                   = -DPOSRES -DPOSRES_FC_LIPID=0.001
 
 ; RUN CONTROL PARAMETERS
 integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
 dt                       = 0.002
-nsteps                   = 10000000
+nsteps                   = 100000000
 ; For exact run continuation or redoing part of a run
 init-step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -206047937
+gen-seed                 = 1802501183
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
