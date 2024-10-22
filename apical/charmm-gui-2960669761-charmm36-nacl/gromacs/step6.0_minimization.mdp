@@ -2,7 +2,7 @@ define                  = -DPOSRES -DPOSRES_FC_LIPID=1000.0 -DDIHRES -DDIHRES_FC
 integrator              = steep
 emtol                   = 1000.0
 nsteps                  = 5000
-nstlist                 = 10
+nstlist                 = 100 ; 10
 cutoff-scheme           = Verlet
 rlist                   = 1.2
 vdwtype                 = Cut-off
