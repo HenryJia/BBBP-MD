@@ -1,0 +1,23 @@
+Apical
+
+18 OSM
+28 Cholesterol
+4 POPC
+8 SAPC
+14 SAPE
+6 SOPE
+8 SAPS
+8 SLPC
+2 SAPI
+
+Basolateral
+
+22 OSM
+28 Cholesterol
+2 POPC
+6 SAPC
+14 SAPE
+6 SOPE
+10 SAPS
+6 SLPC
+2 SAPI
