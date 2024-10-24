@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (16253)
-;	On host: gpu003.avon.hpc
-;	At date: Wed Oct 23 04:17:17 2024
+;	On host: gpu010.avon.hpc
+;	At date: Thu Oct 24 03:15:57 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
@@ -148,7 +148,7 @@ pcoupltype               = semiisotropic
 nstpcouple               = -1
 ; Time constant (ps), compressibility (1/bar) and reference P (bar)
 tau_p                    = 5.0
-compressibility          = 4.5e-5  4.5e-5
+compressibility          = 4.5e-5 0.0
 ref_p                    = 1.0     1.0
 ; Scaling of reference coordinates, No, All or COM
 refcoord-scaling         = No
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -579145873
+gen-seed                 = -1210059220
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
