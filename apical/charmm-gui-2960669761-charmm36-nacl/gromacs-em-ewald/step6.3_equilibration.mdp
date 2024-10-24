@@ -28,7 +28,8 @@ ref_t                   = 310 310
 pcoupl                  = C-rescale
 pcoupltype              = semiisotropic 
 tau_p                   = 5.0
-compressibility         = 4.5e-5  4.5e-5
+;compressibility         = 4.5e-5  4.5e-5
+compressibility         = 4.5e-5 0.0 ; 0.0 for the z direction as you don't want the box to change along z
 ref_p                   = 1.0     1.0
 refcoord_scaling        = com
 ;
