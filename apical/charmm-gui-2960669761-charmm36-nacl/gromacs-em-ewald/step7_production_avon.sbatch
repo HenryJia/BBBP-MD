@@ -3,7 +3,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:quadro_rtx_6000:1
-#SBATCH --time=12:00:00
+#SBATCH --time=48:00:00
 #SBATCH --mem-per-cpu=3700
 #SBATCH --partition=gpu
 #SBATCH --mail-type=ALL
@@ -13,5 +13,5 @@ module purge
 module load GCC/11.2.0 OpenMPI/4.1.1
 module load GROMACS/2023.3-CUDA-11.4.1
 
-srun bash -c 'gmx grompp -f step6.5_equilibration.mdp -o step6.5_equilibration.tpr -c step6.4_equilibration.gro -r step6.4_equilibration.gro -p topol.top -n index.ndx && gmx mdrun -v -deffnm step6.5_equilibration'
+srun bash -c 'gmx grompp -f step7_production.mdp -o step7_production.tpr -c step6.6_equilibration.gro -r step6.6_equilibration.gro -p topol.top -n index.ndx && gmx mdrun -v -deffnm step7_production'
 
