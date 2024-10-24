@@ -10,7 +10,7 @@ nstenergy               = 1000
 nstlog                  = 1000
 ;
 cutoff-scheme           = Verlet
-nstlist                 = 20
+nstlist                 = 100 ;20
 rlist                   = 1.2
 vdwtype                 = Cut-off
 vdw-modifier            = Force-switch
@@ -38,3 +38,16 @@ continuation            = yes
 nstcomm                 = 100
 comm_mode               = linear
 comm_grps               = MEMB SOLV
+
+;
+pbc                     = xy ; periodic boundary conditions
+;
+ewald-geometry          = 3dc
+; Walls
+nwall                    = 2
+wall-atomtype            = C C      ; atom types for the walls
+wall-type                = 12-6     ; Lennard-Jones 12-6 potential for the walls
+; wall-r-linpot            = 1.0 ; uncommenting this seems to cause GROMACs to break on CUDA
+wall-density             = 10 10
+wall-ewald-zfac          = 3
+
