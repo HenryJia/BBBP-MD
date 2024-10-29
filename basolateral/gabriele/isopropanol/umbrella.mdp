@@ -1,0 +1,41 @@
+integrator              = md
+dt                      = 0.002
+nsteps                  = 20000000 ; 40ns
+nstxout-compressed      = 50000
+nstxout                 = 0
+nstvout                 = 0
+nstfout                 = 0
+nstcalcenergy           = 100
+nstenergy               = 1000
+nstlog                  = 1000
+;
+cutoff-scheme           = Verlet
+nstlist                 = 100 ; 20
+rlist                   = 1.2
+vdwtype                 = Cut-off
+vdw-modifier            = Force-switch
+rvdw_switch             = 1.0
+rvdw                    = 1.2
+coulombtype             = PME
+rcoulomb                = 1.2
+;
+
+; Note: The nature paper https://doi.org/10.1038/s41598-019-42272-0 uses tau_t = 0.1ps, tau_p = 1ps
+tcoupl                  = v-rescale
+tc_grps                 = system ;MEMB SOLV LIG
+tau_t                   = 1.0 ;1.0 1.0 1.0
+ref_t                   = 310 ;310 310
+;
+pcoupl                  = C-rescale
+pcoupltype              = semiisotropic
+tau_p                   = 5.0 ;5.0
+compressibility         = 4.5e-5  4.5e-5
+ref_p                   = 1.0     1.0
+;
+constraints             = h-bonds
+constraint_algorithm    = LINCS
+continuation            = yes
+;
+nstcomm                 = 100
+comm_mode               = linear
+comm_grps               = system ;MEMB SOLV LIG

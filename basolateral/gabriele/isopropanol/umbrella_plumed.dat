@@ -1,0 +1,34 @@
+# Volume of the simulation box
+vol: VOLUME
+# Total potential energy of the simulation box
+G: ENERGY
+
+# NOTE: If we do not use NOPBC, PLUMED will use a different coordinate system to gromacs which makes specifying constraints extraodinarily fucky
+# This may result in PLUMED  trying to fire our ligand through the membrane at a bajillion miles per hour
+c: COM ATOMS=42832-42843 NOPBC
+p: POSITION ATOM=c NOPBC
+
+# Our function for biasing the simulation
+# Based on https://doi.org/10.1021/acs.jcim.9b00834 we will pull our molecule with force F(z) = k(delta_z - vt)
+# Where k = 600kJ/(mol nm^2), v = 0.5nm/ns to 5nm/ns
+# Although we will use v=0.2nm/ns to run for longer (40ns to cross our 8nm box)
+# Note that the nature paper: https://doi.org/10.1038/s41598-019-42272-0 does not do this. They just crank the temperature up and do unbiased simulations instead
+# Based on the PLUMED docs, this should replicate what happens in our first paper
+# Also note that our bias value here is a potential not a force, and we can derive it using the fact F=-du/dz
+# Finally, note that t is in ps not ns
+t: TIME
+diff: CUSTOM ARG=t,p.z VAR=t,z FUNC=0.2*t/1000-(8-z) PERIODIC=NO
+pot: CUSTOM ARG=diff VAR=diff FUNC=step(diff)*0.5*600*(diff)^2 PERIODIC=NO
+r: BIASVALUE ARG=pot
+
+# Since we're running a biased simulation, we need to reqeight the bias when computing our free energy via umbrella sampling
+bias: REWEIGHT_BIAS ARG=r.bias TEMP=310
+h: HISTOGRAM ARG=p.z STRIDE=100 GRID_MIN=0 GRID_MAX=8 GRID_BIN=800 BANDWIDTH=0.1 LOGWEIGHTS=bias
+
+# Convert the histogram to free energy
+fe: CONVERT_TO_FES GRID=h TEMP=310
+
+# This should leave a little bit of space for our molecule to wander around, but not enough to affect the membrane
+
+DUMPGRID GRID=fe FILE=umbrella_plumed_fe STRIDE=100000
+PRINT ARG=G,vol,p.x,p.y,p.z,r.bias,bias STRIDE=10000 FILE=umbrella_plumed_out
