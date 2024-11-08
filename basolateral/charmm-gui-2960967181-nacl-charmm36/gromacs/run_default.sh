@@ -23,7 +23,7 @@ set prod_step   = step7
 # In the case that there is a problem during minimization using a single precision of GROMACS, please try to use 
 # a double precision of GROMACS only for the minimization step.
 gmx grompp -f ${mini_prefix}.mdp -o ${mini_prefix}.tpr -c ${init}.gro -r ${rest_prefix}.gro -p topol.top -n index.ndx
-gmx_d mdrun -v -deffnm ${mini_prefix}
+gmx mdrun -v -deffnm ${mini_prefix}
 
 # Equilibration
 set cnt    = 1
