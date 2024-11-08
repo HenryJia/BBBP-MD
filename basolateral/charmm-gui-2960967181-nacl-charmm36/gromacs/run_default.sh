@@ -23,7 +23,7 @@ set prod_step   = step7
 # In the case that there is a problem during minimization using a single precision of GROMACS, please try to use 
 # a double precision of GROMACS only for the minimization step.
 gmx grompp -f ${mini_prefix}.mdp -o ${mini_prefix}.tpr -c ${init}.gro -r ${rest_prefix}.gro -p topol.top -n index.ndx
-gmx mdrun -v -deffnm ${mini_prefix}
+gmx mdrun -v -deffnm ${mini_prefix} -nt $SLURM_CPUS_PER_TASK
 
 # Equilibration
 set cnt    = 1
@@ -36,7 +36,7 @@ while ( ${cnt} <= ${cntmax} )
     if ( ${cnt} == 1 ) set pstep = ${mini_prefix}
 
     gmx grompp -f ${istep}.mdp -o ${istep}.tpr -c ${pstep}.gro -r ${rest_prefix}.gro -p topol.top -n index.ndx
-    gmx mdrun -v -deffnm ${istep}
+    gmx mdrun -v -deffnm ${istep} -nt $SLURM_CPUS_PER_TASK
     @ cnt += 1
 end
 
@@ -61,4 +61,4 @@ end
 
 set pstep = `printf ${equi_prefix} 6`
 gmx grompp -f ${prod_prefix}.mdp -o ${prod_prefix}.tpr -c ${pstep}.gro -p topol.top -n index.ndx
-gmx mdrun -v -deffnm ${prod_prefix}
+gmx mdrun -v -deffnm ${prod_prefix} -nt $SLURM_CPUS_PER_TASK
