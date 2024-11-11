@@ -6,7 +6,8 @@ G: ENERGY
 # Position of one of the carbon atoms of Isopropanol
 # NOTE: If we do not use NOPBC, PLUMED will use a different coordinate system to gromacs which makes specifying constraints extraodinarily fucky
 # This may result in PLUMED  trying to fire our ligand through the membrane at a bajillion miles per hour
-p: POSITION ATOM=42833 NOPBC
+c: COM ATOMS=43180-43203
+p: POSITION ATOM=c NOPBC
 
 # This should leave a little bit of space for our molecule to wander around, but not enough to affect the membrane
 uwall: UPPER_WALLS ARG=p.x,p.y,p.z AT=3.7,3.7,8.1 KAPPA=100.0,100.0,100.0 EXP=2,2,2 EPS=1,1,1 OFFSET=0,0,0
