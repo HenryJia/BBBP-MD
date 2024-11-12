@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (16253)
-;	On host: gpu003.avon.hpc
-;	At date: Mon Nov 11 01:54:44 2024
+;	On host: gpu001.avon.hpc
+;	At date: Mon Nov 11 18:44:48 2024
 ;
 ;	Created by:
 ;	              :-) GROMACS - gmx grompp, 2021.5-plumed-2.8.0 (-:
@@ -11,7 +11,7 @@
 ;	Data prefix:  /scrtp/avon/eb/software/GROMACS/2021.5-foss-2021b-CUDA-11.4.1-PLUMED-2.8.0
 ;	Working dir:  /gpfs/home/rawsys/matgms/BBBP-MD/basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/isopropanol
 ;	Command line:
-;	  gmx grompp -f equilibrate.mdp -o equilibrate.tpr -c setup.gro -r setup.gro -p topol.top
+;	  gmx grompp -f smd_fast.mdp -o smd_fast.tpr -c equilibrate.gro -r equilibrate.gro -p topol.top
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -25,7 +25,7 @@ integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
 dt                       = 0.002
-nsteps                   = 50000000
+nsteps                   = 20000000
 ; For exact run continuation or redoing part of a run
 init-step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)

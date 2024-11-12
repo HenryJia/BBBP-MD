@@ -13,5 +13,5 @@ module purge
 module load GCC/11.2.0 OpenMPI/4.1.1
 module load GROMACS/2021.5-CUDA-11.4.1-PLUMED-2.8.0
 
-srun bash -c 'gmx grompp -f smd_slow.mdp -o smd_slow.tpr -c equilibrate.gro -r equilibrate.gro -p topol.top && gmx mdrun -v -deffnm smd_slow -plumed smd_slow'
+srun bash -c 'gmx grompp -f smd_slow.mdp -o smd_slow.tpr -c equilibrate.gro -r equilibrate.gro -p topol.top && gmx mdrun -nt 16 -v -deffnm smd_slow -plumed smd_slow'
 
