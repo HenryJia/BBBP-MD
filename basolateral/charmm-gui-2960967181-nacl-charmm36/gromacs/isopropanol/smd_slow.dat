@@ -20,10 +20,10 @@ p: POSITION ATOM=c NOPBC
 # In terms of how we run this thing, this bit of code essentially creates a moving wall that bounces our ligand back and forth from 8.5 to 0.5 in p ps 
 t: TIME
 
-triangle: CUSTOM ARG=t VAR=t FUNC=2*abs(t/8000-floor(t/8000+1/2)) PERIODIC=NO # This creates a triangle wave with time period p ps
+triangle: CUSTOM ARG=t VAR=t FUNC=2*abs(t/16000-floor(t/16000+1/2)) PERIODIC=NO # This creates a triangle wave with time period p ps
 target: CUSTOM ARG=triangle VAR=triangle FUNC=8*triangle PERIODIC=NO # This then creates our target location for the triangle wave
 diff: CUSTOM ARG=target,p.z VAR=target,z FUNC=target-(8.4-z) PERIODIC=NO # Calculate the difference between the 2
-dir: CUSTOM ARG=t VAR=t FUNC=step(sin(2*pi*t/8000))*2-1 PERIODIC=NO # This calculates the sign, whether we're moving the molecule up or down
+dir: CUSTOM ARG=t VAR=t FUNC=step(sin(2*pi*t/16000))*2-1 PERIODIC=NO # This calculates the sign, whether we're moving the molecule up or down
 
 # This is the trick, we only apply the constraint if our ligand is "behind target". This can be done by using step(dir*diff).
 # If the sign is the same, then our molecule must be behind target, so the constraint is applied
