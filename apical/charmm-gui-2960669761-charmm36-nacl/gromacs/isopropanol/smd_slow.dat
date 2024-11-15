@@ -5,7 +5,7 @@ G: ENERGY
 
 # PLUMED PBC is somewhat initially uintuitive. It will treat the biundaries as the 0 coordinate from both sides, and thus always try to pick the one closest to 0
 # We will use NOPBC for position, so that it doesn't do this and does cartesian coordinates normally. We do need to keep it enabled for COM however
-c: COM ATOMS=43195-43206
+c: COM ATOMS=43198-43209
 p: POSITION ATOM=c NOPBC
 
 # Our function for biasing the simulation
@@ -31,8 +31,8 @@ pot: CUSTOM ARG=diff,dir VAR=diff,dir FUNC=step(dir*diff)*0.5*600*(diff^2) PERIO
 r: BIASVALUE ARG=pot
 
 # Put some walls in so we don't have to deal with periodic boundary conditions for our ligand
-uwall: UPPER_WALLS ARG=p.z AT=8.5 KAPPA=2000.0 EXP=2 EPS=1 OFFSET=0
-lwall: LOWER_WALLS ARG=p.z AT=0.3 KAPPA=2000.0 EXP=2 EPS=1 OFFSET=0
+uwall: UPPER_WALLS ARG=p.z AT=8.45 KAPPA=600.0 EXP=2 EPS=1 OFFSET=0
+lwall: LOWER_WALLS ARG=p.z AT=0.35 KAPPA=600.0 EXP=2 EPS=1 OFFSET=0
 
 # Since we're running a biased simulation, we need to reqeight the bias when computing our free energy
 rwbias: REWEIGHT_BIAS ARG=r.bias,uwall.bias,lwall.bias TEMP=310

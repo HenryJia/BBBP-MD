@@ -11,8 +11,8 @@
 #SBATCH --mail-user=h.jia.2@warwick.ac.uk
 
 module purge
-module load GCC/11.2.0 OpenMPI/4.1.1
-module load GROMACS/2021.5-CUDA-11.4.1-PLUMED-2.8.0
+module load GCC/12.3.0  OpenMPI/4.1.5
+module load GROMACS/2023.3-CUDA-12.1.1-PLUMED-2.9.0
 
-srun bash -c "gmx grompp -f equilibrate.mdp -o equilibrate.tpr -c setup.gro -r setup.gro -p topol.top && gmx mdrun -nt $SLURM_CPUS_PER_TASK -v -deffnm equilibrate -plumed equilibrate_plumed"
+srun bash -c 'gmx grompp -f smd_fast.mdp -o smd_fast.tpr -c equilibrate.gro -r equilibrate.gro -p topol.top && gmx mdrun -nt 42 -v -deffnm smd_fast -plumed smd_fast'
 

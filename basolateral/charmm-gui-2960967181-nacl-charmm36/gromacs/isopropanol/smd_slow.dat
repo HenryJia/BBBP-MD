@@ -31,8 +31,8 @@ pot: CUSTOM ARG=diff,dir VAR=diff,dir FUNC=step(dir*diff)*0.5*600*(diff^2) PERIO
 r: BIASVALUE ARG=pot
 
 # Put some walls in so we don't have to deal with periodic boundary conditions for our ligand
-uwall: UPPER_WALLS ARG=p.z AT=8.5 KAPPA=2000.0 EXP=2 EPS=1 OFFSET=0
-lwall: LOWER_WALLS ARG=p.z AT=0.3 KAPPA=2000.0 EXP=2 EPS=1 OFFSET=0
+uwall: UPPER_WALLS ARG=p.z AT=8.45 KAPPA=600.0 EXP=2 EPS=1 OFFSET=0
+lwall: LOWER_WALLS ARG=p.z AT=0.35 KAPPA=600.0 EXP=2 EPS=1 OFFSET=0
 
 # Since we're running a biased simulation, we need to reqeight the bias when computing our free energy
 rwbias: REWEIGHT_BIAS ARG=r.bias,uwall.bias,lwall.bias TEMP=310
