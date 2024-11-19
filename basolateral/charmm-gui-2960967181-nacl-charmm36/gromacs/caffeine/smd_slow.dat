@@ -20,10 +20,10 @@ p: POSITION ATOM=c NOPBC
 # In terms of how we run this thing, this bit of code essentially creates a moving wall that bounces our ligand back and forth from 8.5 to 0.5 in p ps 
 t: TIME
 
-triangle: CUSTOM ARG=t VAR=t FUNC=2*abs(t/16000-floor(t/16000+1/2)) PERIODIC=NO # This creates a triangle wave with time period p ps
-target: CUSTOM ARG=triangle VAR=triangle FUNC=8*triangle PERIODIC=NO # This then creates our target location for the triangle wave
-diff: CUSTOM ARG=target,p.z VAR=target,z FUNC=target-(8.4-z) PERIODIC=NO # Calculate the difference between the 2
-dir: CUSTOM ARG=t VAR=t FUNC=step(sin(2*pi*t/16000))*2-1 PERIODIC=NO # This calculates the sign, whether we're moving the molecule up or down
+triangle: CUSTOM ARG=t VAR=t FUNC=2*abs(t/14000-floor(t/14000+1/2)) PERIODIC=NO # This creates a triangle wave with time period p ps
+target: CUSTOM ARG=triangle VAR=triangle FUNC=7*triangle PERIODIC=NO # This then creates our target location for the triangle wave
+diff: CUSTOM ARG=target,p.z VAR=target,z FUNC=target-(8.0-z) PERIODIC=NO # Calculate the difference between the 2
+dir: CUSTOM ARG=t VAR=t FUNC=step(sin(2*pi*t/14000))*2-1 PERIODIC=NO # This calculates the sign, whether we're moving the molecule up or down
 
 # This is the trick, we only apply the constraint if our ligand is "behind target". This can be done by using step(dir*diff).
 # If the sign is the same, then our molecule must be behind target, so the constraint is applied
@@ -32,13 +32,13 @@ r: BIASVALUE ARG=pot
 
 # Put some walls in so we don't have to deal with periodic boundary conditions for our ligand
 # We need these walls to have very high force constants to guarrantee they don't go outside of the boundaries
-uwall: UPPER_WALLS ARG=p.z AT=8.4 KAPPA=10000.0 EXP=2 EPS=1 OFFSET=0
-lwall: LOWER_WALLS ARG=p.z AT=0.4 KAPPA=10000.0 EXP=2 EPS=1 OFFSET=0
+uwall: UPPER_WALLS ARG=p.z AT=8.0 KAPPA=2000.0 EXP=2 EPS=1 OFFSET=0
+lwall: LOWER_WALLS ARG=p.z AT=1.0 KAPPA=2000.0 EXP=2 EPS=1 OFFSET=0
 
 # Since we're running a biased simulation, we need to reqeight the bias when computing our free energy
 rwbias: REWEIGHT_BIAS ARG=r.bias,uwall.bias,lwall.bias # TEMP=310
-h: HISTOGRAM ARG=p.z STRIDE=1 GRID_MIN=0.25 GRID_MAX=8.25 GRID_BIN=800 BANDWIDTH=0.1 LOGWEIGHTS=rwbias
-#h_old: HISTOGRAM ARG=p.z STRIDE=1 GRID_MIN=0.25 GRID_MAX=8.25 GRID_BIN=800 BANDWIDTH=0.1
+h: HISTOGRAM ARG=p.z STRIDE=1 GRID_MIN=0.5 GRID_MAX=8.5 GRID_BIN=800 BANDWIDTH=0.1 LOGWEIGHTS=rwbias
+#h_old: HISTOGRAM ARG=p.z STRIDE=1 GRID_MIN=0.5 GRID_MAX=8.5 GRID_BIN=800 BANDWIDTH=0.1
 
 #DUMPGRID GRID=h FILE=smd_slow_h STRIDE=2500000
 #DUMPGRID GRID=h_old FILE=smd_fast_ho STRIDE=2500000
