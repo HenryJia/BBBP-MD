@@ -27,7 +27,7 @@ dir: CUSTOM ARG=t VAR=t FUNC=step(sin(2*pi*t/7000))*2-1 PERIODIC=NO # This calcu
 
 # This is the trick, we only apply the constraint if our ligand is "behind target". This can be done by using step(dir*diff).
 # If the sign is the same, then our molecule must be behind target, so the constraint is applied
-pot: CUSTOM ARG=diff,dir VAR=diff,dir FUNC=step(dir*diff)*0.5*100*(diff^2) PERIODIC=NO 
+pot: CUSTOM ARG=diff,dir VAR=diff,dir FUNC=step(dir*diff)*0.5*600*(diff^2) PERIODIC=NO 
 r: BIASVALUE ARG=pot
 
 # Put some walls in so we don't have to deal with periodic boundary conditions for our ligand
