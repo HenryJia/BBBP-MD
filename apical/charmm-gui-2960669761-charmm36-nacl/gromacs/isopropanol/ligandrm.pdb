@@ -1,5 +1,5 @@
 REMARK  GENERATE LIGAND                                                               
-REMARK   DATE:    11/25/24     21:10:48      CREATED BY USER: apache                  
+REMARK   DATE:    11/25/24     22:30:43      CREATED BY USER: apache                  
 ATOM      1  O   LIG L   1       0.004   1.331  -0.132  1.00  0.00      LIG 
 ATOM      2  C1  LIG L   1       0.002   0.014   0.379  1.00  0.00      LIG 
 ATOM      3  C2  LIG L   1      -1.267  -0.681  -0.115  1.00  0.00      LIG 
