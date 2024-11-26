@@ -1,16 +1,16 @@
 REMARK  GENERATE LIGAND                                                               
-REMARK   DATE:    10/24/24     23: 1:11      CREATED BY USER: apache                  
-ATOM      1  C1  LIG L   1      -0.532   1.446  -0.003  1.00  0.00      LIG 
-ATOM      2  C2  LIG L   1       0.008   0.017   0.012  1.00  0.00      LIG 
-ATOM      3  C3  LIG L   1       1.536  -0.015   0.002  1.00  0.00      LIG 
-ATOM      4  O   LIG L   1      -0.447  -0.633  -1.157  1.00  0.00      LIG 
-ATOM      5  H1  LIG L   1      -0.171   1.981  -0.908  1.00  0.00      LIG 
-ATOM      6  H2  LIG L   1      -0.175   1.998   0.893  1.00  0.00      LIG 
-ATOM      7  H3  LIG L   1      -1.642   1.454  -0.003  1.00  0.00      LIG 
-ATOM      8  H4  LIG L   1      -0.370  -0.527   0.910  1.00  0.00      LIG 
-ATOM      9  H5  LIG L   1       1.940   0.497   0.900  1.00  0.00      LIG 
-ATOM     10  H6  LIG L   1       1.923   0.499  -0.903  1.00  0.00      LIG 
-ATOM     11  H7  LIG L   1       1.902  -1.064  -0.008  1.00  0.00      LIG 
-ATOM     12  H8  LIG L   1      -1.405  -0.640  -1.101  1.00  0.00      LIG 
+REMARK   DATE:    11/25/24     21:10:48      CREATED BY USER: apache                  
+ATOM      1  O   LIG L   1       0.004   1.331  -0.132  1.00  0.00      LIG 
+ATOM      2  C1  LIG L   1       0.002   0.014   0.379  1.00  0.00      LIG 
+ATOM      3  C2  LIG L   1      -1.267  -0.681  -0.115  1.00  0.00      LIG 
+ATOM      4  C3  LIG L   1       1.269  -0.683  -0.117  1.00  0.00      LIG 
+ATOM      5  H1  LIG L   1       0.009   0.048   1.494  1.00  0.00      LIG 
+ATOM      6  H2  LIG L   1      -1.290  -0.691  -1.227  1.00  0.00      LIG 
+ATOM      7  H3  LIG L   1      -2.175  -0.161   0.254  1.00  0.00      LIG 
+ATOM      8  H4  LIG L   1      -1.291  -1.732   0.243  1.00  0.00      LIG 
+ATOM      9  H5  LIG L   1       2.171  -0.149   0.249  1.00  0.00      LIG 
+ATOM     10  H6  LIG L   1       1.292  -0.691  -1.227  1.00  0.00      LIG 
+ATOM     11  H7  LIG L   1       1.302  -1.731   0.246  1.00  0.00      LIG 
+ATOM     12  H8  LIG L   1      -0.774   1.758   0.232  1.00  0.00      LIG 
 TER      13      LIG      1
 END
