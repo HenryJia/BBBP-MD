@@ -13,26 +13,32 @@ import matplotlib.pyplot as plt
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Generate Plumed 2.8 configuration file for Jarzynski sampling')
-parser.add_argument('--fe', type=str, required=True, nargs='+', help='Free energy file(s) in Plumed output format')
+parser.add_argument('--fe', type=str, nargs='+', help='Free energy file(s) in Plumed output format')
+parser.add_argument('--cv', type=str, help='Collective variable file in Plumed output format')
 parser.add_argument('--template', type=str, required=True, help='Template file for Plumed configuration')
 parser.add_argument('--previous', type=str, required=True, help='A previous Plumed configuration file for us to pull the CVs from')
 parser.add_argument('--output', type=str, required=True, help='Output file for Plumed configuration')
 
 args = parser.parse_args()
 
+assert hasattr(args, 'fe') or hasattr(args, 'cv'), 'Either --fe or --cv must be specified'
+
 k_B = 1.38064852e-23 # Boltzmann constant in J/K
 T = 310 # Simulation temperature in K (also human body temperature)
 
 # Load free energy data
-print('Loading free energy data...')
-z = []
-fe = []
-names = []
-for f in args.fe:
-    data = pd.read_csv(f, sep='\s+', comment='#', header=None)
-    z.append(data[0].values)
-    fe.append(data[1].values)
-    names.append(os.path.splitext(os.path.basename(f))[0])
+if args.fe:
+    print('Loading free energy data...')
+    z = []
+    fe = []
+    names = []
+    for f in args.fe:
+        data = pd.read_csv(f, sep='\s+', comment='#', header=None)
+        z.append(data[0].values)
+        fe.append(data[1].values)
+        names.append(os.path.splitext(os.path.basename(f))[0])
+else:
+
 
 
 z = z[0]
