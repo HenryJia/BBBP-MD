@@ -44,4 +44,4 @@ HISTOGRAM ...
 CONVERT_TO_FES GRID=h LABEL=fe
 
 DUMPGRID GRID=fe FILE=jarzynski_fe STRIDE=2500000
-PRINT ARG=G,vol,p.x,p.y,p.z,dir,target,diff,pot,b.bias,uwall.bias,lwall.bias,rwbias STRIDE=1000 FILE=Jarzynski_out
+PRINT ARG=G,vol,p.x,p.y,p.z,pot,b.bias,uwall.bias,lwall.bias,rwbias STRIDE=1000 FILE=jarzynski_out
