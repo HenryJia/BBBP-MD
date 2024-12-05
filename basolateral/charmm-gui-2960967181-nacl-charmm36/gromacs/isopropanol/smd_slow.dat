@@ -36,11 +36,11 @@ uwall: UPPER_WALLS ARG=p.z AT=8.0 KAPPA=2000.0 EXP=2 EPS=1 OFFSET=0
 lwall: LOWER_WALLS ARG=p.z AT=1.0 KAPPA=2000.0 EXP=2 EPS=1 OFFSET=0
 
 # Since we're running a biased simulation, we need to reqeight the bias when computing our free energy
-rwbias: REWEIGHT_BIAS ARG=r.bias,uwall.bias,lwall.bias # TEMP=310
+rwbias: REWEIGHT_BIAS ARG=r.bias #,uwall.bias,lwall.bias # TEMP=310
 h: HISTOGRAM ARG=p.z STRIDE=1 GRID_MIN=0.5 GRID_MAX=8.5 GRID_BIN=800 BANDWIDTH=0.1 NORMALIZATION=true LOGWEIGHTS=rwbias
 #h_old: HISTOGRAM ARG=p.z STRIDE=1 GRID_MIN=0.5 GRID_MAX=8.5 GRID_BIN=800 BANDWIDTH=0.1
 
-#DUMPGRID GRID=h FILE=smd_slow_h STRIDE=2500000
+DUMPGRID GRID=h FILE=smd_slow_h STRIDE=2500000
 #DUMPGRID GRID=h_old FILE=smd_fast_ho STRIDE=2500000
 
 # Convert the histogram to free energy
