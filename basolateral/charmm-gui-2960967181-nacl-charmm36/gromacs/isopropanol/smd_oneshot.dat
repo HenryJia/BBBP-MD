@@ -21,7 +21,7 @@ p: POSITION ATOM=c NOPBC
 t: TIME
 
 MOVINGRESTRAINT ...
-  ARG=coord.morethan
+  ARG=p.z
   STEP0=0        AT0=8.0 KAPPA0=500.0
   STEP1=50000000 AT1=1.0 KAPPA1=500.0
   LABEL=r
@@ -30,7 +30,7 @@ MOVINGRESTRAINT ...
 
 # Since we're running a biased simulation, we need to reqeight the bias when computing our free energy
 rwbias: REWEIGHT_BIAS ARG=r.bias # TEMP=310
-h: HISTOGRAM ARG=p.z STRIDE=1 GRID_MIN=0.5 GRID_MAX=8.5 GRID_BIN=800 BANDWIDTH=0.1 LOGWEIGHTS=rwbias
+h: HISTOGRAM ARG=p.z STRIDE=1 GRID_MIN=0.5 GRID_MAX=8.5 GRID_BIN=800 BANDWIDTH=0.1 NORMALIZATION=true LOGWEIGHTS=rwbias
 
 # Convert the histogram to free energy
 fe: CONVERT_TO_FES GRID=h # TEMP=310
