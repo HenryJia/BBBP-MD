@@ -5,7 +5,7 @@ vol: VOLUME
 G: ENERGY
 # NOTE: If we do not use NOPBC, PLUMED will use a different coordinate system to gromacs which makes specifying constraints extraodinarily fucky
 # This may result in PLUMED  trying to fire our ligand through the membrane at a bajillion miles per hour
-c: COM ATOMS=42750-42773
+c: COM ATOMS={atoms}
 p: POSITION ATOM=c NOPBC
 
 # This should leave a little bit of space for our molecule to wander around, but not enough to affect the membrane
