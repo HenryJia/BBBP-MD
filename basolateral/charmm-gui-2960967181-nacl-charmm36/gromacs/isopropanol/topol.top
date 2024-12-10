@@ -27,7 +27,7 @@
 #include "toppar/CLA.itp"
 #include "toppar/TIP3.itp"
 
-#include "toppar/LIG.itp"
+#include "lig/LIG.itp"
 
 [ system ]
 ; Name
