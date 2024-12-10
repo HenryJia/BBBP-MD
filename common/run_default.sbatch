@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=42
+#SBATCH --gres=gpu:ampere_a100:1
+#SBATCH --time=48:00:00
+#SBATCH --mem-per-cpu=3850 
+#SBATCH --partition=gpu
+#SBATCH --account=su007-gcs-gpu
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=h.jia.2@warwick.ac.uk
+
+#module purge
+#module load GCC/11.3.0 OpenMPI/4.1.4 # Note, these are different to AVON
+#module load GROMACS/2024.1-CUDA-11.7.0
+
+module purge
+module load GCC/11.2.0 OpenMPI/4.1.1
+module load GROMACS/2021.5-CUDA-11.4.1-PLUMED-2.8.0
+
+srun ./run_default.sh
