@@ -21,16 +21,20 @@ def plot_convergence(fn='analysis.{idx}.smd_fast_fe', min_idx=0, max_idx=19, ste
     plt.legend()
 
 
-plt.figure()
+plt.figure(figsize=(16, 10))
 plot_convergence(fn='analysis.{idx}.smd_slow_fe', min_idx=0, max_idx=19, steps=2500000, step_size=0.002)
 plt.title('Slow pulling (1 nm/ns)')
+plt.savefig('slow-pulling.png')
 
-plt.figure()
+plt.figure(figsize=(16, 10))
 plot_convergence(fn='analysis.{idx}.smd_fast_fe', min_idx=0, max_idx=19, steps=2500000, step_size=0.002)
 plt.title('Fast pulling (2 nm/ns)')
+plt.savefig('fast-pulling.png')
 
-plt.figure()
+plt.figure(figsize=(16, 10))
 plot_convergence(fn='analysis.{idx}.smd_vfast_fe', min_idx=0, max_idx=19, steps=2500000, step_size=0.002)
 plt.title('Very fast pulling (4 nm/ns)')
+plt.savefig('very-fast-pulling.png')
+
 
 plt.show()
