@@ -11,13 +11,12 @@ p: POSITION ATOM=c NOPBC
 # Our function for biasing the simulation
 # Based on https://doi.org/10.1021/acs.jcim.9b00834 we will pull our molecule with force F(z) = k(delta_z - vt)
 # Where k = 600kJ/(mol nm^2), v = 0.5nm/ns to 5nm/ns
-# Although we will use v=0.2nm/ns to run for longer (40ns to cross our 8nm box)
 # Note that the nature paper: https://doi.org/10.1038/s41598-019-42272-0 does not do this. They just crank the temperature up and do unbiased simulations instead
 # Based on the PLUMED docs, this should replicate what happens in our first paper
 # Also note that our bias value here is a potential not a force, and we can derive it using the fact F=-du/dz
 # Finally, note that t is in ps not ns
 
-# In terms of how we run this thing, this bit of code essentially creates a moving wall that bounces our ligand back and forth from 8.5 to 0.5 in p ps 
+# In terms of how we run this thing, this bit of code essentially creates a moving wall that bounces our ligand back and forth
 t: TIME
 
 triangle: CUSTOM ARG=t VAR=t FUNC=2*abs(t/3500-floor(t/3500+1/2)) PERIODIC=NO # This creates a triangle wave with time period p ps
