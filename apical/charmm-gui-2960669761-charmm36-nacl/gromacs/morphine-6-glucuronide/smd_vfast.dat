@@ -5,7 +5,7 @@ G: ENERGY
 
 # PLUMED PBC is somewhat initially uintuitive. It will treat the biundaries as the 0 coordinate from both sides, and thus always try to pick the one closest to 0
 # We will use NOPBC for position, so that it doesn't do this and does cartesian coordinates normally. We do need to keep it enabled for COM however
-c: COM ATOMS=42774-42785
+c: COM ATOMS=43075-43134
 p: POSITION ATOM=c NOPBC
 
 # Our function for biasing the simulation
@@ -19,10 +19,10 @@ p: POSITION ATOM=c NOPBC
 # In terms of how we run this thing, this bit of code essentially creates a moving wall that bounces our ligand back and forth
 t: TIME
 
-triangle: CUSTOM ARG=t VAR=t FUNC=2*abs(t/14000-floor(t/14000+1/2)) PERIODIC=NO # This creates a triangle wave with time period p ps
+triangle: CUSTOM ARG=t VAR=t FUNC=2*abs(t/3500-floor(t/3500+1/2)) PERIODIC=NO # This creates a triangle wave with time period p ps
 target: CUSTOM ARG=triangle VAR=triangle FUNC=7*triangle PERIODIC=NO # This then creates our target location for the triangle wave
 diff: CUSTOM ARG=target,p.z VAR=target,z FUNC=target-(8.0-z) PERIODIC=NO # Calculate the difference between the 2
-dir: CUSTOM ARG=t VAR=t FUNC=step(sin(2*pi*t/14000))*2-1 PERIODIC=NO # This calculates the sign, whether we're moving the molecule up or down
+dir: CUSTOM ARG=t VAR=t FUNC=step(sin(2*pi*t/3500))*2-1 PERIODIC=NO # This calculates the sign, whether we're moving the molecule up or down
 
 # This is the trick, we only apply the constraint if our ligand is "behind target". This can be done by using step(dir*diff).
 # If the sign is the same, then our molecule must be behind target, so the constraint is applied
@@ -39,14 +39,14 @@ rwbias: REWEIGHT_BIAS ARG=r.bias #,uwall.bias,lwall.bias # TEMP=310
 h: HISTOGRAM ARG=p.z STRIDE=1 GRID_MIN=0.5 GRID_MAX=8.5 GRID_BIN=800 BANDWIDTH=0.1 NORMALIZATION=true LOGWEIGHTS=rwbias
 #h_old: HISTOGRAM ARG=p.z STRIDE=1 GRID_MIN=0.5 GRID_MAX=8.5 GRID_BIN=800 BANDWIDTH=0.1
 
-DUMPGRID GRID=h FILE=smd_slow_h STRIDE=2500000
-#DUMPGRID GRID=h_old FILE=smd_slow_ho STRIDE=2500000
+DUMPGRID GRID=h FILE=smd_vfast_h STRIDE=2500000
+#DUMPGRID GRID=h_old FILE=smd_vfast_ho STRIDE=2500000
 
 # Convert the histogram to free energy
 fe: CONVERT_TO_FES GRID=h # TEMP=310
 
 # This should leave a little bit of space for our molecule to wander around, but not enough to affect the membrane
 
-DUMPGRID GRID=fe FILE=smd_slow_fe STRIDE=2500000
-#PRINT ARG=G,vol,p.x,p.y,p.z,r.bias,uwall.bias,lwall.bias,rwbias STRIDE=10000 FILE=smd_slow_out
-PRINT ARG=G,vol,p.x,p.y,p.z,dir,target,diff,pot,r.bias,uwall.bias,lwall.bias,rwbias STRIDE=1000 FILE=smd_slow_out
+DUMPGRID GRID=fe FILE=smd_vfast_fe STRIDE=2500000
+#PRINT ARG=G,vol,p.x,p.y,p.z,r.bias,uwall.bias,lwall.bias,rwbias STRIDE=10000 FILE=smd_vfast_out
+PRINT ARG=G,vol,p.x,p.y,p.z,dir,target,diff,pot,r.bias,uwall.bias,lwall.bias,rwbias STRIDE=1000 FILE=smd_vfast_out

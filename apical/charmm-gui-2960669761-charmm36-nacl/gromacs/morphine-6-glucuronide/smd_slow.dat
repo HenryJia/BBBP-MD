@@ -5,7 +5,7 @@ G: ENERGY
 
 # PLUMED PBC is somewhat initially uintuitive. It will treat the biundaries as the 0 coordinate from both sides, and thus always try to pick the one closest to 0
 # We will use NOPBC for position, so that it doesn't do this and does cartesian coordinates normally. We do need to keep it enabled for COM however
-c: COM ATOMS=42774-42785
+c: COM ATOMS=43075-43134
 p: POSITION ATOM=c NOPBC
 
 # Our function for biasing the simulation
