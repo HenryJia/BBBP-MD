@@ -59,7 +59,7 @@ def main(args):
 # If no arguments are provided, use our hardcoded values
 # example: python generate_plumed.py --template smd_template.dat --output ../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/caffeine/smd_vfast.dat --setup ../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/caffeine/setup.gro --force 1000 --speed 4 --name vfast 
 if len(sys.argv) == 1:
-    membranes = ['../../apical/charmm-gui-2960669761-charmm36-nacl/gromacs/', 'basolateral../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/']
+    membranes = ['../../apical/charmm-gui-2960669761-charmm36-nacl/gromacs/', '../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/']
     templates = [('equilibrate_template.dat', 'equilibrate_plumed.dat'), ('smd_template.dat', 'smd_{name}.dat')]
     molecules = ['isopropanol', 'caffeine', 'morphine-6-glucuronide', 'sucrose']
     args.force = 1000
