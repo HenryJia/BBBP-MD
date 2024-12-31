@@ -39,7 +39,7 @@ if len(sys.argv) == 1:
         ('Apical Membrane', '../../apical/charmm-gui-2960669761-charmm36-nacl/gromacs/', './apical/'),
         ('Basolateral Membrane', '../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/', './basolateral/')]
     molecules = ['isopropanol', 'caffeine', 'morphine-6-glucuronide', 'sucrose']
-    configurations = [(1, 'slow'), (2, 'fast'), (4, 'vfast')]
+    configurations = [(0.5, 'vslow'), (1, 'slow'), (2, 'fast'), (4, 'vfast')]
     
     for membrane_name, membrane_fn, out_fn in membranes:
         os.makedirs(out_fn, exist_ok=True)
