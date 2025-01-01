@@ -1,0 +1,1 @@
+../../../../common/smd/smd_fast.sbatch
