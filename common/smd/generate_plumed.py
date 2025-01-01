@@ -61,7 +61,7 @@ def main(args):
 if len(sys.argv) == 1:
     membranes = ['../../apical/charmm-gui-2960669761-charmm36-nacl/gromacs/', '../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/']
     templates = [('equilibrate_template.dat', 'equilibrate_plumed.dat'), ('smd_template.dat', 'smd_{name}.dat')]
-    molecules = ['isopropanol', 'caffeine', 'morphine-6-glucuronide', 'sucrose']
+    molecules = ['trihexyphenidyl', 'isopropanol', 'caffeine', 'morphine-6-glucuronide', 'sucrose']
     args.force = 1000
     speed = [(0.5, 'vslow'), (1, 'slow'), (2, 'fast'), (4, 'vfast')]
 
