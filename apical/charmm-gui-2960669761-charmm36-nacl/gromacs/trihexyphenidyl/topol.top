@@ -6,6 +6,7 @@
 ;;
 ;; The main GROMACS topology file
 ;;
+
 ; Include forcefield parameters
 #include "./charmm36-jul2022.ff/forcefield.itp"
 ;#include "toppar/forcefield.itp"
@@ -14,13 +15,13 @@
 
 ; Include forcefield parameters
 ; #include "toppar/forcefield.itp"
-#include "toppar/SAPS.itp"
 #include "toppar/CHL1.itp"
-#include "toppar/SOPE.itp"
 #include "toppar/SAPC.itp"
-#include "toppar/OSM.itp"
-#include "toppar/SAPE.itp"
 #include "toppar/SLPC.itp"
+#include "toppar/SAPE.itp"
+#include "toppar/SOPE.itp"
+#include "toppar/OSM.itp"
+#include "toppar/SAPS.itp"
 #include "toppar/POPC.itp"
 #include "toppar/SAPI.itp"
 #include "toppar/SOD.itp"
@@ -35,16 +36,16 @@ Title
 
 [ molecules ]
 ; Compound	#mols
-SAPS  	          20
 CHL1  	          56
-SOPE  	          12
-SAPC  	          12
-OSM   	          44
+SAPC  	          16
+SLPC  	          16
 SAPE  	          28
-SLPC  	          12
-POPC  	           4
+SOPE  	          12
+OSM   	          36
+SAPS  	          16
+POPC  	           8
 SAPI  	           4
-SOD   	          41
+SOD   	          37
 CLA   	          17
-TIP3  	        6818
+TIP3  	        6918
 LIG                1
