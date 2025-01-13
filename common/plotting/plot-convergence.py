@@ -35,7 +35,7 @@ def plot_convergence(fn, min_idx=0, max_idx=19, steps=2500000, step_size=0.002):
 
 
 plt.figure(figsize=(16, 10))
-plot_convergence(fn='analysis.{idx}.'+args.fn, min_idx=args.min_idx, max_idx=args.max_idx, steps=args.steps, step_size=args.step_size)
+plot_convergence(fn=args.fn, min_idx=args.min_idx, max_idx=args.max_idx, steps=args.steps, step_size=args.step_size)
 plt.title(args.title)
 plt.savefig(args.out)
 
