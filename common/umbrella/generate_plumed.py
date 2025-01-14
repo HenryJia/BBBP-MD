@@ -43,7 +43,7 @@ def main(args):
             force=args.force,
             start_z=args.start_z,
             end_z=args.end_z,
-            time=args.initial_time * 1000, # Convert to ps
+            time=args.initial_time * 1000 / 0.002, # Convert to number of steps. Each step is 0.002 ps
         )
     if args.equilibrate_template:
         assert not args.initial_template, 'Cannot use both initial and equilibrate templates'
