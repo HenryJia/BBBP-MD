@@ -27,5 +27,5 @@ fe: CONVERT_TO_FES GRID=h # TEMP=310
 
 # This should leave a little bit of space for our molecule to wander around, but not enough to affect the membrane
 
-DUMPGRID GRID=fe FILE=umbrella_initial_fe STRIDE=1000
-PRINT ARG=G,vol,p.x,p.y,p.z,mr.bias,uwall.bias,lwall.bias,rwbias STRIDE=500000 FILE=umbrella_initial_out
+DUMPGRID GRID=fe FILE=umbrella_initial_fe STRIDE=500000
+PRINT ARG=G,vol,p.x,p.y,p.z,mr.bias,uwall.bias,lwall.bias,rwbias STRIDE=1000 FILE=umbrella_initial_out
