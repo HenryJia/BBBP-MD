@@ -10,7 +10,7 @@ p: POSITION ATOM=c NOPBC
 
 t: TIME
 
-mr: MOVINGRESTRAINT ARGS=p.z STEP0=0 AT0={start_z} KAPPA0={force} STEP1={time} AT1={end_z} KAPPA1={force}
+mr: MOVINGRESTRAINT ARG=p.z STEP0=0 AT0={start_z} KAPPA0={force} STEP1={time} AT1={end_z} KAPPA1={force}
 
 # We need these walls to have very high force constants to guarrantee they don't go outside of the boundaries
 uwall: UPPER_WALLS ARG=p.z AT=8.5 KAPPA=2000.0 EXP=2 EPS=1 OFFSET=0
