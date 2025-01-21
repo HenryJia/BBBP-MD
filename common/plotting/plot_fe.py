@@ -36,10 +36,9 @@ def plot_fe(args):
 # If no arguments are provided, use our hardcoded values
 if len(sys.argv) == 1:
     membranes = [
-        ('Apical Membrane', '../../apical/charmm-gui-2960669761-charmm36-nacl/gromacs/', './apical/'),
+        #('Apical Membrane', '../../apical/charmm-gui-2960669761-charmm36-nacl/gromacs/', './apical/'),
         ('Basolateral Membrane', '../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/', './basolateral/')]
     molecules = ['trihexyphenidyl', 'isopropanol', 'caffeine', 'morphine-6-glucuronide', 'sucrose']
-    configurations = [(0.5, 'vslow'), (1, 'slow'), (2, 'fast'), (4, 'vfast')]
     
     for membrane_name, membrane_fn, out_fn in membranes:
         os.makedirs(out_fn, exist_ok=True)
@@ -47,10 +46,9 @@ if len(sys.argv) == 1:
             args.out = out_fn + molecule + '.png'
             args.fn = []
             args.names = []
-            args.title = f'{membrane_name} - {molecule} Free Energy'
-            for s, speed_name in configurations:
-                args.fn += [membrane_fn + molecule + '/smd_' + speed_name + '_fe']
-                args.names += [f'{s} nm/ns']
+            args.title = f'{membrane_name} - {molecule} First Pulling Free Energy'
+            args.fn = [membrane_fn + molecule + '/umbrella_initial_fe']
+            args.names = [f'Movingrestraint at 0.5 nm/ns']
 
             plot_fe(args)
 
