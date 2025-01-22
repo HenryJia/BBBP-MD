@@ -1,1 +1,0 @@
-../../../../common/smd/smd_vfast_avon.sbatch

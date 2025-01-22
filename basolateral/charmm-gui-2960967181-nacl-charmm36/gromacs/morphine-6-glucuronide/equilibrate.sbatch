@@ -1,1 +1,1 @@
-../../../../common/smd/equilibrate.sbatch
+../../../../common/metadynamics/equilibrate.sbatch

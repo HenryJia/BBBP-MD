@@ -1,1 +1,1 @@
-../../../../common/smd/insert-molecule.sh
+../../../../common/metadynamics/insert-molecule.sh

@@ -1,1 +1,0 @@
-../../../../common/smd/equilibrate_avon.sbatch

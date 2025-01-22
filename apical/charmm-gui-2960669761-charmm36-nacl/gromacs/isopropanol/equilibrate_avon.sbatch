@@ -1,1 +1,1 @@
-../../../../common/smd/equilibrate_avon.sbatch
+../../../../common/metadynamics/equilibrate_avon.sbatch
