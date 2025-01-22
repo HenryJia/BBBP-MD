@@ -14,4 +14,3 @@ lwall: LOWER_WALLS ARG=p.z AT=7.5 KAPPA=100.0 EXP=2 EPS=1 OFFSET=0
 
 PRINT ARG=G,vol,p.x,p.y,p.z,uwall.bias,lwall.bias STRIDE=10000 FILE=equilibrate_out
 DUMPMASSCHARGE FILE=mcfile STRIDE=50000000 # Need only to do this once
-#PRINT ARG=G,vol,p.x,p.y,p.z STRIDE=10000 FILE=equilibrate_plumed_out
