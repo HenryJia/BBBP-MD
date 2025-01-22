@@ -61,9 +61,12 @@ def main(args):
     print(f'Found atom numbers: {atom_num}')
 
     # Generate the Plumed configuration file for initialising the COM
-
     with open(args.output + 'ini_com.dat', 'w') as f:
         f.write(ini_com.format(lig=str(atom_num[0]) + '-' + str(atom_num[-1])))
+
+    # Generate the Plumed configuration file for equilibrating the system
+    with open(args.output + 'equilibrate.dat', 'w') as f:
+        f.write(equilibrate.format(lig=str(atom_num[0]) + '-' + str(atom_num[-1])))
 
 # If no arguments are provided, use our hardcoded values
 # example: python generate_plumed.py --template smd_template.dat --output ../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/caffeine/smd_vfast.dat --setup ../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/caffeine/setup.gro --force 1000 --speed 4 --name vfast 
