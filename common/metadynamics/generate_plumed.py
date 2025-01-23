@@ -68,7 +68,7 @@ def main(args):
             meta = f.read()
 
         with open(args.output + 'com_position.txt', 'r') as f:
-            com = f.read().split('\n')[-1].split()[1:]
+            com = f.read().split('\n')[-2].split()[1:]
 
         # Load the scaled components from the plumed driver output
         with open(args.output + 'metadynamics.dat', 'w') as f:
