@@ -68,7 +68,8 @@ def main(args):
             meta = f.read()
 
         # Run plumed driver using the mass charge file to get the scaled components position of the ligand
-        os.system(f'plumed driver --plumed {args.mc} --igro {args.setup} --plumed {args.output + "ini_com.dat"}')
+        print('Running plumed driver')
+        os.system(f'plumed driver --mc {args.mc} --igro {args.output + "equilibrate.gro"} --plumed {args.output + "ini_com.dat"}')
 
         with open(args.output + 'com_position.txt', 'r') as f:
             com = f.read().split('\n')[-1].split()[1:]
@@ -93,9 +94,9 @@ if len(sys.argv) == 1:
             args.ini_com = 'ini_com_template.dat'
             args.meta = 'metadynamics_template.dat'
             args.output = membrane + molecule + '/'
-            args.setup = membrane + molecule + '/equilibrate.gro'
-            args.ndx = membrane + 'index.ndx',
-            args.mc = membrane + molecule + '/com_position.txt'
+            args.setup = membrane + molecule + '/setup.gro'
+            args.ndx = membrane + 'index.ndx'
+            args.mc = membrane + molecule + '/mcfile'
             main(args)
 else:
     main(args)
