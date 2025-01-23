@@ -67,10 +67,6 @@ def main(args):
         with open(args.meta, 'r') as f:
             meta = f.read()
 
-        # Run plumed driver using the mass charge file to get the scaled components position of the ligand
-        print('Running plumed driver')
-        os.system(f'plumed driver --mc {args.mc} --igro {args.output + "equilibrate.gro"} --plumed {args.output + "ini_com.dat"}')
-
         with open(args.output + 'com_position.txt', 'r') as f:
             com = f.read().split('\n')[-1].split()[1:]
 
