@@ -22,13 +22,13 @@ def plot_fe(args):
             fn,
             comment='#',
             sep='\\s+',
-            names=['z', 'G', 'dG']
+            names=['d_abs', 'G', 'dG']
             )
-        plt.plot(data['z'], data['G'], label=name)
-    plt.xlabel('z (nm)')
+        plt.plot(data['d_abs'], data['G'], label=name)
+    plt.xlabel('Distance From Membrane Centre (nm)')
     plt.ylabel('G (kJ/mol)')
-    plt.xlim(1, 8)
-    plt.ylim(-5, None)
+    plt.xlim(0, 4)
+    plt.ylim(-5, 400)
     plt.legend()
     plt.title(args.title)
     plt.savefig(args.out)
@@ -36,23 +36,21 @@ def plot_fe(args):
 # If no arguments are provided, use our hardcoded values
 if len(sys.argv) == 1:
     membranes = [
-        ('Apical Membrane', '../../apical/charmm-gui-2960669761-charmm36-nacl/gromacs/', './apical/'),
-        ('Basolateral Membrane', '../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/', './basolateral/')]
+        ('Apical Membrane', '../../apical/charmm-gui-2960669761-charmm36-nacl/gromacs/', './apical'),
+        ('Basolateral Membrane', '../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/', './basolateral')]
     molecules = ['trihexyphenidyl', 'isopropanol', 'caffeine', 'morphine-6-glucuronide', 'sucrose']
-    configurations = [(0.5, 'vslow'), (1, 'slow'), (2, 'fast'), (4, 'vfast')]
     
     for membrane_name, membrane_fn, out_fn in membranes:
         os.makedirs(out_fn, exist_ok=True)
+        args.fn = []
+        args.names = []
+        args.out = out_fn + '.png'
+        args.title = f'{membrane_name} - Free Energy'
         for molecule in molecules:
-            args.out = out_fn + molecule + '.png'
-            args.fn = []
-            args.names = []
-            args.title = f'{membrane_name} - {molecule} Free Energy'
-            for s, speed_name in configurations:
-                args.fn += [membrane_fn + molecule + '/smd_' + speed_name + '_fe']
-                args.names += [f'{s} nm/ns']
+            args.fn += [membrane_fn + molecule + '/fes.dat']
+            args.names += [f'{molecule}']
 
-            plot_fe(args)
+        plot_fe(args)
 
 else:
     plot_fe(args)
