@@ -1,0 +1,1 @@
+../../../../common/metadynamics/metadynamics2.sbatch
