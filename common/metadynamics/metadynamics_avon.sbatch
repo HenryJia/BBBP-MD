@@ -13,5 +13,5 @@ module purge
 module load GCC/12.3.0  OpenMPI/4.1.5
 module load GROMACS/2023.3-CUDA-12.1.1-PLUMED-2.9.0
 
-srun bash -c 'gmx grompp -f metadynamics.mdp -o metadynamics.tpr -c equilibrate.gro -r equilibrate.gro -p topol.top && gmx mdrun -nt 16 -v -deffnm metadynamics -plumed metadynamics'
+srun bash -c 'gmx grompp -f metadynamics.mdp -o metadynamics.tpr -c equilibrate.gro -r equilibrate.gro -t equilibrate.cpt -p topol.top && gmx mdrun -nt 16 -v -deffnm metadynamics -plumed metadynamics'
 
