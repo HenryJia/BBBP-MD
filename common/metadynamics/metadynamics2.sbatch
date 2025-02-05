@@ -14,5 +14,5 @@ module purge
 module load GCC/12.3.0  OpenMPI/4.1.5
 module load GROMACS/2023.3-CUDA-12.1.1-PLUMED-2.9.0
 
-srun bash -c 'gmx convert-tpr -s metadynamics.tpr -o metadynamics2.tpr -extend 100000 && gmx mdrun -nt 16 -v -deffnm metadynamics2 -plumed metadynamics2'
+srun bash -c 'gmx convert-tpr -s metadynamics.tpr -o metadynamics2.tpr -extend 100000 && gmx mdrun -nt 16 -v -s metadynamics2.tpr -cpi metadynamics.cpt -deffnm metadynamics2 -plumed metadynamics2'
 
