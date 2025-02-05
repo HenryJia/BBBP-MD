@@ -24,11 +24,15 @@ def plot_fe(args):
             sep='\\s+',
             names=['d_abs', 'G', 'dG']
             )
+        # Remove out of bounds data
+        data = data[(data['d_abs'] > 0) * (data['d_abs'] < 4)]
+        # We should shift the zero point of the free energy to the value in the water
+        zero_point = data['G'][data['d_abs'] > 3.0].mean()
+        data['G'] -= zero_point
         plt.plot(data['d_abs'], data['G'], label=name)
+
     plt.xlabel('Distance From Membrane Centre (nm)')
     plt.ylabel('G (kJ/mol)')
-    plt.xlim(0, 4)
-    plt.ylim(-5, 400)
     plt.legend()
     plt.title(args.title)
     plt.savefig(args.out)
@@ -54,3 +58,5 @@ if len(sys.argv) == 1:
 
 else:
     plot_fe(args)
+
+plt.show()
