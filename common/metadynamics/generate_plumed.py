@@ -11,6 +11,7 @@ parser.add_argument('--mc', type=str, help='Mass charge file for Plumed configur
 parser.add_argument('--output', type=str, help='Output directory for Plumed configuration')
 parser.add_argument('--setup', type=str, help='Setup gro file for Plumed configuration')
 parser.add_argument('--name', type=str, help='Name to use for output data in PLUMED configuration')
+parser.add_argument('--num_runs', type=int, help='Number of times to run metadynamics')
 
 args = parser.parse_args()
 
@@ -77,6 +78,13 @@ def main(args):
                 lig_pos=com[0] + ',' + com[1], # Just the x and y components
                 membrane=str(membrane_start) + '-' + str(membrane_end)
             ))
+        for i in range(1, args.num_runs):
+            with open(args.output + 'metadynamics' + str(i+1) + '.dat', 'w') as f:
+                f.write('RESTART\n' + meta.format(
+                    lig=str(atom_num[0]) + '-' + str(atom_num[-1]),
+                    lig_pos=com[0] + ',' + com[1], # Just the x and y components
+                    membrane=str(membrane_start) + '-' + str(membrane_end)
+                ))
 
 # If no arguments are provided, use our hardcoded values
 # example: python generate_plumed.py --template smd_template.dat --output ../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/caffeine/smd_vfast.dat --setup ../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/caffeine/setup.gro --force 1000 --speed 4 --name vfast 
@@ -93,6 +101,7 @@ if len(sys.argv) == 1:
             args.setup = membrane + molecule + '/setup.gro'
             args.ndx = membrane + 'index.ndx'
             args.mc = membrane + molecule + '/mcfile'
+            args.num_runs = 2
             main(args)
 else:
     main(args)
