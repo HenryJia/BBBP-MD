@@ -47,7 +47,7 @@ if len(sys.argv) == 1:
             args.out = out_fn + '/' + molecule + '_convergence.png'
             args.title = f'{membrane_name} - {molecule} - Free Energy Convergence'
             args.min_idx = 0
-            args.max_idx = 11
+            args.max_idx = 21
 
             main(args)
 else:
