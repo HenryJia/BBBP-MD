@@ -35,7 +35,7 @@ while ( ${cnt} <= ${cntmax} )
     set pstep = `printf ${equi_prefix} ${pcnt}`
     if ( ${cnt} == 1 ) set pstep = ${mini_prefix}
 
-    gmx grompp -f ${istep}.mdp -o ${istep}.tpr -c ${pstep}.gro -r ${rest_prefix}.gro -p topol.top -n index.ndx
+    gmx grompp -f ${istep}.mdp -o ${istep}.tpr -c ${pstep}.gro -r ${rest_prefix}.gro -t ${rest_prefix}.cpt -p topol.top -n index.ndx
     gmx mdrun -v -deffnm ${istep} -nt $SLURM_CPUS_PER_TASK
     @ cnt += 1
 end
@@ -60,5 +60,5 @@ end
 #end
 
 set pstep = `printf ${equi_prefix} 6`
-gmx grompp -f ${prod_prefix}.mdp -o ${prod_prefix}.tpr -c ${pstep}.gro -p topol.top -n index.ndx
+gmx grompp -f ${prod_prefix}.mdp -o ${prod_prefix}.tpr -c ${pstep}.gro -t ${pstep}.cpt -p topol.top -n index.ndx
 gmx mdrun -v -deffnm ${prod_prefix} -nt $SLURM_CPUS_PER_TASK
