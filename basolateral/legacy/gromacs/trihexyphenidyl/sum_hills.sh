@@ -1,0 +1,1 @@
+../../../../common/metadynamics/sum_hills.sh

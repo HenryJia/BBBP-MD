@@ -1,0 +1,43 @@
+REMARK  GENERATE LIGAND                                                               
+REMARK   DATE:     1/ 1/25     12:57:36      CREATED BY USER: apache                  
+ATOM      1  CL  LIG L   1       5.769   0.252  -0.171  1.00  0.00      LIG 
+ATOM      2  N1  LIG L   1      -2.866   2.056  -0.234  1.00  0.00      LIG 
+ATOM      3  N2  LIG L   1      -0.669  -1.712   1.022  1.00  0.00      LIG 
+ATOM      4  C1  LIG L   1      -0.301   0.481  -0.108  1.00  0.00      LIG 
+ATOM      5  C2  LIG L   1      -0.878   1.360   1.050  1.00  0.00      LIG 
+ATOM      6  C3  LIG L   1      -2.412   1.493   1.043  1.00  0.00      LIG 
+ATOM      7  C4  LIG L   1       1.218   0.417  -0.079  1.00  0.00      LIG 
+ATOM      8  C5  LIG L   1      -0.867  -0.927  -0.040  1.00  0.00      LIG 
+ATOM      9  C6  LIG L   1       1.902   0.181  -1.287  1.00  0.00      LIG 
+ATOM     10  C7  LIG L   1       1.968   0.586   1.103  1.00  0.00      LIG 
+ATOM     11  C8  LIG L   1      -1.653  -1.389  -1.117  1.00  0.00      LIG 
+ATOM     12  C9  LIG L   1      -2.317   3.373  -0.523  1.00  0.00      LIG 
+ATOM     13  C10 LIG L   1      -4.311   1.980  -0.367  1.00  0.00      LIG 
+ATOM     14  C11 LIG L   1       3.302   0.129  -1.316  1.00  0.00      LIG 
+ATOM     15  C12 LIG L   1       3.367   0.535   1.071  1.00  0.00      LIG 
+ATOM     16  C13 LIG L   1      -2.190  -2.683  -1.073  1.00  0.00      LIG 
+ATOM     17  C14 LIG L   1       4.032   0.311  -0.137  1.00  0.00      LIG 
+ATOM     18  C15 LIG L   1      -1.152  -2.950   1.085  1.00  0.00      LIG 
+ATOM     19  C16 LIG L   1      -1.931  -3.483   0.049  1.00  0.00      LIG 
+ATOM     20  H1  LIG L   1      -0.610   0.974  -1.056  1.00  0.00      LIG 
+ATOM     21  H2  LIG L   1      -0.405   2.365   1.011  1.00  0.00      LIG 
+ATOM     22  H3  LIG L   1      -0.613   0.912   2.033  1.00  0.00      LIG 
+ATOM     23  H4  LIG L   1      -2.868   0.488   1.193  1.00  0.00      LIG 
+ATOM     24  H5  LIG L   1      -2.744   2.147   1.878  1.00  0.00      LIG 
+ATOM     25  H6  LIG L   1       1.343   0.038  -2.200  1.00  0.00      LIG 
+ATOM     26  H7  LIG L   1       1.484   0.738   2.054  1.00  0.00      LIG 
+ATOM     27  H8  LIG L   1      -1.841  -0.743  -1.959  1.00  0.00      LIG 
+ATOM     28  H9  LIG L   1      -1.334   3.292  -1.041  1.00  0.00      LIG 
+ATOM     29  H10 LIG L   1      -2.166   3.961   0.410  1.00  0.00      LIG 
+ATOM     30  H11 LIG L   1      -2.995   3.957  -1.185  1.00  0.00      LIG 
+ATOM     31  H12 LIG L   1      -4.806   2.731   0.292  1.00  0.00      LIG 
+ATOM     32  H13 LIG L   1      -4.696   0.974  -0.090  1.00  0.00      LIG 
+ATOM     33  H14 LIG L   1      -4.627   2.185  -1.415  1.00  0.00      LIG 
+ATOM     34  H15 LIG L   1       3.826  -0.051  -2.242  1.00  0.00      LIG 
+ATOM     35  H16 LIG L   1       3.938   0.666   1.977  1.00  0.00      LIG 
+ATOM     36  H17 LIG L   1      -2.793  -3.055  -1.888  1.00  0.00      LIG 
+ATOM     37  H18 LIG L   1      -0.935  -3.537   1.969  1.00  0.00      LIG 
+ATOM     38  H19 LIG L   1      -2.323  -4.485   0.118  1.00  0.00      LIG 
+ATOM     39  LP1 LIG L   1       7.408   0.197  -0.203  1.00  0.00      LIG 
+TER      40      LIG      1
+END
