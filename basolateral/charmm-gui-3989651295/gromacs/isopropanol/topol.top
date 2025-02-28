@@ -10,19 +10,19 @@
 #include "./charmm36-jul2022.ff/forcefield.itp"
 ;#include "toppar/forcefield.itp"
 ; This is from CHARMM-GUI's ligand reader
-#include "lig/charmm36.itp"
+;#include "lig/charmm36.itp"
 
 ; Include forcefield parameters
 ; #include "toppar/forcefield.itp"
-#include "toppar/SAPS.itp"
 #include "toppar/CHL1.itp"
-#include "toppar/SOPE.itp"
 #include "toppar/SAPC.itp"
+#include "toppar/SLPC.itp"
+#include "toppar/SAPS.itp"
 #include "toppar/OSM.itp"
 #include "toppar/SAPE.itp"
-#include "toppar/SLPC.itp"
-#include "toppar/POPC.itp"
+#include "toppar/SOPE.itp"
 #include "toppar/SAPI.itp"
+#include "toppar/POPC.itp"
 #include "toppar/SOD.itp"
 #include "toppar/CLA.itp"
 #include "toppar/TIP3.itp"
@@ -46,4 +46,5 @@ SAPI  	           4
 POPC  	           4
 SOD   	          77
 CLA   	          53
-TIP3  	       19674
+TIP3  	       19666
+LIG                1
