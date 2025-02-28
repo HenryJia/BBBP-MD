@@ -8,7 +8,7 @@ G: ENERGY
 c: COM ATOMS=81345-81389
 p: POSITION ATOM=c NOPBC
 
-restraint: RESTRAINT ARG=p.x,p.y,p.z AT=3.4,3.4,16.5 KAPPA=100.0,100
+restraint: RESTRAINT ARG=p.x,p.y,p.z AT=3.4,3.4,16.5 KAPPA=100.0,100.0,100.0
 
 PRINT ARG=G,vol,p.x,p.y,p.z STRIDE=10000 FILE=equilibrate_out
 DUMPMASSCHARGE FILE=mcfile STRIDE=50000000 # Need only to do this once
