@@ -15,15 +15,15 @@
 
 ; Include forcefield parameters
 ; #include "toppar/forcefield.itp"
-#include "toppar/CHL1.itp"
+#include "toppar/SAPS.itp"
 #include "toppar/SAPC.itp"
-#include "toppar/SLPC.itp"
+#include "toppar/POPC.itp"
+#include "toppar/CHL1.itp"
+#include "toppar/OSM.itp"
 #include "toppar/SAPE.itp"
 #include "toppar/SOPE.itp"
-#include "toppar/OSM.itp"
-#include "toppar/SAPS.itp"
-#include "toppar/POPC.itp"
 #include "toppar/SAPI.itp"
+#include "toppar/SLPC.itp"
 #include "toppar/SOD.itp"
 #include "toppar/CLA.itp"
 #include "toppar/TIP3.itp"
@@ -47,4 +47,5 @@ SAPI  	           4
 SLPC  	          16
 SOD   	          73
 CLA   	          53
-TIP3  	       19968
+TIP3  	       19931
+LIG                1
