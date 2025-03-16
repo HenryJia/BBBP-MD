@@ -26,10 +26,10 @@ tc_grps                 = system ;MEMB SOLV LIG
 tau_t                   = 1.0 ;1.0 1.0
 ref_t                   = 310 ;310 310
 ;
-pcoupl                  = C-rescale
+pcoupl                  = no ; C-rescale ; For metadynamics we need box size to be kept constant
 pcoupltype              = semiisotropic
 tau_p                   = 5.0
-compressibility         = 4.5e-5  4.5e-5
+compressibility         = 4.5e-5  0
 ref_p                   = 1.0     1.0
 refcoord_scaling        = com
 ;
