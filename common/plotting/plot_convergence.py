@@ -28,7 +28,7 @@ def main(args):
         plt.plot(data['z'], data['G'], label=f'Metadynamics Iteration {idx}', color=cmap(idx / args.max_idx))
     plt.xlabel('Distance from membrane (nm)')
     plt.ylabel('G (kJ/mol)')
-    plt.xlim(0, 4)
+    plt.xlim(0, 8)
     plt.ylim(-5, None)
     plt.legend()
     plt.title(args.title)
@@ -36,8 +36,8 @@ def main(args):
 
 if len(sys.argv) == 1:
     membranes = [
-        ('Apical Membrane', '../../apical/charmm-gui-2960669761-charmm36-nacl/gromacs/', './apical'),
-        ('Basolateral Membrane', '../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/', './basolateral')]
+        ('Apical Membrane', '../../apical/charmm-gui-3989364611/gromacs/', './apical'),
+        ('Basolateral Membrane', '../../basolateral/charmm-gui-3989651295/gromacs/', './basolateral')]
     molecules = ['trihexyphenidyl', 'isopropanol', 'caffeine', 'morphine-6-glucuronide', 'sucrose']
     
     for membrane_name, membrane_fn, out_fn in membranes:

@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 # But it's fine for now and this is the fastest way to get it done
 
 membranes = [
-        ('Apical Membrane', '../../apical/charmm-gui-2960669761-charmm36-nacl/gromacs/'),
-        ('Basolateral Membrane', '../../basolateral/charmm-gui-2960967181-nacl-charmm36/gromacs/')]
+        ('Apical Membrane', '../../apical/charmm-gui-3989364611/gromacs/', './apical'),
+        ('Basolateral Membrane', '../../basolateral/charmm-gui-3989651295/gromacs/', './basolateral')]
 molecules = {
     'trihexyphenidyl': 1.32,
     'isopropanol': -0.1,
@@ -26,9 +26,9 @@ for molecule in molecules:
         names=['z', 'G', 'dG']
         )
     # Remove out of bounds data
-    data = data[(data['z'] > 0) * (data['z'] < 4)]
+    data = data[(data['z'] > 0) * (data['z'] < 8)]
     # We should shift the zero point of the free energy to the value in the water
-    zero_point = data['G'][data['z'] > 3.0].mean()
+    zero_point = data['G'][data['z'] > 7.0].mean()
     data['G'] -= zero_point
 
     if molecule not in apical_barriers:
