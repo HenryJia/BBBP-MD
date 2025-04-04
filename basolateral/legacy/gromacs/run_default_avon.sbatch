@@ -1,1 +1,0 @@
-../../../common/run_default_avon.sbatch
