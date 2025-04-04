@@ -1,1 +1,0 @@
-../../../../common/metadynamics/metadynamics2_l40.sbatch

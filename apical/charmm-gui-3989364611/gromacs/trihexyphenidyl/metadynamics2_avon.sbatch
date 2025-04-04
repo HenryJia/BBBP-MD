@@ -1,1 +1,0 @@
-../../../../common/metadynamics/metadynamics2_avon.sbatch
