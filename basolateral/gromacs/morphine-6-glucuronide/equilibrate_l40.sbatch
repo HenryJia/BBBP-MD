@@ -1,0 +1,1 @@
+../../../common/metadynamics/equilibrate_l40.sbatch
