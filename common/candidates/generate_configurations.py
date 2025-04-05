@@ -21,6 +21,14 @@ def compare(atoms, lines1, section):
             return True
     return False
 
+def symlink(source, target):
+    # Quick and dirty way of making a symlink which overwrites the old one
+    try:
+        os.unlink(target)
+    except:
+        pass
+    os.symlink(source, target)
+
 def process_candidate(cid, root_dir):
     # Process a candidate molecule for metadynamics.
 
@@ -125,6 +133,48 @@ def process_candidate(cid, root_dir):
     f_lig.close()
     print(f'Wrote {lig_charmm36}')
 
+    # Note: ln -sf ../../../common/metadynamics/{charmm36-jul2022.ff,*.sbatch,*.sh,*.mdp,location.dat} ./
+
+
+def setup_files(cid, cls, membrane):
+    # We're going to use relative symlinks to the common directory
+    # This will make sure everything still works when we switch machines to our HPCs which have different directory structures
+    # Note, this means 
+
+    original_dir = os.getcwd()
+
+    base_dir = '../../../../'
+    source_dir = f'{base_dir}common/candidates/{cls}/{cid}'
+    target_dir = f'../../{membrane}/candidates/{cls}/{cid}'
+    if not os.path.exists(target_dir):
+        os.makedirs(target_dir)
+    os.chdir(target_dir)
+
+    symlink(f'{source_dir}/lig/', './lig')
+    symlink(f'{source_dir}/ligandrm.pdb', './ligandrm.pdb')
+    symlink(f'{source_dir}/lig.sdf', './lig.sdf')
+
+    # We need to now symlink the simulation configurations such as mdps and sbatch files
+    source_dir = f'{base_dir}common/metadynamics'
+
+    symlink(f'{source_dir}/charmm36-jul2022.ff', './charmm36-jul2022.ff')
+
+    symlink(f'{source_dir}/equilibrate_avon.sbatch', './equilibrate_avon.sbatch')
+    symlink(f'{source_dir}/equilibrate.sbatch', './equilibrate.sbatch')
+    symlink(f'{source_dir}/equilibrate_l40.sbatch', './equilibrate_l40.sbatch')
+
+    symlink(f'{source_dir}/metadynamics_avon.sbatch', './metadynamics_avon.sbatch')
+    symlink(f'{source_dir}/metadynamics.sbatch', './metadynamics.sbatch')
+    symlink(f'{source_dir}/metadynamics_l40.sbatch', './metadynamics_l40.sbatch')
+
+    symlink(f'{source_dir}/equilibrate.mdp', './equilibrate.mdp')
+    symlink(f'{source_dir}/metadynamics.mdp', './metadynamics.mdp')
+
+    symlink(f'{source_dir}/insert-molecule.sh', './insert-molecule.sh')
+    symlink(f'{source_dir}/location.dat', './location.dat')
+    symlink(f'{source_dir}/sum_hills.sh', './sum_hills.sh')
+
+    os.chdir(original_dir)
 
 
 if __name__ == '__main__':
@@ -133,6 +183,7 @@ if __name__ == '__main__':
         cid = row['idx']
         print(f'Processing Positive Candidate {cid}')
         process_candidate(cid, 'pos')
+        setup_files(cid, 'pos', 'basolateral')
         exit() # Just for testing
 
     # # Process the negative candidates
