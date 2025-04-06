@@ -99,16 +99,12 @@ def process_candidate(cid, root_dir):
                 continue
 
         if section == '[ bondtypes ]':
-            # Skip this, apparently we can have duplicates of this
-            continue
             bondtype = line.strip().split()[0:2]
             if compare(bondtype, bonded_lines, section):
                 lines[i] = f'; {line}'
                 continue
 
         if section == '[ pairtypes ]':
-            # Likewise here
-            continue
             pairtype = line.strip().split()[0:2]
             if compare(pairtype, nonbonded_lines, section):
                 lines[i] = f'; {line}'
