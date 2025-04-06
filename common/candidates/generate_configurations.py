@@ -100,7 +100,7 @@ def process_candidate(cid, root_dir):
 
         if section == '[ bondtypes ]':
             bondtype = line.strip().split()[0:2]
-            if compare(bondtype, bonded_lines, section) or compare(bondtype[::-1], bonded_lines, section):
+            if compare(bondtype, bonded_lines, section):
                 lines[i] = f'; {line}'
                 continue
 
@@ -112,16 +112,34 @@ def process_candidate(cid, root_dir):
 
         if section == '[ angletypes ]':
             angletype = line.strip().split()[0:3]
-            if compare(angletype, bonded_lines, section) or compare(angletype[::-1], bonded_lines, section):
+            if compare(angletype, bonded_lines, section):
                 lines[i] = f'; {line}'
                 continue
 
         if section == '[ dihedraltypes ]':
             dihedraltype = line.strip().split()[0:4]
             dihedral_lines = missing_dihedrals_lines + bonded_lines
-            if compare(dihedraltype, dihedral_lines, section) or compare(dihedraltype[::-1], dihedral_lines, section):
+            if compare(dihedraltype, dihedral_lines, section):
                 lines[i] = f'; {line}'
                 continue
+
+    # Now loop through and check if any sections are empty
+    # If they are, comment out the section header
+    for i, line in enumerate(lines):
+        if line.startswith(';') or line == '\n':
+            continue
+
+        if line.startswith('['):
+            # Check if the section is empty
+            empty = True
+            for j in range(i+1, len(lines)):
+                if lines[j].startswith('['):
+                    break
+                if lines[j].startswith(';') or lines[j] == '\n':
+                    continue
+                empty = False
+            if empty:
+                lines[i] = f'; {line}'
 
     # For testing, just print the lines
     # for i, line in enumerate(lines):
