@@ -171,6 +171,7 @@ def setup_files(cid, cls, membrane):
     symlink(f'{source_dir}/metadynamics.mdp', './metadynamics.mdp')
 
     symlink(f'{source_dir}/insert-molecule.sh', './insert-molecule.sh')
+    symlink(f'{source_dir}/insert-molecule.py', './insert-molecule.py')
     symlink(f'{source_dir}/location.dat', './location.dat')
     symlink(f'{source_dir}/sum_hills.sh', './sum_hills.sh')
 
