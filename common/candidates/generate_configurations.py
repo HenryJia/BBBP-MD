@@ -174,6 +174,28 @@ def setup_files(cid, cls, membrane):
     symlink(f'{source_dir}/location.dat', './location.dat')
     symlink(f'{source_dir}/sum_hills.sh', './sum_hills.sh')
 
+    base_dir = '../../../'
+    source_dir = f'{base_dir}gromacs'
+    symlink(f'{source_dir}/toppar/', './toppar')
+    symlink(f'{source_dir}/step7_production.gro', './step7_production.gro')
+
+    with open(f'{source_dir}/topol.top', 'r') as f:
+        lines = f.readlines()
+
+    lines = lines[:8] + [
+        '#include "charmm36-jul2022.ff/forcefield.itp\n',
+        '#include "lig/LIG.itp"\n',
+        '#include "lig/charmm36.itp"\n',
+        ] + lines[8:]
+
+    for i, line in enumerate(lines):
+        if line.strip() == '#include "toppar/forcefield.itp"':
+            lines[i] = '; ' + line
+            break
+
+    with open('./topol.top', 'w') as f:
+        f.writelines(lines)
+
     os.chdir(original_dir)
 
 
