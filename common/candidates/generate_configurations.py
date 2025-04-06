@@ -207,8 +207,8 @@ def setup_files(cid, cls, membrane):
 
     lines = lines[:8] + [
         '#include "charmm36-jul2022.ff/forcefield.itp\n',
-        '#include "lig/LIG.itp"\n',
         '#include "lig/charmm36.itp"\n',
+        '#include "lig/LIG.itp"\n',
         ] + lines[8:]
 
     for i, line in enumerate(lines):

@@ -7,8 +7,8 @@
 ;; The main GROMACS topology file
 ;;
 #include "charmm36-jul2022.ff/forcefield.itp
-#include "lig/LIG.itp"
 #include "lig/charmm36.itp"
+#include "lig/LIG.itp"
 
 ; Include forcefield parameters
 ; #include "toppar/forcefield.itp"
