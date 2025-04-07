@@ -2,6 +2,7 @@ import os
 import tarfile
 import pandas as pd
 
+
 # Load the data
 pos_cand = pd.read_csv('bbbp_positive_pubchem.csv', comment=';') # colon for comments because # is already used
 neg_cand = pd.read_csv('bbbp_negative_pubchem.csv', comment=';')
@@ -187,6 +188,12 @@ def setup_files(cid, cls, membrane):
 
     symlink(f'{source_dir}/equilibrate.mdp', './equilibrate.mdp')
     symlink(f'{source_dir}/metadynamics.mdp', './metadynamics.mdp')
+
+    symlink(f'{source_dir}/equilibrate_template.dat', './equilibrate_template.dat')
+    symlink(f'{source_dir}/ini_com_template.dat', './ini_com_template.dat')
+    symlink(f'{source_dir}/metadynamics_template.dat', './metadynamics_template.dat')
+
+    symlink(f'{source_dir}/generate_equilibrate.py', './generate_equilibrate.py')
 
     symlink(f'{source_dir}/insert-molecule.sh', './insert-molecule.sh')
     symlink(f'{source_dir}/insert-molecule.py', './insert-molecule.py')
