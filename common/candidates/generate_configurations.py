@@ -194,6 +194,7 @@ def setup_files(cid, cls, membrane):
     symlink(f'{source_dir}/metadynamics_template.dat', './metadynamics_template.dat')
 
     symlink(f'{source_dir}/generate_equilibrate.py', './generate_equilibrate.py')
+    symlink(f'{source_dir}/generate_metadynamics.py', './generate_metadynamics.py')
 
     symlink(f'{source_dir}/insert-molecule.sh', './insert-molecule.sh')
     symlink(f'{source_dir}/insert-molecule.py', './insert-molecule.py')

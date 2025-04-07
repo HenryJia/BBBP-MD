@@ -1,4 +1,4 @@
-import sys, re, os
+import re
 
 # Load template file
 with open('./equilibrate_template.dat', 'r') as f:
