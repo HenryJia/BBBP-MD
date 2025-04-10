@@ -206,6 +206,7 @@ def setup_files(cid, cls, membrane):
     source_dir = f'{base_dir}gromacs'
     symlink(f'{source_dir}/toppar/', './toppar')
     symlink(f'{source_dir}/step7_production.gro', './step7_production.gro')
+    symlink(f'{source_dir}/index.ndx', './index.ndx')
 
     with open(f'{source_dir}/topol.top', 'r') as f:
         lines = f.readlines()
