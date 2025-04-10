@@ -14,18 +14,27 @@ with open('topol.top', 'r') as f:
     topol_lines = f.readlines()
 
 num_tip3 = 0
-for i, lines in enumerate(setup_lines[::-1]):
+for i, lines in enumerate(setup_lines):
     if 'TIP3' in lines.strip():
         num_tip3 = int(lines.split('TIP3')[0].strip())
+        break
+for i, lines in enumerate(setup_lines[::-1]):
+    if 'TIP3' in lines.strip():
+        num_tip3 = int(lines.split('TIP3')[0].strip()) - num_tip3 + 1 # Note GROMACS uses 1 based indexing
         break
 print(f'Number of TIP3P water molecules: {num_tip3}')
 
 for i, lines in enumerate(topol_lines):
     if lines.startswith('TIP3'):
-        topol_lines[i] = f'TIP3P  \t{num_tip3}\n'
+        topol_lines[i] = f'TIP3  \t{num_tip3}\n'
         break
 
-topol_lines += ['LIG  \t1\n']
+LIG = False
+for i, lines in enumerate(topol_lines):
+    if lines.startswith('LIG'):
+        LIG = True
+if not LIG:
+    topol_lines += ['LIG  \t1\n']
 with open('topol.top', 'w') as f:
     f.writelines(topol_lines)
 print('Updated topology file with the number of TIP3P water molecules and added LIG 1')

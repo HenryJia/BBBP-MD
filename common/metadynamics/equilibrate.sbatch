@@ -14,5 +14,10 @@ module purge
 module load GCC/12.3.0  OpenMPI/4.1.5
 module load GROMACS/2023.3-CUDA-12.1.1-PLUMED-2.9.0
 
-srun bash -c 'gmx grompp -f equilibrate.mdp -o equilibrate.tpr -c setup.gro -r setup.gro -p topol.top && gmx mdrun -nt 42 -v -deffnm equilibrate -plumed equilibrate'
+if [ -f "equilibrate.cpt" ]; then
+	echo "Continuing for last run"
+	srun bash -c 'gmx mdrun -nt 42 -v -deffnm equilibrate -cpi equilibrate.cpt -plumed equilibrate2'
+else
+	srun bash -c 'gmx grompp -f equilibrate.mdp -o equilibrate.tpr -c setup.gro -r setup.gro -p topol.top && gmx mdrun -nt 42 -v -deffnm equilibrate -plumed equilibrate'
+fi
 

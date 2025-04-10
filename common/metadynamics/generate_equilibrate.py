@@ -4,7 +4,7 @@ import re
 with open('./equilibrate_template.dat', 'r') as f:
     equilibrate = f.read()
 
-with open(args.ini_com, 'r') as f:
+with open('./ini_com_template.dat', 'r') as f:
     ini_com = f.read()
 
 with open('setup.gro', 'r') as f:
@@ -22,6 +22,7 @@ print(f'Found atom numbers: {atom_num}')
 
 with open('equilibrate.dat', 'w') as f:
     f.write(equilibrate.format(lig=str(atom_num[0]) + '-' + str(atom_num[-1])))
-
+with open('equilibrate2.dat', 'w') as f:
+    f.write('RESTART\n' + equilibrate.format(lig=str(atom_num[0]) + '-' + str(atom_num[-1])))
 with open('ini_com.dat', 'w') as f:
     f.write(ini_com.format(lig=str(atom_num[0]) + '-' + str(atom_num[-1])))
