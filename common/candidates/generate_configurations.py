@@ -193,6 +193,7 @@ def setup_files(cid, cls, membrane):
     symlink(f'{source_dir}/ini_com_template.dat', './ini_com_template.dat')
     symlink(f'{source_dir}/metadynamics_template.dat', './metadynamics_template.dat')
 
+    symlink(f'{source_dir}/plumed_driver.sh', './plumed_driver.sh')
     symlink(f'{source_dir}/generate_equilibrate.py', './generate_equilibrate.py')
     symlink(f'{source_dir}/generate_metadynamics.py', './generate_metadynamics.py')
 
