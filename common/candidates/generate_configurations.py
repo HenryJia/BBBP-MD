@@ -117,12 +117,12 @@ def process_candidate(cid, root_dir):
                 lines[i] = f'; {line}'
                 continue
 
-        # if section == '[ dihedraltypes ]':
-        #     dihedraltype = line.strip().split()[0:4]
-        #     dihedral_lines = bonded_lines# + missing_dihedrals_lines
-        #     if compare(dihedraltype, dihedral_lines, section):
-        #         lines[i] = f'; {line}'
-        #         continue
+        if section == '[ dihedraltypes ]':
+            dihedraltype = line.strip().split()[0:4]
+            dihedral_lines = bonded_lines# + missing_dihedrals_lines
+            if compare(dihedraltype, dihedral_lines, section):
+                lines[i] = f'; {line}'
+                continue
 
     # Now loop through and check if any sections are empty
     # If they are, comment out the section header
