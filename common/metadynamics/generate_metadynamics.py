@@ -2,11 +2,11 @@ import re
 
 
 # Load index file
-with open(args.ndx, 'r') as f:
+with open('index.ndx', 'r') as f:
     ndx = f.read()
 
 # Load setup gro file
-with open(args.setup, 'r') as f:
+with open('setup.gro', 'r') as f:
     gro = f.read()
 
 # Find the membrane atom numbers using the ndx file
@@ -48,3 +48,4 @@ with open('metadynamics2.dat', 'w') as f:
         lig=str(atom_num[0]) + '-' + str(atom_num[-1]),
         lig_pos=com[0] + ',' + com[1], # Just the x and y components
         membrane=str(membrane_start) + '-' + str(membrane_end)
+        ))
