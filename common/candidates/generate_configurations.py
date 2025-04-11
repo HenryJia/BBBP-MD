@@ -235,10 +235,12 @@ if __name__ == '__main__':
         print(f'Processing Positive Candidate {cid}')
         process_candidate(cid, 'pos')
         setup_files(cid, 'pos', 'basolateral')
-        exit() # Just for testing
+        setup_files(cid, 'pos', 'apical')
 
-    # # Process the negative candidates
-    # for i, row in neg_cand.iterrows():
-    #     cid = row['idx']
-    #     print(f'Processing Negative Candidate {cid}')
-    #     process_candidate(cid, 'neg')
+    # Process the negative candidates
+    for i, row in neg_cand.iterrows():
+        cid = row['idx']
+        print(f'Processing Negative Candidate {cid}')
+        process_candidate(cid, 'neg')
+        setup_files(cid, 'neg', 'basolateral')
+        setup_files(cid, 'neg', 'apical')
