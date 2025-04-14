@@ -1,0 +1,15 @@
+RESTART
+
+# Volume of the simulation box
+vol: VOLUME
+# Total potential energy of the simulation box
+G: ENERGY
+# NOTE: If we do not use NOPBC, PLUMED will use a different coordinate system to gromacs which makes specifying constraints extraodinarily fucky
+# This may result in PLUMED  trying to fire our ligand through the membrane at a bajillion miles per hour
+c: COM ATOMS=82237-82296
+p: POSITION ATOM=c NOPBC
+
+restraint: RESTRAINT ARG=p.x,p.y,p.z AT=3.4,3.4,16.5 KAPPA=100.0,100.0,100.0
+
+PRINT ARG=G,vol,p.x,p.y,p.z STRIDE=10000 FILE=equilibrate_out
+DUMPMASSCHARGE FILE=mcfile STRIDE=50000000 # Need only to do this once
