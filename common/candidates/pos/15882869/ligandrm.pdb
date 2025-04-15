@@ -1,0 +1,56 @@
+REMARK  GENERATE LIGAND                                                               
+REMARK   DATE:     4/15/25     17:31:38      CREATED BY USER: charmm-gui              
+ATOM      1  S   LIG L   1      -3.103  -1.709   0.862  1.00  0.00      LIG 
+ATOM      2  N1  LIG L   1      -0.990   0.269  -0.159  1.00  0.00      LIG 
+ATOM      3  N2  LIG L   1       3.733   0.757  -0.114  1.00  0.00      LIG 
+ATOM      4  C1  LIG L   1       0.968   1.233   1.143  1.00  0.00      LIG 
+ATOM      5  C2  LIG L   1       2.120   2.266   1.099  1.00  0.00      LIG 
+ATOM      6  C3  LIG L   1       0.107   1.268  -0.140  1.00  0.00      LIG 
+ATOM      7  C4  LIG L   1       3.120   2.109  -0.071  1.00  0.00      LIG 
+ATOM      8  C5  LIG L   1       0.077   1.463   2.382  1.00  0.00      LIG 
+ATOM      9  C6  LIG L   1      -0.650  -1.145  -0.250  1.00  0.00      LIG 
+ATOM     10  C7  LIG L   1      -2.380   0.679  -0.310  1.00  0.00      LIG 
+ATOM     11  C8  LIG L   1       4.558   0.557  -1.319  1.00  0.00      LIG 
+ATOM     12  C9  LIG L   1       4.451   0.399   1.124  1.00  0.00      LIG 
+ATOM     13  C10 LIG L   1      -1.545  -2.156   0.198  1.00  0.00      LIG 
+ATOM     14  C11 LIG L   1      -3.446  -0.147   0.146  1.00  0.00      LIG 
+ATOM     15  C12 LIG L   1       0.634  -1.558  -0.679  1.00  0.00      LIG 
+ATOM     16  C13 LIG L   1      -2.719   1.954  -0.818  1.00  0.00      LIG 
+ATOM     17  C14 LIG L   1       3.844   0.789  -2.652  1.00  0.00      LIG 
+ATOM     18  C15 LIG L   1       5.033  -1.016   1.171  1.00  0.00      LIG 
+ATOM     19  C16 LIG L   1      -1.171  -3.507   0.193  1.00  0.00      LIG 
+ATOM     20  C17 LIG L   1      -4.776   0.291   0.089  1.00  0.00      LIG 
+ATOM     21  C18 LIG L   1       1.017  -2.903  -0.645  1.00  0.00      LIG 
+ATOM     22  C19 LIG L   1      -4.044   2.409  -0.823  1.00  0.00      LIG 
+ATOM     23  C20 LIG L   1       0.113  -3.878  -0.220  1.00  0.00      LIG 
+ATOM     24  C21 LIG L   1      -5.072   1.575  -0.379  1.00  0.00      LIG 
+ATOM     25  H1  LIG L   1       1.424   0.221   1.237  1.00  0.00      LIG 
+ATOM     26  H2  LIG L   1       2.662   2.242   2.065  1.00  0.00      LIG 
+ATOM     27  H3  LIG L   1       1.669   3.280   1.022  1.00  0.00      LIG 
+ATOM     28  H4  LIG L   1      -0.257   2.314  -0.204  1.00  0.00      LIG 
+ATOM     29  H5  LIG L   1       0.737   1.122  -1.042  1.00  0.00      LIG 
+ATOM     30  H6  LIG L   1       2.558   2.318  -1.007  1.00  0.00      LIG 
+ATOM     31  H7  LIG L   1       3.920   2.876   0.015  1.00  0.00      LIG 
+ATOM     32  H8  LIG L   1      -0.455   2.434   2.295  1.00  0.00      LIG 
+ATOM     33  H9  LIG L   1       0.686   1.466   3.308  1.00  0.00      LIG 
+ATOM     34  H10 LIG L   1      -0.685   0.657   2.463  1.00  0.00      LIG 
+ATOM     35  H11 LIG L   1       4.926  -0.495  -1.344  1.00  0.00      LIG 
+ATOM     36  H12 LIG L   1       5.454   1.216  -1.257  1.00  0.00      LIG 
+ATOM     37  H13 LIG L   1       3.748   0.465   1.985  1.00  0.00      LIG 
+ATOM     38  H14 LIG L   1       5.263   1.141   1.301  1.00  0.00      LIG 
+ATOM     39  H15 LIG L   1       1.382  -0.845  -0.988  1.00  0.00      LIG 
+ATOM     40  H16 LIG L   1      -1.970   2.629  -1.194  1.00  0.00      LIG 
+ATOM     41  H17 LIG L   1       3.706   1.875  -2.840  1.00  0.00      LIG 
+ATOM     42  H18 LIG L   1       2.847   0.298  -2.639  1.00  0.00      LIG 
+ATOM     43  H19 LIG L   1       4.436   0.364  -3.488  1.00  0.00      LIG 
+ATOM     44  H20 LIG L   1       5.947  -1.087   0.545  1.00  0.00      LIG 
+ATOM     45  H21 LIG L   1       4.283  -1.745   0.795  1.00  0.00      LIG 
+ATOM     46  H22 LIG L   1       5.301  -1.290   2.213  1.00  0.00      LIG 
+ATOM     47  H23 LIG L   1      -1.860  -4.263   0.542  1.00  0.00      LIG 
+ATOM     48  H24 LIG L   1      -5.575  -0.349   0.437  1.00  0.00      LIG 
+ATOM     49  H25 LIG L   1       2.021  -3.183  -0.939  1.00  0.00      LIG 
+ATOM     50  H26 LIG L   1      -4.270   3.408  -1.171  1.00  0.00      LIG 
+ATOM     51  H27 LIG L   1       0.414  -4.916  -0.192  1.00  0.00      LIG 
+ATOM     52  H28 LIG L   1      -6.094   1.926  -0.392  1.00  0.00      LIG 
+TER      53      LIG      1
+END
