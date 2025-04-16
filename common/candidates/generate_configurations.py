@@ -3,14 +3,14 @@ import tarfile
 import pandas as pd
 
 
-# Load the data
-pos_cand = pd.read_csv('bbbp_positive_pubchem.csv', comment=';') # colon for comments because # is already used
-neg_cand = pd.read_csv('bbbp_negative_pubchem.csv', comment=';')
 
 # Quick way of checking if the atom specifications are already in the charmm36 section
 def compare(atoms, lines1, section):
     predefined_section = None
     for nline in lines1:
+        if nline.startswith(';') or nline == '\n':
+            continue
+
         if nline.startswith('['):
             predefined_section = nline.strip()
             continue
@@ -229,6 +229,10 @@ def setup_files(cid, cls, membrane):
 
 
 if __name__ == '__main__':
+    # Load the data
+    pos_cand = pd.read_csv('bbbp_positive_pubchem.csv', comment=';') # colon for comments because # is already used
+    neg_cand = pd.read_csv('bbbp_negative_pubchem.csv', comment=';')
+
     # Process the positive candidates
     for i, row in pos_cand.iterrows():
         cid = row['idx']
