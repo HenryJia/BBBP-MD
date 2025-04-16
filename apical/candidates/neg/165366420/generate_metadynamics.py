@@ -1,0 +1,1 @@
+../../../../common/metadynamics/generate_metadynamics.py

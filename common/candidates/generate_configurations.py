@@ -186,6 +186,7 @@ def setup_files(cid, cls, membrane):
     symlink(f'{source_dir}/metadynamics.sbatch', './metadynamics.sbatch')
     symlink(f'{source_dir}/metadynamics_l40.sbatch', './metadynamics_l40.sbatch')
 
+    symlink(f'{source_dir}/equilibrate_nvt.mdp', './equilibrate_nvt.mdp')
     symlink(f'{source_dir}/equilibrate.mdp', './equilibrate.mdp')
     symlink(f'{source_dir}/metadynamics.mdp', './metadynamics.mdp')
 

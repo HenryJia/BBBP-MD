@@ -18,6 +18,8 @@ if [ -f "equilibrate.cpt" ]; then
 	echo "Continuing for last run"
 	srun bash -c 'gmx mdrun -nt 42 -v -deffnm equilibrate -cpi equilibrate.cpt -plumed equilibrate2'
 else
-	srun bash -c 'gmx grompp -f equilibrate.mdp -o equilibrate.tpr -c setup.gro -r setup.gro -p topol.top && gmx mdrun -nt 42 -v -deffnm equilibrate -plumed equilibrate'
+	srun bash -c 'gmx grompp -f equilibrate_nvt.mdp -o equilibrate_nvt.tpr -c setup.gro -r setup.gro -p topol.top && gmx mdrun -nt 42 -v -deffnm equilibrate_nvt -plumed equilibrate_nvt'
+	srun bash -c 'gmx grompp -f equilibrate.mdp -o equilibrate.tpr -c setup.gro -r setup.gro -p topol.top -t equilibrate_nvt.cpt && gmx mdrun -nt 42 -v -deffnm equilibrate -plumed equilibrate'
 fi
+
 
