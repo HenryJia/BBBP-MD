@@ -1,1 +1,0 @@
-../../../../common/metadynamics/insert-molecule.py

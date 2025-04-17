@@ -236,6 +236,7 @@ if __name__ == '__main__':
 
     # Process the positive candidates
     for i, row in pos_cand.iterrows():
+        break # We've already done this, skip
         cid = row['idx']
         print(f'Processing Positive Candidate {cid}')
         process_candidate(cid, 'pos')
