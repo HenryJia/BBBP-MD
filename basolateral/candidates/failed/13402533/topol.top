@@ -12,15 +12,15 @@
 
 ; Include forcefield parameters
 ; #include "toppar/forcefield.itp"
-#include "toppar/SAPS.itp"
-#include "toppar/SAPC.itp"
-#include "toppar/POPC.itp"
 #include "toppar/CHL1.itp"
+#include "toppar/SAPC.itp"
+#include "toppar/SLPC.itp"
+#include "toppar/SAPS.itp"
 #include "toppar/OSM.itp"
 #include "toppar/SAPE.itp"
 #include "toppar/SOPE.itp"
 #include "toppar/SAPI.itp"
-#include "toppar/SLPC.itp"
+#include "toppar/POPC.itp"
 #include "toppar/SOD.itp"
 #include "toppar/CLA.itp"
 #include "toppar/TIP3.itp"
@@ -31,15 +31,16 @@ Title
 
 [ molecules ]
 ; Compound	#mols
-SAPS  	          16
-SAPC  	          16
-POPC  	           8
 CHL1  	          56
-OSM   	          36
+SAPC  	          12
+SLPC  	          12
+SAPS  	          20
+OSM   	          44
 SAPE  	          28
 SOPE  	          12
 SAPI  	           4
-SLPC  	          16
-SOD   	          73
+POPC  	           4
+SOD   	          77
 CLA   	          53
-TIP3  	       19968
+TIP3  	19615
+LIG  	1
