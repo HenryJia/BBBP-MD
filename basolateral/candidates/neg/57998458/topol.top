@@ -42,4 +42,6 @@ SAPI  	           4
 POPC  	           4
 SOD   	          77
 CLA   	          53
-TIP3  	       19674
+TIP3        19621
+CLA              1
+LIG  	1
