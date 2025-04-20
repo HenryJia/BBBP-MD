@@ -3,10 +3,10 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=42
 #SBATCH --gres=gpu:lovelace_l40:1
-#SBATCH --time=48:00:00
+#SBATCH --time=24:00:00
 #SBATCH --mem-per-cpu=3850 
-#SBATCH --partition=gpu
-#SBATCH --account=su007-gcs-gpu
+#SBATCH --partition=gpulowpri
+#SBATCH --account=su007-gpulowpri
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=h.jia.2@warwick.ac.uk
 
