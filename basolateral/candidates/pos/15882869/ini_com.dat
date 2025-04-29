@@ -1,0 +1,5 @@
+# This is to help us figure out centre of mass for scaled component stuff
+c_lig: COM ATOMS=81282-81333
+p: POSITION ATOM=c_lig SCALED_COMPONENTS
+PRINT ARG=p.a,p.b,p.c FILE=com_position.txt STRIDE=1
+FLUSH STRIDE=1

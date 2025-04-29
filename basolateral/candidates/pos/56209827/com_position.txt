@@ -1,0 +1,8 @@
+#! FIELDS time p.a p.b p.c
+#! SET min_p.a -0.5
+#! SET max_p.a +0.5
+#! SET min_p.b -0.5
+#! SET max_p.b +0.5
+#! SET min_p.c -0.5
+#! SET max_p.c +0.5
+ 0.000000 -0.473911 0.462244 -0.053196

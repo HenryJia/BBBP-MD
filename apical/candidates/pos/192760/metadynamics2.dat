@@ -1,9 +1,9 @@
 RESTART
-c_lig: COM ATOMS=82273-82321
+c_lig: COM ATOMS=82246-82294
 p: POSITION ATOM=c_lig SCALED_COMPONENTS
 
 c_mem: COM ATOMS=1-22320
-r_lig_xy: RESTRAINT ARG=p.a,p.b AT=0.431968,-0.499781 KAPPA=1000,1000
+r_lig_xy: RESTRAINT ARG=p.a,p.b AT=-0.485039,0.483020 KAPPA=1000,1000
 
 # Absolute value of z distance from the centre of the membrane
 d: DISTANCE ATOMS=c_lig,c_mem COMPONENTS
