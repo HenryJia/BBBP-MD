@@ -153,4 +153,62 @@ for i, rm in enumerate(apical_ref_fes):
 plt.legend()
 plt.savefig('candidates_boxplot_total.png')
 
+# Plot the summary statistics
+
+plt.figure(figsize=(8, 10))
+plt.title('cLogP Distribution of Candidates')
+pos_cand = pd.read_csv(args['pos_csv'], comment=';') # colon for comments because # is already used
+neg_cand = pd.read_csv(args['neg_csv'], comment=';')
+
+# Drop all zero columns
+pos_cand = pos_cand.drop(columns=pos_cand.columns[pos_cand.nunique() == 1])
+neg_cand = neg_cand.drop(columns=neg_cand.columns[neg_cand.nunique() == 1])
+
+print(pos_cand.columns)
+print(neg_cand.columns)
+
+plt.hist(
+    pos_cand['LogP'], bins=20, alpha=0.5, label='Positive Candidates', color='green'
+    )
+plt.hist(
+    neg_cand['LogP'], bins=20, alpha=0.5, label='Negative Candidates', color='red'
+    )
+plt.xlabel('cLogP')
+plt.ylabel('Count')
+plt.legend()
+plt.savefig('candidates_clogp.png')
+
+plt.figure(figsize=(8, 10))
+plt.title('Molecular Weight Distribution of Candidates')
+plt.hist(
+    pos_cand['MolWt'], bins=20, alpha=0.5, label='Positive Candidates', color='green'
+    )
+plt.hist(
+    neg_cand['MolWt'], bins=20, alpha=0.5, label='Negative Candidates', color='red'
+    )
+plt.xlabel('Molecular Weight (g/mol)')
+plt.ylabel('Count')
+plt.legend()
+plt.savefig('candidates_molwt.png')
+
+pos_cliques = pos_cand.iloc[:, 7:-1]
+neg_cliques = neg_cand.iloc[:, 7:-2]
+
+#print(pos_cliques)
+#print(neg_cliques)
+
+plt.figure(figsize=(8, 12))
+plt.title('Clique Count Distribution of Candidates')
+plt.bar(
+    pos_cliques.columns, pos_cliques.sum(), alpha=0.5, label='Positive Candidates', color='green'
+    )
+plt.bar(
+    neg_cliques.columns, neg_cliques.sum(), alpha=0.5, label='Negative Candidates', color='red'
+    )
+plt.ylabel('Count')
+plt.xticks(rotation=60, ha='right')
+plt.subplots_adjust(bottom=0.2)
+plt.legend()
+plt.savefig('candidates_clique_count.png')
+
 plt.show()
