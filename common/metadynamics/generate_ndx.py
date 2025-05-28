@@ -47,6 +47,6 @@ with open('index_local.ndx', 'w') as f:
 
     for i, a in enumerate(atom_num):
         f.write(f'{a}\t')
-        if (i % 15 == 0):
+        if ((i + 1) % 15 == 0):
             f.write('\n')
     f.write('\n')
