@@ -45,6 +45,8 @@ with open('index_local.ndx', 'w') as f:
         atom_str = re.findall(r'\d+SAPS\s+'+ atom + '\s+\d+', gro)
         atom_num += [str(int(a[-5:])) for a in atom_str]
 
+    print(f'Found {len(atom_num)} SAPS atoms for gmx order')
+
     for i, a in enumerate(atom_num):
         f.write(f'{a}\t')
         if ((i + 1) % 15 == 0):
