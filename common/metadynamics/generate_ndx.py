@@ -1,4 +1,12 @@
-# Regenerate ndx file from the metadynamic.gro
+# Regenerate ndx file from the metadynamic.gro for gmx order
+
+SAPS_C = set(
+    [
+        'C31', 'C32', 'C33', 'C34', 'C35', 'C36', 'C37', 'C38', 'C39',
+        'C310', 'C311', 'C312', 'C313', 'C314', 'C315', 'C316', 'C317', 'C318',
+    ]
+)
+
 import re
 
 
@@ -31,31 +39,14 @@ atom_str = re.findall(r'\d+LIG\s+[A-Z]+\d+', gro)
 atom_num = [a[-5:] for a in atom_str]
 
 with open('index_local.ndx', 'w') as f:
-    f.write('[ MEMB ]\n')
-    for i in range(membrane_start, membrane_end + 1):
-        f.write(f'{i}\t')
+    f.write('[ SAPS ]\n')
+    atom_num = []
+    for atom in SAPS_C:
+        atom_str = re.findall(r'\d+SAPS\s+'+ atom + '\s+\d+', gro)
+        atom_num += [str(int(a[-5:])) for a in atom_str]
+
+    for a in atom_num:
+        f.write(f'{a}\t')
         if (i % 15 == 0):
             f.write('\n')
     f.write('\n')
-
-    f.write('[ SOLV ]\n')
-    for i in range(membrane_end + 1, int(atom_num[0])):
-        f.write(f'{i}\t')
-        if (i % 15 == 0):
-            f.write('\n')
-    f.write('\n')
-
-    f.write('[ LIGAND ]\n')
-    for i in range(int(atom_num[0]), int(atom_num[-1]) + 1):
-        f.write(f'{i}\t')
-        if (i % 15 == 0):
-            f.write('\n')
-    f.write('\n')
-
-    f.write('[ SYSTEM ]\n')
-    for i in range(1, int(atom_num[-1]) + 1):
-        f.write(f'{i}\t')
-        if (i % 15 == 0):
-            f.write('\n')
-    f.write('\n')
-
