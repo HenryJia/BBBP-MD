@@ -45,7 +45,7 @@ with open('index_local.ndx', 'w') as f:
         atom_str = re.findall(r'\d+SAPS\s+'+ atom + '\s+\d+', gro)
         atom_num += [str(int(a[-5:])) for a in atom_str]
 
-    for a in atom_num:
+    for i, a in enumerate(atom_num):
         f.write(f'{a}\t')
         if (i % 15 == 0):
             f.write('\n')
