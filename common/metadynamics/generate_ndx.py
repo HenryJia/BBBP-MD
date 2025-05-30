@@ -8,6 +8,15 @@ SAPS_C = set(
         'C310', 'C311', 'C312', 'C313', 'C314', 'C315', 'C316', 'C317', 'C318',
     ]
 )
+SAPC_C = set(
+    [
+        'C21', 'C22', 'C23', 'C24', 'C25', 'C26', 'C27', 'C28', 'C29',
+        'C210', 'C211', 'C212', 'C213', 'C214', 'C215', 'C216', 'C217', 'C218', 'C219', 'C220',
+        'C31', 'C32', 'C33', 'C34', 'C35', 'C36', 'C37', 'C38', 'C39',
+        'C310', 'C311', 'C312', 'C313', 'C314', 'C315', 'C316', 'C317', 'C318',
+    ]
+)
+
 
 import re
 
@@ -47,6 +56,19 @@ with open('index_local.ndx', 'w') as f:
         atom_num = [str(int(a[-5:])) for a in atom_str]
 
         print(f'Found {len(atom_num)} SAPS {atom} atoms for gmx order')
+
+        for i, a in enumerate(atom_num):
+            f.write(f'{a}\t')
+            if ((i + 1) % 15 == 0):
+                f.write('\n')
+        f.write('\n')
+
+    for atom in SAPC_C:
+        f.write(f'[ SAPC {atom}]\n')
+        atom_str = re.findall(r'\d+SAPC\s+'+ atom + '\s+\d+', gro)
+        atom_num = [str(int(a[-5:])) for a in atom_str]
+
+        print(f'Found {len(atom_num)} SAPC {atom} atoms for gmx order')
 
         for i, a in enumerate(atom_num):
             f.write(f'{a}\t')
