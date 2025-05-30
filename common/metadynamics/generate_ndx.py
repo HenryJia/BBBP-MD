@@ -80,7 +80,7 @@ atom_num = [a[-5:] for a in atom_str]
 with open('index_local.ndx', 'w') as f:
     for atom in SAPS_C:
         f.write(f'[ SAPS {atom}]\n')
-        atom_str = re.findall(r'\d+SAPS\s+'+ atom + '\s+\d+', gro)
+        atom_str = re.findall(r'\d+SAPS\s+'+ atom + '\s*\d+', gro)
         atom_num = [str(int(a[-5:])) for a in atom_str]
 
         print(f'Found {len(atom_num)} SAPS {atom} atoms for gmx order')
@@ -93,7 +93,7 @@ with open('index_local.ndx', 'w') as f:
 
     for atom in SAPC_C:
         f.write(f'[ SAPC {atom}]\n')
-        atom_str = re.findall(r'\d+SAPC\s+'+ atom + '\s+\d+', gro)
+        atom_str = re.findall(r'\d+SAPC\s+'+ atom + '\s*\d+', gro)
         atom_num = [str(int(a[-5:])) for a in atom_str]
 
         print(f'Found {len(atom_num)} SAPC {atom} atoms for gmx order')
@@ -106,7 +106,7 @@ with open('index_local.ndx', 'w') as f:
 
     for atom in POPC_C:
         f.write(f'[ POPC {atom}]\n')
-        atom_str = re.findall(r'\d+POPC\s+'+ atom + '\s+\d+', gro)
+        atom_str = re.findall(r'\d+POPC\s+'+ atom + '\s*\d+', gro)
         atom_num = [str(int(a[-5:])) for a in atom_str]
 
         print(f'Found {len(atom_num)} POPC {atom} atoms for gmx order')
@@ -119,7 +119,7 @@ with open('index_local.ndx', 'w') as f:
 
     for atom in CHL1_C:
         f.write(f'[ CHL1 {atom}]\n')
-        atom_str = re.findall(r'\d+CHL1\s+'+ atom + '\s+\d+', gro)
+        atom_str = re.findall(r'\d+CHL1\s+'+ atom + '\s*\d+', gro)
         atom_num = [str(int(a[-5:])) for a in atom_str]
 
         print(f'Found {len(atom_num)} CHL1 {atom} atoms for gmx order')
@@ -132,7 +132,7 @@ with open('index_local.ndx', 'w') as f:
 
     for atom in OSM_C:
         f.write(f'[ OSM {atom}]\n')
-        atom_str = re.findall(r'\d+OSM\s+'+ atom + '\s+\d+', gro)
+        atom_str = re.findall(r'\d+OSM\s+'+ atom + '\s*\d+', gro)
         atom_num = [str(int(a[-5:])) for a in atom_str]
 
         print(f'Found {len(atom_num)} OSM {atom} atoms for gmx order')
@@ -145,7 +145,7 @@ with open('index_local.ndx', 'w') as f:
 
     for atom in SAPE_C:
         f.write(f'[ SAPE {atom}]\n')
-        atom_str = re.findall(r'\d+SAPE\s+'+ atom + '\s+\d+', gro)
+        atom_str = re.findall(r'\d+SAPE\s+'+ atom + '\s*\d+', gro)
         atom_num = [str(int(a[-5:])) for a in atom_str]
 
         print(f'Found {len(atom_num)} SAPE {atom} atoms for gmx order')
