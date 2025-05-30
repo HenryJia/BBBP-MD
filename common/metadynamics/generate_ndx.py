@@ -83,8 +83,9 @@ with open('index_local.ndx', 'w') as f:
     for key in desired_atoms:
         for atom in desired_atoms[key]:
             f.write(f'[ {key} {atom}]\n')
-            atom_str = re.findall(r'\d+'+ key +'\s+'+ atom + '.\{4\}\d', gro)
-            atom_num = [str(int(a[-5:])) for a in atom_str]
+            atom_str = re.findall(r'\d+'+ key +'\s+'+ atom + '.{4}\d\s', gro)
+            #print(atom_str)
+            atom_num = [str(int(a[-6:])) for a in atom_str]
 
             print(f'Found {len(atom_num)} {key} {atom} atoms for gmx order')
 
