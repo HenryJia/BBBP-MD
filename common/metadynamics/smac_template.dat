@@ -1,0 +1,19 @@
+# Compute the SMAC over our trajectory https://www.plumed.org/doc-v2.9/user-doc/html/_s_m_a_c.html
+c_lig: COM ATOMS={lig}
+p: POSITION ATOM=c_lig SCALED_COMPONENTS
+
+c_mem: COM ATOMS={membrane}
+d: DISTANCE ATOMS=c_lig,c_mem COMPONENTS
+d_abs: MATHEVAL ARG=d.z FUNC=abs(x) VAR=x PERIODIC=NO
+
+m3: MOLECULES ...
+{mem_lipids}
+...
+
+s2: SMAC ...
+   SPECIES=m3 LOWMEM 
+   KERNEL1={{GAUSSIAN CENTER=0 SIGMA=0.480}}  KERNEL2={{GAUSSIAN CENTER=pi SIGMA=0.480}}  
+   SWITCH={{RATIONAL R_0=0.6}}  MORE_THAN={{RATIONAL R_0=0.7}}  SWITCH_COORD={{EXP R_0=4}}  
+...
+
+PRINT ARG=s2.* FILE=smac.txt STRIDE=1
