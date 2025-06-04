@@ -85,18 +85,19 @@ if os.path.exists('com_membrane.txt'): # Once we have the com of the membrane, w
             z_mean += float(atom.group(4)) / len(smac_atoms[lipid_type])
 
         if z_mean < com_mem[2]:
-            print('Lipid ', i, 'of type', lipid_type, 'is below the COM of the membrane at', com_mem[2], 'z_mean:', z_mean)
+            #print('Lipid ', i, 'of type', lipid_type, 'is below the COM of the membrane at', com_mem[2], 'z_mean:', z_mean)
             atoms = atoms[::-1] # Reverse the order of the atoms if the lipid is below the COM of the membrane
             below += 1
         else:
-            print('Lipid ', i, 'of type', lipid_type, 'is above the COM of the membrane at', com_mem[2], 'z_mean:', z_mean)
+            #print('Lipid ', i, 'of type', lipid_type, 'is above the COM of the membrane at', com_mem[2], 'z_mean:', z_mean)
+            pass
         atoms += [atoms[0]] # We need the first atom at the end if we're going by the angles vetween vectors of atom pairs
 
         # Step 4: Generate the SMAC string for this lipid
         mols += f'  MOL{i}={atoms[0]},{atoms[1]},{atoms[2]}\n'
     
     print('Total lipids below the COM:', below, 'out of', max_lipids)
-    print(mols)
+    #print(mols)
 
     with open('smac_template.dat', 'r') as f:
         smac = f.read()
