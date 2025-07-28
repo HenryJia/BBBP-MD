@@ -4,9 +4,7 @@ import pandas as pd
 import numpy as np
 
 import matplotlib.pyplot as plt
-
-# Fuck it, hardcode the arguments, we're not gonna really change them anyway
-args = {}
+import seaborn as sns
 
 cmap = plt.get_cmap('viridis')
 reference_colors = ['red', 'blue', 'green', 'orange', 'purple']
@@ -32,17 +30,52 @@ def read_smac(fn):
         )
     return data
 
-plt.figure(figsize=(16, 10))
-#for i, idx in enumerate(neg_cand['idx']):
-i = 0
-idx = 57998458
-fn = f'{apical_fn}/candidates/neg/{idx}/smac.txt'
-smac = read_smac(fn)
+def kde_smac(fns):
+    smac = []
+    for fn in fns:
+        data = read_smac(fn)
+        smac += [data]
+    smac = pd.concat(smac, axis=0)
 
-plt.scatter(
-    smac['d_abs'], smac['smac'],
-    label=str(idx), color=cmap(i / len(neg_cand['idx']))
-)
+    plt.figure(figsize=(16, 10))
 
-print(smac.head())
+    sns.kdeplot(x=smac['d_abs'], y=smac['smac'], cmap='viridis', fill=True, thresh=0.05, levels=100)
+    plt.xlabel('Distance to membrane (nm)')
+    plt.ylabel('SMAC (kcal/mol)')
+    plt.title('Kernel Density Estimate of SMAC vs Distance to Membrane Centre')
+
+apical_fns = []
+basolateral_fns = []
+for i, row in pos_cand.iterrows():
+    apical_fns += [
+        os.path.join(apical_fn, 'candidates/pos/', str(row['idx']), 'smac.txt')
+    ]
+    basolateral_fns += [
+        os.path.join(basolateral_fn, 'candidates/pos/', str(row['idx']), 'smac.txt')
+    ]
+
+kde_smac(apical_fns)
+plt.savefig('apical/smac_kde_pos.png')
+kde_smac(basolateral_fns)
+plt.savefig('basolateral/smac_kde_pos.png')
+kde_smac(apical_fns + basolateral_fns)
+plt.savefig('smac_kde_pos.png')
+
+apical_fns = []
+basolateral_fns = []
+for i, row in neg_cand.iterrows():
+    apical_fns += [
+        os.path.join(apical_fn, 'candidates/neg/', str(row['idx']), 'smac.txt')
+    ]
+    basolateral_fns += [
+        os.path.join(basolateral_fn, 'candidates/neg/', str(row['idx']), 'smac.txt')
+    ]
+
+kde_smac(apical_fns)
+plt.savefig('apical/smac_kde_neg.png')
+kde_smac(basolateral_fns)
+plt.savefig('basolateral/smac_kde_neg.png')
+kde_smac(apical_fns + basolateral_fns)
+plt.savefig('smac_kde_neg.png')
+
 plt.show()
