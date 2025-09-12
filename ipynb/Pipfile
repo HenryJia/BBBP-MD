@@ -1,0 +1,33 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+rdkit-pypi = "~=2020.9.5.2"
+numpy = "~=1.20.0"
+pandas = "*"
+tqdm = "*"
+umap-learn = "*"
+imbalanced-learn = "*"
+networkx = "*"
+torch = "*"
+matplotlib = "~=3.7.5"
+plotly = "*"
+pyqt5 = "*"
+cairosvg = "*"
+seaborn = "~=0.13.2"
+ipykernel = "*"
+jupyter = "*"
+dask = {extras = ["complete"], version = "~=2023.2.0"}
+dask-jobqueue = "*"
+dask-mpi = "*"
+pyarrow = "*"
+mpi4py = "*"
+cython = "*"
+kaleido = "*"
+
+[requires]
+python_version = "3.9"
+
+[dev-packages]
