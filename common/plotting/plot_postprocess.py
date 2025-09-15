@@ -30,7 +30,7 @@ def read_smac(fn):
         )
     return data
 
-def kde_smac(fns):
+def kde_smac(fns, title):
     smac = []
     for fn in fns:
         data = read_smac(fn)
@@ -42,7 +42,7 @@ def kde_smac(fns):
     sns.kdeplot(x=smac['d_abs'], y=smac['smac'], cmap='viridis', fill=True, thresh=0.05, levels=100)
     plt.xlabel('Distance to membrane (nm)')
     plt.ylabel('SMAC (kcal/mol)')
-    plt.title('Kernel Density Estimate of SMAC vs Distance to Membrane Centre')
+    plt.title(title)
 
 apical_fns = []
 basolateral_fns = []
@@ -54,11 +54,11 @@ for i, row in pos_cand.iterrows():
         os.path.join(basolateral_fn, 'candidates/pos/', str(row['idx']), 'smac.txt')
     ]
 
-kde_smac(apical_fns)
+kde_smac(apical_fns, title='Kernel Density Estimate of SMAC vs Distance to Membrane Centre - Apical Membrane - BBBP+ Compounds')
 plt.savefig('apical/smac_kde_pos.png')
-kde_smac(basolateral_fns)
+kde_smac(basolateral_fns, title='Kernel Density Estimate of SMAC vs Distance to Membrane Centre - Basolateral Membrane - BBBP+ Compounds')
 plt.savefig('basolateral/smac_kde_pos.png')
-kde_smac(apical_fns + basolateral_fns)
+kde_smac(apical_fns + basolateral_fns, title='Kernel Density Estimate of SMAC vs Distance to Membrane Centre - BBBP+ Compounds')
 plt.savefig('smac_kde_pos.png')
 
 apical_fns = []
@@ -71,11 +71,11 @@ for i, row in neg_cand.iterrows():
         os.path.join(basolateral_fn, 'candidates/neg/', str(row['idx']), 'smac.txt')
     ]
 
-kde_smac(apical_fns)
+kde_smac(apical_fns, title='Kernel Density Estimate of SMAC vs Distance to Membrane Centre - Apical Membrane - BBBP- Compounds')
 plt.savefig('apical/smac_kde_neg.png')
-kde_smac(basolateral_fns)
+kde_smac(basolateral_fns, title='Kernel Density Estimate of SMAC vs Distance to Membrane Centre - Basolateral Membrane - BBBP- Compounds')
 plt.savefig('basolateral/smac_kde_neg.png')
-kde_smac(apical_fns + basolateral_fns)
+kde_smac(apical_fns + basolateral_fns, title='Kernel Density Estimate of SMAC vs Distance to Membrane Centre - BBBP- Compounds')
 plt.savefig('smac_kde_neg.png')
 
 plt.show()
