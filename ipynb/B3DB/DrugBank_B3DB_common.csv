@@ -1,0 +1,3089 @@
+DrugBank,B3DB
+Choline,choline
+Biotin,biotin
+Ascorbic acid,l-ascorbic acid
+Spermine,spermine
+Calcitriol,calcitriol
+Tryptophan,l-tryptophan
+Glycine,glycine
+Pyridoxal,pyridoxal
+Thiamine,thiamine
+Folic acid,folic acid
+Vitamin E,vitamine(alpha-tocopherol)
+Pyridoxine,pyridoxine
+Cholecalciferol,cholecalciferol
+Menadione,menadione
+Fluvoxamine,fluvoxamine
+Baclofen,baclofen
+Adenine,adenine
+Amphetamine,amphetamine
+Nicotine,nicotine
+Lorazepam,lorazepam
+Ramipril,ramipril
+Ethchlorvynol,ethchlorvynol
+Flunisolide,flunisolide
+Carbidopa,carbidopa
+Betaxolol,betaxolol
+Fluconazole,fluconazole
+Phentermine,phentermine
+Indecainide,indecainide hydrochloride
+Sildenafil,sildenafil
+Caffeine,58-08-2
+Tramadol,tramadol
+Pyrimethamine,pyrimethamine
+Reserpine,reserpine
+Oseltamivir,oseltamivir
+Citalopram,citalopram
+Adapalene,adapalene
+Dofetilide,dofetilide
+Midodrine,midodrine
+Succinylcholine,succinylcholine
+Ticlopidine,ticlopidine hydrochloride
+Nelfinavir,nelfinavir
+Torasemide,torasemide
+Pantoprazole,pantoprazole
+Bethanidine,bethanidine sulfate
+Lovastatin,lovastatin
+Enflurane,enflurane
+Eletriptan,eletriptan
+Moxifloxacin,moxifloxacin
+Oxyphenonium,oxyphenonium
+Guanadrel,disulfiram
+Pregabalin,pregabalin
+Isoetharine,isoetharine
+Cefotiam,cefotiam
+Temazepam,temazepam
+Methyclothiazide,methyclothiazide
+Aminosalicylic acid,clofazimine
+Butabarbital,butobarbitone
+Nevirapine,129618-40-2
+Butalbital,butalbital
+Pipobroman,pipobroman
+Oxiconazole,oxiconazole
+Reboxetine,reboxetine
+Milrinone,milrinone
+Cabergoline,cabergoline
+Ziprasidone,ziprasidone
+Phenytoin,phenytoin
+Medrysone,medrysone
+Mesalazine,mesalamine
+Clotrimazole,clotrimazole
+Carmustine,bis(chloroethyl)nitrosourea (carmustine) (bcnu)
+Metoprolol,metoprolol
+Sulfanilamide,sulfanilamide
+Ropinirole,ropinirole (skf101468)
+Cycloserine,cycloserine
+Dicoumarol,dicumarol
+Anagrelide,anagrelide hydrochloride
+Diatrizoate,sodiumamidotrizoate
+Topiramate,topiramate
+Cefmetazole,cefmetazole
+Theophylline,theophylline
+Betazole,betazole
+Chlorotrianisene,chlorotrianisene
+Lidocaine,lidocaine
+Olmesartan,olmesartan medoxomil
+Venlafaxine,venlafaxine
+Amsacrine,amsacrine
+Amcinonide,amcinonide
+Argatroban,argatroban
+Chlorambucil,chlorambucil
+Disopyramide,disopyramide
+Atomoxetine,tomoxetine
+Clemastine,clemastine
+Morphine,morphine
+Liothyronine,liothyronine
+Pamidronic acid,pamidronate
+Etomidate,etomidate
+Flucloxacillin,flucloxacillin
+Bupivacaine,bupivacaine
+Mitomycin,mitomycin
+Talbutal,talbutal
+Dapiprazole,dapiprazole
+Pentobarbital,pentobarbital
+Zolmitriptan,zolmitriptan
+Valproic acid,valproate
+Gefitinib,gefitinib
+Acetaminophen,acetaminophen (p-acetamidophenol)
+Codeine,codeine
+Amitriptyline,50-48-6
+Ibutilide,ibutilide
+Dihydroergotamine,dihydroergotamine
+Fluorometholone,fluorometholone
+Indomethacin,indomethacin
+Bexarotene,bexarotene
+Hydromorphone,hydromorphone
+Atenolol,atenolol 
+Floxuridine,floxuridine
+Omeprazole,omeprazole
+Methadone,methadone
+Ethambutol,ethambutol
+Terfenadine,terfenadine
+Pyrazinamide,m-xylene
+Diltiazem,diltiazem
+Cetirizine,levocetirizine
+Protriptyline,protriptyline
+Trimethadione,trimethadione
+Metixene,metixene
+Clobazam,22316-47-8
+Alfuzosin,alfuzosin
+Aminohippuric acid,4-aminohippuric acid
+Tioguanine,thioguanine
+Buclizine,buclizine
+Mefloquine,mefloquine
+Nitisinone,nitisinone
+Chlorzoxazone,chlorzoxazone
+Methylergometrine,methylergonovine
+Doxylamine,doxylamine
+Grepafloxacin,grepafloxacin
+Aztreonam,aztreonam
+Megestrol acetate,megestrolacetate
+Mirtazapine,mirtazapine
+Meprobamate,meprobamate
+Thiethylperazine,thiethylperazine
+Trihexyphenidyl,trihexyphenidyl
+Levonorgestrel,norgestrel
+Cidofovir,cidofovir
+Dexrazoxane,dexrazoxane
+Timolol,timolol
+Tacrine,"tacrine, cognex"
+Amlodipine,amlodipine besylate
+Sulpiride,sulpiride
+Triamterene,triamterene
+Procyclidine,procyclidine hydrochloride
+Oxyphencyclimine,oxyphencyclimine
+Nimodipine,nimodipine
+Progesterone,progesterone
+Profenamine,isothamine(profenamine)
+Beclomethasone dipropionate,beclomethasonedipropionate(beclometasone-dipropionate)
+Zoledronic acid,zoledronic acid
+Phenylephrine,phenylephrine
+Carbimazole,carbimazole
+Nisoldipine,nisoldipine
+Alprazolam,alprazolam
+Loxapine,loxapine
+Carisoprodol,carisoprodol
+Eszopiclone,"eszopiclone, lunesta"
+Sorafenib,sorafenib
+Remoxipride,remoxipride
+Ampicillin,ampicillin
+Phenoxymethylpenicillin,phenoxymethylpenicillin
+Gentian violet cation,gentian violet
+Secobarbital,secobarbital
+Promazine,promazine
+Rosiglitazone,rosiglitazone
+Zolpidem,zolpidem
+Methylphenidate,methylphenidate
+Pramipexole,pramipexole
+Methocarbamol,methocarbamol
+Carbamoylcholine,carbamylcholine
+Streptozocin,streptozocin
+Prochlorperazine,phenobarbital
+Cefpiramide,cefpiramide
+Cyproheptadine,cyproheptadine
+Bendroflumethiazide,bendroflumethiazide
+Cerivastatin,cerivastatin
+Epirubicin,epirubicin
+Teniposide,teniposide
+Gemcitabine,gemcitabine
+Meperidine,meperidine
+Droperidol,droperidol
+Loratadine,loratadine
+Prazosin,prazosin
+Loracarbef,loracarbef
+Cefalotin,cephalotin
+Imipramine,imipramine
+Lansoprazole,lansoprazole
+Framycetin,framycetin
+Metharbital,metharbital
+Dronabinol,dronabinol
+Levothyroxine,levothyroxine
+Tenoxicam,tenoxicam
+Acitretin,acitretin
+Methohexital,151-83-7
+Fluoxetine,fluoxetine
+Chlorpromazine,50-53-3
+Duloxetine,duloxetine
+Raloxifene,raloxifene
+Celecoxib,"celecoxib, celebrex"
+Pefloxacin,pefloxacin
+Nabilone,nabilone
+Dicloxacillin,dicloxacillin
+Sotalol,sotalol
+Buspirone,buspirone
+Brimonidine,brimonidine
+Miglitol,miglitol
+Zidovudine,zidovudine
+Darifenacin,darifenacin
+Oxycodone,oxycodone
+Cimetidine,cimetidine (y-g1)
+Altretamine,altretamine
+Haloperidol,haloperidol
+Levallorphan,levallorphan
+Cefotaxime,cefotaxime
+Triflupromazine,trifluopromazine
+Entacapone,entacapone
+Dextromethorphan,dextromethorphan
+Tridihexethyl,tridihexethyl chloride
+Nitazoxanide,nitazoxanide
+Carteolol,carteolol
+Flutamide,flutamide
+Aminocaproic acid,aminocaproic acid
+Trandolapril,trandolapril
+Metolazone,metolazone
+Tolnaftate,tolnaftate
+Foscarnet,mesna
+Rofecoxib,"rofecoxib, vioxx"
+Cinchocaine,dibucaine
+Mephenytoin,mephenytoin
+Lercanidipine,lercanidipine
+Nortriptyline,nortriptyline
+Ciprofloxacin,ciprofloxacin
+Amoxapine,amoxapine
+Erlotinib,"tarceva, erlotinib"
+Cefdinir,cefdinir
+Fluorouracil,5-fluorouracil
+Adinazolam,adinazolam
+Guanidine,guanidine
+Desoximetasone,desoximetasone
+Cyclophosphamide,cyclophosphamide
+Benazepril,benazepril
+Toremifene,toremifene
+Azelaic acid,gr94839_c
+Lamotrigine,lamotrigine
+Pentostatin,pentostatin
+Hydroxyzine,hydroxyzine
+Zafirlukast,zafirlukast
+Acetohydroxamic acid,acetohydroxamic acid
+Methoxsalen,methoxsalen
+Doxapram,doxapram
+Methotrexate,methotrexate
+Carbamazepine,carbamazepine
+Perflutren,perflutren
+Cephalexin,cephalexin
+Zanamivir,zanamivir
+Propylthiouracil,propylthiouracil
+Propranolol,upcmld-dp067
+Clonidine,2pnc
+Bosentan,bosentan
+Benzthiazide,benzthiazide
+Cinnarizine,cinnarizine
+Mazindol,mazindol
+Fenfluramine,fenfluramine
+Sulfamethizole,sulfamethizole
+Diclofenac,diclofenac
+Enalapril,enalapril
+Voriconazole,voriconazole
+Fluticasone propionate,fluticasone propionate
+Lisuride,lisuride
+Ethosuximide,ethosuximide
+Fluocinolone acetonide,fluocinolone-acetonide
+Nizatidine,unii-p41pml4ghr
+Thiopental,thiopental (thiopentone)
+Cinalukast,cinalukast
+Piperazine,piperazine citrate
+Doxazosin,doxazosin mesylate
+Nafcillin,nafcillin
+Metaraminol,metaraminol
+Cyclothiazide,cyclothiazide
+Imatinib,imatinib
+Paramethadione,paramethadione
+Oxandrolone,oxandrolone
+Amodiaquine,amodiaquine
+Fluphenazine,fluphenazine
+Bisoprolol,bisoprolol fumarate
+Efavirenz,efavirenz
+Clorazepic acid,chlorazepate
+Alendronic acid,alendronate sodium
+Astemizole,astemizole
+Niacin,niacin
+Simvastatin,simvastatin
+Sulfacetamide,sulfacetamide
+Dyclonine,dyclonine hydrochloride
+Dextropropoxyphene,dextropropoxyphene
+Butoconazole,butoconazole
+Adenosine,vidarabine
+Pentazocine,pentazocine
+Stavudine,stavudine
+Trazodone,trazodone
+Mebendazole,mebendazole
+Mitotane,mitotane
+Estrone,estrone
+Verapamil,verapamil
+Dyphylline,dyphylline
+Metaxalone,metaxalone
+Flumethasone,flumethasone(flumetasoneanddiflorasone)
+Sumatriptan,sumatriptan
+Epinephrine,epinephrine
+Mecamylamine,mecamylamine
+Trimethobenzamide,trimethobenzamide
+Galantamine,galanthamine
+Sulfametopyrazine,sulfalene
+Tamoxifen,s123
+Nilutamide,nilutamide
+Cefixime,cefixime
+Thioridazine,thioridazine
+Midazolam,midazolam
+Benzyl benzoate,benzyl benzoate
+Aprepitant,aprepitant
+Isoflurophate,isoflurophate
+Tobramycin,tobramycin
+Cephaloglycin,cephaloglycin
+Flurazepam,methylprednisolone
+Moricizine,moricizine
+Mycophenolate mofetil,mycophenolate mofetil
+Daunorubicin,daunorubicin
+Nitrofurantoin,nitrofurantoin
+Phentolamine,phentolamine
+Furosemide,furosemide
+Amprenavir,amprenavir
+Moexipril,moexipril
+Naltrexone,naltrexone
+Fluorescein,fluorescein
+Delavirdine,doxorubicin
+Sufentanil,sufentanil
+Tizanidine,tizanidine
+Ergotamine,ergotamine
+Flurbiprofen,flurbiprofen
+Nicergoline,nicergoline
+Oxacillin,oxacillin
+Tamsulosin,tamsulosin
+Ibandronate,ibandronate
+Apomorphine,apomorphine
+Lamivudine,lamivudine
+Norethisterone,norethindrone
+Paroxetine,paroxetine
+Diethylcarbamazine,diethylcarbamazine citrate
+Procaine,procaine
+Trimipramine,trimipramine
+Adefovir dipivoxil,adefovir dipivoxil
+Nedocromil,nedocromil
+Azatadine,azatadine
+Pralidoxime,pralidoxime
+Risperidone,risperidone
+Imiquimod,imiquimod
+Lisinopril,lisinopril
+Nitroglycerin,nitroglycerin
+Clodronic acid,clodronic acid
+Riluzole,riluzole
+Hetacillin,hetacillin
+Mannitol,d-mannitol
+Hydrocortisone,cortisol
+Meclizine,meclizine
+Etodolac,etodolac
+Modafinil,modafinil
+Thiabendazole,thiabendazole
+Epinastine,epinastine
+Pentamidine,pentamidine
+Isoflurane,isoflurane
+Tretinoin,tretinoin
+Zileuton,zileuton
+Ethotoin,ethotoin
+Tranylcypromine,tranylcypromine
+Carbinoxamine,carbinoxamine
+Mometasone,mometasone
+Clopidogrel,clopidogrel
+Irinotecan,irinotecan
+Benzquinamide,benzquinamide
+Meropenem,meropenem
+Etoposide,etoposide
+Hydrocortamate,hydrocortamate
+Methimazole,methimazole
+Alprostadil,alprostadil
+Metyrosine,metyrosine
+Nalidixic acid,nalidixicacid
+Propiomazine,propiomazine
+Phenelzine,phenelzine
+Oxcarbazepine,oxcarbazepine
+Olopatadine,olopatadine
+Propantheline,propantheline
+Acyclovir,aciclovir
+Naproxen,naproxen
+Malathion,malathion
+Primidone,primidone
+Perindopril,perindopril
+Tripelennamine,tripelennamine
+Uracil mustard,uramustine
+Haloprogin,haloprogin
+Halazepam,halazepam
+Minaprine,minaprine
+Alfentanil,trimethoprim
+Candesartan cilexetil,candesartan cilexetil
+Tolazoline,tolazoline
+Tazarotene,tazarotene
+Fenoldopam,fenoldopam
+Biperiden,biperiden
+Phenylbutazone,phenylbutazone
+Fentanyl,fentanyl
+Ribavirin,ribavirin
+Indapamide,indapamide
+Propofol,"propofol, diprivan"
+Acetazolamide,acetazolamide
+Pentoxifylline,pentoxifylline
+Orciprenaline,metaproterenol
+Tropicamide,tropicamide
+Rosoxacin,rosoxacin
+Enprofylline,enprofylline
+Diazepam,diazepam
+Trifluoperazine,117-89-5
+Phenmetrazine,phenmetrazine
+Mifepristone,mifepristone
+Phensuximide,phensuximide
+Loperamide,loperamide(1+)
+Cinoxacin,cinoxacin
+Cefaclor,cefaclor
+Oxazepam,604-75-1
+Donepezil,donepezil
+Tolazamide,tolazamide
+Brompheniramine,brompheniramine
+Clofazimine,clofazimine
+Flurandrenolide,flurandrenolide
+Clocortolone,clocortolone
+Perphenazine,perphenazine
+Temozolomide,temozolomide
+Methylphenobarbital,mephobarbital(methylphenobarbital)
+Levorphanol,levorphanol
+Nalbuphine,nalbuphine
+Terbinafine,terbinafine
+Prednisolone,prednisolone
+Cysteamine,cysteamine
+Vardenafil,vardenafil
+Ranitidine,ranitidine base
+Chlorphenesin,chlorphenesin
+Alprenolol,alprenolol
+Terbutaline,terbutaline sulfate
+Benzphetamine,benzphetamine (benzfetamine)
+Dorzolamide,dorzolamide
+Flupentixol,flupentixol
+Emtricitabine,ftc; emtricitabine
+Conivaptan,conivaptan
+Loteprednol etabonate,loteprednol etabonate
+Chlorothiazide,chlorothiazide sodium
+Chlorhexidine,chlorhexidine base
+Eprosartan,eprosartan
+Quinapril,quinapril
+Isosorbide dinitrate,isosorbide dinitrate
+Pemirolast,pemirolast
+Risedronic acid,risedronate
+Testolactone,testolactone
+Triazolam,28911-01-5
+Ethanol,ethanol
+Mechlorethamine,mechlorethamine
+Didanosine,didanosine
+Sulfapyridine,sulfapyridine
+Remifentanil,remifentanil
+Oxybuprocaine,oxybuprocaine
+Bumetanide,bumetanide
+Ondansetron,ondansetron
+Etacrynic acid,etacrynicacid
+Tiagabine,tigabine
+Methdilazine,methdilazine
+Zonisamide,zonisamide
+Anileridine,anileridine
+Repaglinide,repaglinide
+Amantadine,ornidazole
+Phenformin,phenformin
+Buprenorphine,buprenorphine
+Cyclobenzaprine,cyclobenzaprine
+Ceforanide,ceforanide
+Dinoprostone,dinoprostone
+Phenoxybenzamine,phenoxybenzamine
+Almotriptan,almotriptan
+Mesoridazine,mesoridazine
+Ketotifen,ketotifen
+Salicylic acid,salicylic acid (2-hydroxybenzoic acid)
+Maprotiline,maprotiline
+Etretinate,"9-(4-methoxy-2,3,6-trimethylphenyl)-3,7-dimethylnona-2,4,6,8-tetraenoic acid ethyl ester"
+Methantheline,methantheline
+Oxymetazoline,oxymetazoline
+Zalcitabine,"2',3'-dideoxycytidine (zalcitabine)"
+Acetylsalicylic acid,50-78-2
+Felbamate,felbamate
+Fexofenadine,fexofenadine (allegra)
+Mezlocillin,mezlocillin
+Naratriptan,naratriptan
+Hexafluronium,hexafluronium
+Hydrocodone,hydrocodone
+Netilmicin,netilmicin
+Pindolol,pindolol
+Phenprocoumon,phenprocoumon
+Zaleplon,zaleplon
+Rizatriptan,rizatriptan
+Bromfenac,bromfenac
+Telmisartan,telmisartan
+Desloratadine,desloratadine
+Dipyridamole,dipyridamole
+Ethinylestradiol,ethinyl estradiol
+Alosetron,alosetron
+Isotretinoin,isotretinoin (13-cis-retinoic acid)
+Physostigmine,eserine
+Edetic acid,edta
+Glycopyrronium,glycopyrrolate
+Rivastigmine,rivastigmine
+Cyclopentolate,cyclopentolate
+Formoterol,formoterol
+Ramelteon,ramelteon
+Gabapentin,gabapentin
+Doxorubicin,doxorubicin
+Salbutamol,salbutamol 
+Cyclacillin,cyclacillin
+Azathioprine,azathioprine
+Methyl aminolevulinate,methyl aminolevulinate
+Tioconazole,tz-3
+Cromoglicic acid,cromoglicicacid
+Letrozole,letrozole
+Glyburide,glibenclamide
+Clobetasol propionate,clobetasol-propionate
+Bethanechol,gr94839_f
+Edrophonium,edrophoniumchloride
+Trichlormethiazide,trichlormethiazide
+Felodipine,felodipine
+Metyrapone,metyrapone
+Methoxyflurane,methoxyflurane
+Isosorbide mononitrate,isosorbide mononitrate
+Topotecan,topotecan
+Probenecid,probenecid
+Mercaptopurine,6-mercaptopurine
+Ketoconazole,cefazolin
+Mycophenolic acid,mycophenolic acid
+Selegiline,selegiline
+Carphenazine,carphenazine
+Thalidomide,thalidomide
+Amlexanox,amlexanox
+Procainamide,procainamide
+Irbesartan,irbesartan
+Memantine,memantine
+Tolterodine,tolterodine
+Abacavir,abacavir
+Ibuprofen,ibuprofen 
+Fluocinonide,fluocinonide
+Melphalan,melphalan
+Fenofibrate,fenofibrate
+Benzylpenicillin,benzylpenicillin
+Novobiocin,novobiocin sodium
+Norfloxacin,norfloxacin
+Gatifloxacin,gatifloxacin
+Amoxicillin,amoxicillin
+Tocainide,tocainide
+Acetophenazine,acetophenazine
+Isoprenaline,isoproterenol hydrochloride
+Echothiophate,echothiophate
+Promethazine,promethazine
+Clonazepam,clonazepam
+Oxybutynin,oxybutynin
+Cefditoren,cefditoren
+Atorvastatin,atorvastatin
+Diphenhydramine,diphenhydramine
+Vigabatrin,vigabatrin
+Perhexiline,perhexiline
+Streptomycin,streptomycin
+Etidronic acid,etidronic acid
+Glipizide,glipizide
+Benzocaine,ethyl 4-aminobenzoate (benzocaine)
+Deserpidine,deserpidine
+Emedastine,emedastine
+Pentolinium,pentolinium
+Oxamniquine,oxamniquine
+Pimozide,maprotiline
+Fluvastatin,chebi:38562
+Leflunomide,leflunomide
+Sertraline,sertraline
+Sibutramine,sibutramine
+Rosuvastatin,rosuvastatin
+Methyprylon,methyprylon
+Chlorpheniramine,chlorpheniramine
+Quinacrine,quinacrine
+Capecitabine,capecitabine
+Amiodarone,amiodarone
+Cefuroxime,cefuroxim
+Phenacemide,phenacemide
+Trimethaphan,trimethaphan
+Gliclazide,unii-g4px8c4hkv
+Econazole,econazole
+Proflavine,proflavine
+Anisindione,anisindione
+Prednicarbate,prednicarbate
+Bicalutamide,bicalutamide
+Diazoxide,diazoxide
+Tiludronic acid,tiludronate disodium
+Pioglitazone,pioglitazone
+Cefapirin,cephapirin (cefapirin)
+Doxepin,doxepin
+Carvedilol,carvedilol
+Cefadroxil,cefadroxil
+Amifostine,amifostine
+Nefazodone,nefazodone
+Desipramine,2qju
+Diclofenamide,dichlorphenamide
+Sulfoxone,sulfoxone
+Diphenylpyraline,diphenylpyraline
+Sulfinpyrazone,sulfinpyrazone
+Thiamylal,thiamylal
+Bupropion,bupropion (zyban)
+Flavoxate,flavoxate
+Halothane,halothane
+Bretylium,bretylium
+Ofloxacin,ofloxacin
+Amdinocillin,mecillinam
+Itraconazole,itraconazole
+Sertaconazole,sertaconazole
+Terazosin,terazosin
+Guanethidine,guanethidinesulfate
+Moclobemide,teflurane
+Cilostazol,cilostazol
+Phenobarbital,phenobarbital
+Escitalopram,escitalopram
+Idarubicin,dm5
+Chlormezanone,chlormezanone
+Propafenone,propafenone
+Domperidone,domperidone
+Cyclizine,cyclizine
+Pergolide,pergolide
+Ifosfamide,ifosfamide
+Desflurane,desflurane (suprane)
+Oxymorphone,oxymorphone
+Acebutolol,acebutolol
+Fluoxymesterone,fluoxymesterone
+Iophendylate,ethyl 10-(2-iodophenyl)undecanoate
+Ciclopirox,ciclopirox
+Clindamycin,clindamycin
+Bromocriptine,bromocriptine
+Levetiracetam,levetiracetam
+Brinzolamide,brinzolamide
+Estramustine,estramustine
+Flumazenil,78755-81-4
+Flecainide,flecainide acetate
+Captopril,captopril
+Sparfloxacin,sparfloxacin
+Lomustine,lomustine
+Ceftriaxone,ceftriaxone
+Mitoxantrone,mitoxantrone
+Dezocine,dezocine
+Levobunolol,levobunolol
+Estazolam,estazolam
+Ketamine,ketamine
+Quetiapine,quetiapine
+Fomepizole,fomepizole
+Halofantrine,halofantrine hydrochloride
+Levacetylmethadol,levomethadyl acetate
+Dexamethasone,dexamethasone
+Pemoline,pemoline
+Levodopa,levodopa
+Anastrozole,anastrozole
+Metoclopramide,metoclopramide
+Sevoflurane,sevoflurane
+Dantrolene,dantrolene
+Chlorprothixene,chlorprothixene
+Bromodiphenhydramine,bromodiphenhydramine
+Aripiprazole,"aripiprazole, abilify"
+Clomipramine,clomipramine
+Bepridil,bepridil
+Alimemazine,alimemazine
+Isocarboxazid,isocarboxazid
+Epoprostenol,epoprostenol
+Chloroxine,chloroxine
+Decamethonium,decamethonium
+Dasatinib,dasatinib
+Gliquidone,gliquidone
+Gemfibrozil,gemfibrozil
+Lapatinib,lapatinib
+Desonide,desonide
+Paliperidone,paliperidone
+Arformoterol,formoterol
+Sunitinib,sunitinib
+Fenoterol,fenoterol
+Varenicline,varenicline
+Glisoxepide,glisoxepide
+Nelarabine,nelarabine
+Practolol,practolol
+Bevantolol,bevantolol
+Fosphenytoin,fosphenytoin
+Polythiazide,polythiazide
+Sulfacytine,sulfacytine
+Cefazolin,cefazolin
+Cefonicid,cefonicid
+Quinethazone,quinethazone
+Sulfadoxine,sulfadoxine
+Cefradine,cephradine (cefradine)
+Ceftizoxime,ceftizoxime
+Pancuronium,pancuronium bromide
+Vecuronium,vecuronium bromide
+Amobarbital,amobarbital
+Pipecuronium,pipecuronium bromide
+Butobarbital,5-butyl-5-ethyl barbituric acid (butethal)
+Aprobarbital,aprobarbital
+Forasartan,forasartan
+Hexobarbital,56-29-1
+Heptabarbital,heptabarb
+Mestranol,mestranol
+Saprisartan,saprisartan
+Ephedrine,ephedrine
+Rasagiline,rasagiline
+Cortisone acetate,cortisone acetate
+Iohexol,iohexol
+Paramethasone,paramethasone
+Mibefradil,mibefradil
+Yohimbine,yohimbine
+Colchicine,colchicine
+Methotrimeprazine,methotrimeprazine
+Bezafibrate,bezafibrate
+Temafloxacin,temafloxacin
+Ciclesonide,ciclesonide
+Theobromine,"theobromine (3,7-dimethylxanthine)"
+Clenbuterol,clenbuterol
+Bambuterol,bambuterol
+Ceftibuten,ceftibuten
+Cefacetrile,cefacetrile
+Aminophenazone,aminophenazone
+Cefpodoxime,cefpodoxime
+Antrafenine,antrafenine
+Acenocoumarol,acenocumarol
+Stepronin,stepronin
+Methadyl acetate,levacetylmethadol
+Antipyrine,antipyrine ok
+Glutethimide,piperacillin
+Amrinone,amrinone
+Bufotenine,bufotenine
+gamma-Hydroxybutyric acid,gamma hydroxybutyric acid
+Diamorphine,diacetylmorphine
+Haloxazolam,haloxazolam
+Fenethylline,fenethylline
+Barbital,barbital
+Embutramide,embutramide
+Camazepam,camazepam
+Cathine,cathine
+Alphamethadol,alphamethadol
+Alphameprodine,alphameprodine/betameprodine
+Dipipanone,dipipanone
+Difenoxin,difenoxin
+Hydromorphinol,hydromorphinol
+Delorazepam,delorazepam
+Betacetylmethadol,alphacetylmethadol
+Dextromoramide,dextromoramide
+Chlorhexadol,chloralodol
+Carfentanil,carfentanil
+Desomorphine,desomorphine
+Flunitrazepam,1622-62-4
+Etryptamine,etryptamine
+Ethyl loflazepate,ethyl-loflazepate
+Dihydrocodeine,dihydrocodeine
+Diprenorphine,diprenorphine
+Cloxazolam,cloxazolam
+Alphacetylmethadol,alphacetylmethadol
+Clotiazepam,clotiazepam
+Bromazepam,bromazepam
+Cathinone,cathinone
+Chloral hydrate,chloralhydrate
+Fludiazepam,fludiazepam
+Dextroamphetamine,"dextroamphetamine, dexedrine"
+Metamfetamine,methamphetamine
+Oxprenolol,oxprenolol
+Phendimetrazine,phendimetrazine
+Ketazolam,ketazolam
+Prazepam,prazepam
+Quazepam,quazepam
+Nitrazepam,nitrazepam
+Cinolazepam,cinolazepam
+Sulfamerazine,sulfamerazine
+Meticillin,methicillin
+Imipenem,imipenem
+Pivampicillin,pivampicillin
+Probucol,probucol
+Tiaprofenic acid,tiaprofenic
+Valganciclovir,valganciclovir
+Tazobactam,tazobactam
+Periciazine,pericyazine
+Acepromazine,acepromazine
+Aceprometazine,aceprometazine
+Molindone,molindone
+Hydroxychloroquine,hydroxychloroquine
+Amyl Nitrite,pentyl nitrite
+Pipotiazine,pipotiazine
+Thioproperazine,thioproperazine
+Pargyline,pargyline
+Thiothixene,thiothixene (tiotixene)
+Zuclopenthixol,clopenthixol/zuclopenthixol
+Phenindamine,phenindamine
+Isopropamide,isopropamide iodide
+Etoricoxib,etoricoxib
+Roflumilast,roflumilast
+Propyl acetate,propyl acetate 
+Camphor,d-camphor
+"5,7-Dichlorokynurenic acid",dcka
+Rolipram,rolipram
+Alrestatin,alrestatin
+Cytidine,cytarabine
+Butyl alcohol,1-butanol
+Equilin,equilin
+Flufenamic acid,flufenamic
+Isoamyl alcohol,3-methyl-1-butanol (isopentanol)
+Isopropyl alcohol,2-propanol (isopropanol)
+Carbenoxolone,carbenoxolone
+Aminobenzoic acid,4-aminobenzoic acid
+Fusidic acid,fusidic acid
+Nicotinamide,nicotinamide
+Sucrose,sucrose
+Pregnenolone,pregnenolone
+Piretanide,piretanide
+Fosmidomycin,fosmidomycin
+Oxitriptan,oxitriptan
+Bromoform,bromoform
+Propyl alcohol,propan-1-ol
+(6R)-Folinic acid,calcium-folinate
+Phenol,phenol
+Cephalosporin C,cephalosporin-c
+Brequinar,brequinar
+Isopenicillin N,isopenicillin n
+Phencyclidine,phencyclidine
+Oxyphenbutazone,oxyphenbutazone
+(S)-Rolipram,(s)-(+)-rolipram
+Piritrexim,piritrexim
+Ethylene Dichloride,"1,2-dichloroethane"
+Tromethamine,trometamol
+L-Eflornithine,l-eflornithine
+N-Propargyl-1(S)-Aminoindan,185517-74-2
+tert-butanol,tert-butylalcohol
+Urea,urea
+Clorgiline,clorgiline
+Nicotinyl alcohol,nicotinyl alcohol
+Valpromide,valpromide
+Aceglutamide,aceglutamide
+Arecoline,arecoline
+Lactic acid,lactic acid
+Niflumic acid,niflumic acid
+Fleroxacin,fleroxacin
+Trioxsalen,trioxsalen
+Aniracetam,aniracetam
+Cycloleucine,cycloleucine
+Aldosterone,aldosterone
+Metoprine,metoprine
+Corticosterone,corticosterone
+Camptothecin,camptothecin
+Nimesulide,nimesulide
+Bifonazole,bifonazole
+Clioquinol,clioquinol
+Neamine,neomycin
+Iproniazid,iproniazid
+Benoxaprofen,benoxaprofen
+Bithionol,bithionol
+Methapyrilene,methapyrilene
+Metamizole,dipyrone
+Nomifensine,nomifensine
+Nialamide,nialamide
+Phenolphthalein,phenolphthalein
+Urethane,urethane
+Zimelidine,zimeldine
+Tienilic acid,ticrynafen
+Methaqualone,morphine
+Amineptine,survector
+Fluspirilene,fluspirilene
+Cyclandelate,cyclandelate
+Mepenzolate,mepenzolatebromide
+Tetrabenazine,tetrabenazine (tetrabenzine)
+Debrisoquine,debrisoquine
+Flunarizine,flunarizine
+Febuxostat,febuxostat
+Zanapezil,zanapezil
+Nebivolol,nebivolol
+Vatalanib,"ptk-787, vatalanib"
+Nilotinib,nilotinib
+Elacridar,elacridar
+Enoximone,enoximone
+Dapoxetine,dapoxetine
+Bepotastine,4-(4-((4-chlorophenyl)(pyridin-2-yl)methoxy)piperidin-1-yl)butanoic acid
+Phenserine,phenserine
+Pagoclone,pagoclone
+Milnacipran,milnacipran
+Clevidipine,clevidipine
+Iloperidone,iloperidone
+Permethrin,permethrin
+Tamibarotene,tamibarotene
+Ezogabine,ezogabine
+Lofexidine,lofexidine
+Lesopitron,lesopitron
+Pirfenidone,pirfenidone
+Lucanthone,lucanthone
+Ganaxolone,ganaxolone
+Methsuximide,methsuximide(mesuximide)
+Ibudilast,ibudilast
+Histamine,histamine phosphate
+CP-122721,cp-122721
+Levoketoconazole,ketoconazole
+Perflubron,perflubron
+SNS-032,sns-032
+Sertindole,sertindole
+Mianserin,24219-97-4
+Nylidrin,nylidrin
+Pizotifen,pizotifen
+Sulfathiazole,sulfathiazole
+Acetylcysteine,acetylcysteine
+Sulfadimethoxine,sulfadimethoxine
+Pentaerythritol tetranitrate,pentaerythritol tetranitrate
+Rimonabant,rimonabant
+Noscapine,noscapine
+Alovudine,alovudine
+Rufinamide,rufinamide
+Asenapine,org-5222
+Prasugrel,prasugrel
+Nalmefene,nalmefene
+Ocaperidone,ocaperidone
+Amrubicin,amrubicin
+Udenafil,udenafil
+Sitaxentan,sitaxentan
+Amisulpride,amisulpride
+Levocetirizine,levocetirizine
+Xaliproden,xaliproden
+Bazedoxifene,bazedoxifene
+Declopramide,declopramide
+Ticalopride,ticalopride
+Etravirine,etravirine
+Armodafinil,armodafinil
+Talnetant,nalorphine
+Semaxanib,semaxanib
+Remacemide,remacemide
+Clomethiazole,clomethiazole
+Prucalopride,prucalopride
+Tramiprosate,"tramiprosate, alzhemed"
+Ocinaplon,ocinaplon
+Robalzotan,robalzotan
+Gaboxadol,gaboxadol
+Dextofisopam,tofisopam
+Apixaban,apixaban
+Tafenoquine,tafenoquine
+Bosutinib,bosutinib
+Flupirtine,flupirtine
+Axitinib,axitinib
+Dalfampridine,4-aminopyridine
+Esmirtazapine,esmirtazapine
+Nitrous oxide,nitrous oxide
+Mepyramine,mepyramine (pyrilamine)
+Mevastatin,mevastatin
+Arbekacin,arbekacin
+Betahistine,betahistine (y-g 14)
+Vilazodone,vilazodone
+Xylometazoline,xylometazoline
+Desvenlafaxine,desvenlafaxine
+Isometheptene,isometheptene
+Methyltestosterone,methyltestosterone
+Dexmethylphenidate,dexmethylphenidate
+Propylhexedrine,101-40-6
+Methacholine,methacholine
+Naphazoline,naphazoline
+Stanozolol,stanozolol
+Bufuralol,bufuralol
+Lornoxicam,lornoxicam
+Sulfaphenazole,sulfaphenazole
+Seproxetine,seproxetine
+Ketobemidone,ketobemidone
+Enclomiphene,clomiphene
+Aceclofenac,aceclofenac
+Drotaverine,drotaverine
+Benzyl alcohol,benzyl alcohol
+Pinacidil,pinacidil
+Difluprednate,difluprednate
+Capsaicin,capsaicine
+Halcinonide,halcinonide
+Dimercaprol,dimercaprol
+Mebutamate,mebutamate
+Levopropoxyphene,levopropoxyphene
+Hexocyclium,hexocyclium
+Lodoxamide,lodoxamide
+Mafenide,mafenide
+Phenyl aminosalicylate,phenyl 4-aminosalicylate
+Plerixafor,plerixafor
+Niclosamide,niclosamide
+Protokylol,protokylol hydrochloride
+Pyrvinium,pyrvinium
+Phenylbutyric acid,4-phenylbutyric acid
+Sulconazole,sulconazole
+Sulfameter,sulfameter
+Tiopronin,tiopronin
+Triethylenetetramine,trientine hydrochloride
+Bisphenol A,bisphenol a
+(R)-Atenolol,atenolol
+Hymecromone,hymecromone
+"(2R)-1-(2,6-dimethylphenoxy)propan-2-amine","(2r)-1-(2,6-dimethylphenoxy)propan-2-amine"
+Felbinac,felbinac
+"1-BENZYL-4-[(5,6-DIMETHOXY-1-INDANON-2-YL)METHYL]PIPERIDINE",donepezil
+(S)-econazole,(s)-econazole
+"N~3~-cyclopropyl-N~4~'-(cyclopropylmethyl)-6-methylbiphenyl-3,4'-dicarboxamide",515134-70-0
+2-chloro-5-[(1S)-1-hydroxy-3-oxo-2H-isoindol-1-yl]benzenesulfonamide,2-chloro-5-[(1s)-1-hydroxy-3-oxo-2h-isoindol-1-yl]benzenesulfonamide
+Fasudil,fasudil
+Sulthiame,sulthiame(sultiame)
+Mardepodect,pf-2545920
+(R)-Fluoxetine,(r)-fluoxetine
+(S)-Fluoxetine,fluoxetine
+R-82913,r-82913
+Triclosan,triclosan
+Thiamphenicol,thiamphenicol
+"4-{(1E)-3-OXO-3-[(2-PHENYLETHYL)AMINO]PROP-1-EN-1-YL}-1,2-PHENYLENE DIACETATE",y12
+"4-{2-[(7-amino-2-furan-2-yl[1,2,4]triazolo[1,5-a][1,3,5]triazin-5-yl)amino]ethyl}phenol",17 zm0241385
+Ethyl biscoumacetate,ethyl biscoumacetate
+Diloxanide,diloxanide
+Sulfamoxole,sulfamoxole
+Tymazoline,tymazoline
+Antazoline,antazoline
+Dimetindene,dimethindene
+Roxatidine acetate,roxatidine acetate
+Bopindolol,bopindolol
+Dichloroacetic acid,dichloroacetate
+Ivacaftor,ivacaftor
+DPDPE,dpdpe
+Rilpivirine,rilpivirine
+Vemurafenib,vemurafenib
+Regorafenib,regorafenib
+Ponatinib,ponatinib
+Trametinib,trametinib
+Perospirone,perospirone
+Amperozide,amperozide
+Chlorcyclizine,chlorcyclizine
+Isoxicam,brl52580
+Iopanoic acid,iopanoic acid
+Iopamidol,iopamidol
+Indalpine,indalpine
+Ifenprodil,ifenprodil
+Hexoprenaline,hexoprenaline
+Fursultiamine,fursultiamine
+Fluocortolone,fluocortolone
+Fominoben,fominoben
+Flumequine,flumequine
+Floctafenine,floctafenine
+Fenbufen,fenbufen
+Etilefrine,etilefrine
+Etozoline,etozoline
+Etifoxine,etifoxine
+Dimetacrine,dimetacrine
+Diosmin,diosmin
+Cyamemazine,cyamemazine
+Demexiptiline,demexiptiline
+Clocapramine,clocapramine
+Chlorphenoxamine,chlorphenoxamine
+Clobutinol,clobutinol
+Clinofibrate,clinofibrate
+Beclamide,beclamide
+Captodiame,captodiame
+Bromopride,bromopride
+Brotizolam,brotizolam
+Befunolol,befunolol
+Benzoctamine,benzoctamine
+Benactyzine,benactyzine
+Bisacodyl,bisacodyl
+Benfluorex,benfluorex
+Bromhexine,bromhexine
+Cefminox,cefminox
+Acipimox,acipimox
+Tibolone,tibolone
+Ciprofibrate,ciprofibrate
+Idebenone,idebenone
+Benzydamine,benzydamine
+Tixocortol,tixocortol
+Pinaverium,pinaverium
+Benzoyl peroxide,benzoyl peroxide
+Stiripentol,stiripentol
+Paraldehyde,paraldehyde
+Diiodohydroxyquinoline,iodoquinol
+Water,water
+Ioversol,ioversol
+Isosulfan blue,schembl180549
+Nitrogen,nitrogen
+Etizolam,etizolam
+Brifentanil,brifentanil
+Dosulepin,dothiepin
+Mirfentanil,mirfentanil
+Lofentanil,lofentanil
+Trefentanil,trefentanil
+Viloxazine,viloxazine
+Nisoxetine,nisoxetine
+Daledalin,daledalin
+Talsupram,talsupram
+Talopram,talopram
+Tandamine,tandamine
+Etoperidone,etoperidone
+Mepiprazole,mepiprazole
+Lorpiprazole,lorpiprazole
+Piracetam,piracetam
+Dexibuprofen,(s)-(+)-ibuprofen
+Dexketoprofen,ketoprofen
+Melperone,melperone
+Blonanserin,blonanserin
+Clonixin,clonixin
+Zotepine,zotepine
+Nicorandil,nicorandil
+Pirlindole,pirlindole
+Lacidipine,lacidipine
+Benmoxin,benmoxin
+Iproclozide,iproclozide
+Toloxatone,toloxatone
+Moxonidine,moxonidine
+Mebanazine,mebanazine
+Octamoxin,octamoxin
+Phenoxypropazine,phenoxypropazine
+Pheniprazine,pheniprazine
+Caroxazone,caroxazone
+Tegafur,tegafur
+Imidafenacin,imidafenacin
+Doxofylline,doxofylline
+Fimasartan,fimasartan
+Pipamperone,pipamperone
+Propacetamol,propacetamol
+Tianeptine,tianeptine
+Morniflumate,morniflumate
+Setiptiline,setiptiline
+Aptazapine,aptazapine maleate
+Metralindole,metralindole
+Carindacillin,carindacillin
+Oxaprotiline,oxaprotiline
+Tyropanoic acid,tyropanoate sodium
+Iopodic acid,ipodate
+Levobetaxolol,levobetaxolol
+Hydroxyamphetamine,4-(2-aminopropyl)phenol
+Fluprednisolone,fluprednisolone
+Meprednisone,meprednisone
+Dexpanthenol,dexpanthenol
+Propyliodone,propyliodone
+Glycerin,glycerol
+Iocetamic acid,iocetamic acid
+Acrivastine,acrivastine
+Enalaprilat,enalaprilat
+Cetyl alcohol,1-hexadecanol
+Mequinol,mequinol
+Octocrylene,octocrylene
+Levmetamfetamine,levmetamfetamine
+Phenyl salicylate,phenyl salicylate
+Butamben,butyl 4-aminobenzoate (butamben)
+Anthralin,anthralin
+Pentoxyverine,carbetapentane
+Panthenol,dl-panthenol
+(S)-camphor,(-)-camphor
+Selexipag,selexipag
+Alfaxalone,alphaxalone
+Azaperone,azaperone
+Chloroform,trichloromethane (chloroform)
+Chlorobutanol,chlorobutanol
+Diclazuril,diclazuril
+Florfenicol,florfenicol
+Medetomidine,medetomidine
+Oleandomycin,oleandomycin
+Xylazine,xylazine
+Nalorphine,nalorphine
+Difloxacin,sevoflurane
+Etymemazine,etymemazine
+Dihydrostreptomycin,dihydrostreptomycin
+Isoflupredone,isoflupredone
+Metoserpate,metoserpate
+Romifidine,romifidine
+Tiletamine,tiletamine
+Toluene,toluene
+Detomidine,detomidine
+Zolazepam,zolazepam
+Pipradrol,pipradrol
+Levoleucovorin,levoleucovorin
+Bilastine,bilastine
+Normethadone,normethadone
+Dehydrocholic acid,dehydrocholic acid
+Tafamidis,tafamidis
+Rebamipide,rebamipide
+Psilocybin,psilocybine
+Acalabrutinib,acalabrutinib
+Ebastine,efavirenz
+Rilmenidine,rilmenidine
+Benfotiamine,benfotiamine
+Rifamycin,rifamycin
+(R)-Praziquantel,(r)-praziquantel
+Talinolol,talinolol
+Esketamine,esketamine
+Ertugliflozin,ertugliflozin
+Etiracetam,etiracetam
+Prulifloxacin,prulifloxacin
+Deflazacort,deflazacort
+Flomoxef,flomoxef
+Kynurenic Acid,kynurenic acid
+Selinexor,selinexor
+Ilaprazole,ilaprazole
+Benznidazole,benznidazole
+Diacerein,diacerein
+GW-406381,gw406381
+Fostamatinib,fostamatinib
+Alpelisib,alpelisib
+Ozagrel,ozagrel
+Letermovir,letermovir
+Vesnarinone,vesnarinone
+Tetrahydropalmatine,tetrahydropalmatine
+m-Chlorophenylpiperazine,1-(3-chlorophenyl)piperazine
+Sultamicillin,sultamicillin
+Vinpocetine,vinpocetine
+Erdafitinib,erdafitinib
+Sarpogrelate,sarpogrelate
+Gepirone,gepirone
+Faropenem,faropenem
+Bunazosin,bunazosin
+Iguratimod,iguratimod
+Edaravone,edaravone
+Triclabendazole,triclabendazole
+Atevirdine,atevirdine
+Tacedinaline,tacedinaline
+Simendan,levosimendan
+Nefopam,nefopam
+Eltanolone,pregnanolone
+Temocillin,temocillin
+Esreboxetine,reboxetine
+Bromperidol,bromperidol
+Saccharin,saccharin
+Nadifloxacin,nadifloxacin
+Ketanserin,ketanserin
+Taurolidine,taurolidine
+Piribedil,piribedil
+Piritramide,piritramide
+Raclopride,raclopride
+Mizolastine,mizolastine
+Fluocinolone,fluocinolone
+Mebeverine,mebeverine
+Sisomicin,sisomicin
+Isoquercetin,isoquercitrin
+Protionamide,prothionamide
+Ritanserin,ritanserin
+Spiradoline,spiradoline
+Perazine,perazine
+Racivir,racivir
+Cicletanine,cicletanine
+Benserazide,benserazide
+Tandospirone,tandospirone
+Benperidol,benperidol
+Oxatomide,oxatomide
+Eltoprazine,eltoprazine
+Trofosfamide,trofosfamide
+Theodrenaline,theodrenaline
+Opipramol,opipramol
+Fenobam,fenobam
+Pivagabine,pivagabine
+Prothipendyl,prothipendyl
+Cortivazol,cortivazol
+Dimiracetam,dimiracetam
+Tiapride,tiapride
+Ornidazole,ornidazole
+Liarozole,liarozole
+Nefiracetam,nefiracetam
+Pyritinol,pyritinol
+Gacyclidine,gacyclidine
+Valnoctamide,valnoctamide
+Amitriptylinoxide,amitriptylinoxide
+Norflurane,norflurane
+Clobetasone,clobetasone
+Nandrolone,nandrolone
+Alclofenac,alclofenac
+Daidzein,daidzein ok
+Butaperazine,butaperazine
+Medifoxamine,medifoxamine
+Dibenzepin,dibenzepin
+Alaproclate,alaproclate
+Propanidid,propanidid
+Pramiracetam,pramiracetam
+Proxibarbal,proxibarbal
+Quinupramine,quinupramine
+Clothiapine,clothiapine (clotiapine)
+Ethyl chloride,chloroethane
+Prifinium,prifinium
+Phthalylsulfathiazole,phthalylsulfathiazole
+Cefatrizine,cefatrizine
+Sultopride,sultopride
+Dibekacin,dibekacin
+Pimethixene,pimethixene
+Sulfaisodimidine,sulfisomidine
+Azidamfenicol,azidamfenicol
+Epicillin,epicillin
+Febarbamate,febarbamate
+Proscillaridin,proscillaridin
+Trichloroethylene,trichloroethene
+Tetrazepam,tetrazepam
+Pyrithyldione,pyrithyldione
+Pinazepam,pinazepam
+Fenozolone,fenozolone
+Pheneticillin,pheneticillin
+Deanol,deanol
+Phenprobamate,phenprobamate
+Pheneturide,pheneturide
+Bromisoval,bromisoval
+Feprazone,feprazone
+Vinbarbital,vinbarbital
+Norfenefrine,norfenefrine
+Melitracen,melitracen
+Emetine,emetine hydrochloride
+Terguride,terguride
+Oxypertine,oxypertine
+Lofepramine,lofepramine
+Pentetrazol,pentylenetetrazole (metrazole)
+Pirisudanol,pirisudanol
+Troxipide,troxipide
+Tolonidine,tolonidine
+Flutrimazole,flutrimazole
+Proglumide,proglumide
+Fenticonazole,fenticonazole
+Prolintane,prolintane
+Medazepam,medazepam
+Proxyphylline,proxyphylline
+Nicomorphine,nicomorphine
+Cefcapene,cefcapene
+Cadralazine,cadralazine
+Oxaflozane,oxaflozane
+Cefodizime,cefodizime
+Bephenium,bephenium
+Cyclofenil,cyclofenil
+Meptazinol,meptazinol
+Iprindole,iprindole
+Budipine,budipine
+Carfecillin,carfecillin
+Emepronium,emepronium
+Veralipride,veralipride
+Propyphenazone,propyphenazone
+Gedocarnil,gedocarnil
+Ethenzamide,ethenzamide
+Bevonium,bevonium
+Bifemelane,bifemelane
+Nizofenone,nizofenone
+Trifluperidol,trifluperidol
+Moperone,moperone
+Thiopropazate,thiopropazate
+Carumonam,carumonam
+Emylcamate,emylcamate
+Allobarbital,allobarbital
+Succinylsulfathiazole,succinylsulfathiazole
+Metopimazine,metopimazine
+Etamiphylline,etamiphyllin
+Diethyl ether,diethylether (ether)
+Oxiracetam,oxiracetam
+Phenoperidine,phenoperidine
+Umifenovir,arbidol
+Carbuterol,carbuterol
+Ipriflavone,ipriflavone
+Oxolinic acid,oxolinic
+Loprazolam,loprazolam
+Nikethamide,nikethamide
+Proquazone,proquazone
+Hexapropymate,hexapropymate
+Eberconazole,eberconazole
+Fluanisone,fluanisone
+Propicillin,propicillin
+Bekanamycin,bekanamycin
+Mosapramine,mosapramine
+Clometocillin,clometocillin
+Vinyl ether,divinylether
+Niaprazine,niaprazine
+Distigmine,distigmine
+Sulbenicillin,sulbenicillin
+Fenquizone,fenquizone
+Diphemanil,diphemanil
+Halometasone,halometasone
+Cyclobarbital,cyclobarbital
+Methylpentynol,3-methyl-1-pentyn-3-ol
+Fenoxazoline,fenoxazoline
+Bemegride,bemegride
+Penamecillin,penamecillin
+Mephenoxalone,mephenoxalone
+Meclofenoxate,meclofenoxate
+Obidoxime,
+Vorozole,vorozole
+Vinylbital,vinylbital
+Sulfamethoxypyridazine,sulfamethoxypyridazine
+Lidoflazine,lidoflazine
+Rufloxacin,flupentixol
+Cefazedone,cefazedone
+Imipramine oxide,imipraminoxide
+Dixyrazine,dixyrazine
+Fipexide,fipexide
+Acemetacin,acemetacin
+Penfluridol,penfluridol
+Tilidine,tilidine
+Dropropizine,dropropizine
+Linopirdine,linopirdine
+Dimemorfan,dimemorfan
+Talampicillin,talampicillin
+Aspoxicillin,aspoxicillin
+Carbromal,carbromal
+Oxomemazine,oxomemazine
+Ceftezole,ceftezole
+Meprotixol,meprotixol
+Pipemidic acid,pipemidic
+Doxefazepam,doxefazepam
+Clopenthixol,clopenthixol
+Cloprednol,cloprednol
+Nifuroxazide,nifuroxazide
+Lormetazepam,lormetazepam
+Fluticasone,fluticasone
+Adefovir,adefovir
+Brofaromine,brofaromine
+Candesartan,candesartan
+Estradiol valerate,estradiol valerate
+Cyclopropane,cyclopropane (trimethylene)
+SB-269970,201038-74-6
+Pipequaline,pipequaline
+Nordazepam,1088-11-5
+Acetyl sulfisoxazole,sulfisoxazole acetyl
+Hopantenic acid,hopantenic acid
+(S)-Warfarin,(s)-warfarin
+Dexverapamil,dexverapamil
+Dimercaptosuccinic acid,succimer
+Menthol,menthol
+Synthetic camphor,camphor
+Diphenylguanidine,"1,3-diphenylguanidine"
+Telotristat,telotristat
+Hydrocortisone aceponate,hydrocortisone-aceponate
+Hydrocortisone acetate,hydrocortisone-acetate
+Hydrocortisone butyrate,hydrocortisone-butyrate
+Hydrocortisone probutate,hydrocortisone-buteprate
+Hydrocortisone succinate,hydrocortisone-hemisuccinate
+Hydrocortisone valerate,hydrocortisone-valerate
+Hydrocortisone cypionate,hydrocortisone cypionate
+Loteprednol,loteprednol
+Prednisolone tebutate,prednisolone-tebutate
+Prednisolone hemisuccinate,prednisolone hemisuccinate
+Isoflupredone acetate,isoflupredone-acetate
+Methylprednisolone aceponate,methylprednisolone-aceponate
+Methylprednisolone hemisuccinate,methylprednisolone hemisuccinate
+Paramethasone acetate,paramethasone-acetate
+Chlorphenesin carbamate,chlorphenesin carbamate
+Difluocortolone pivalate,diflucortolone pivalate
+Dextrorphan,dextrorphan
+Tenivastatin,simvastatin acid
+Cefamandole nafate,cefamandole nafate
+Cidoxepin,sinequan
+Cycloguanil,cycloguanil
+Litoxetine,litoxetine
+Dexpramipexole,dexpramipexole
+Dubermatinib,compound 13
+Dextromethadone,dextromethadone
+Epalrestat,epalrestat
+Xanomeline,xanomeline
+Mexazolam,mexazolam
+Oxazolam,oxazolam
+Prednisolone acetate,prednisolone acetate
+Aminopromazine,aminopromazine
+Mecloxamine,mecloxamine
+Buthiazide,buthiazide
+Pipethanate,piperilate
+Amyl acetate,pentyl acetate
+Clorotepine,clorotepine
+Homochlorcyclizine,homochlorcyclizine
+Methane,methane
+Nifekalant,nifekalant
+Levosulpiride,sulpiride
+Fasoracetam,fasoracetam
+Revaprazan,revaprazan
+Dextilidine,tilidine
+Tosufloxacin,tosufloxacin
+Flindokalner,bms-204352
+S-Apomorphine,apomorphine_r
+Ilepcimide,ilepcimide
+Indatraline,indatraline
+Spiperone,spiperone
+Acecainide,n-acetylprocainamide
+L-Cycloserine,l-cycloserine
+Choline,choline
+Biotin,bioepiderm
+Spermine,spermine
+Adenosine phosphate,9-(5-o-phosphonopentofuranosyl)-9h-purin-6-amine
+Lutein,xanthophyll
+Riboflavin,riboflavin
+N-Acetylglucosamine,2-acetamido-2-deoxyglucose
+Leucine,leucine
+Glutathione,gamma-glutamylcysteinylglycine
+Tryptophan,dl-tryptophan
+Pyridoxal,pyridoxal
+Glycine,glycine
+Thiamine,thiamine
+Alanine,dl-alanine
+Pyridoxine,pyridoxine
+Menadione,menadione
+Fluvoxamine,fluvoxamine
+ATP,adenosine triphosphate
+Adenine,adenine
+Baclofen,baclofen
+Pravastatin,cp107
+Amphetamine,amphetamine
+Nicotine,nicotine
+Valsartan,l-valsartan
+Lorazepam,lorazepam
+Flunisolide,nasalide
+Ramipril,ramipril
+Ethchlorvynol,ethchlorvynol
+Betaxolol,betaxolol
+Cevimeline,cevimeline
+Fluconazole,fluconazole
+Phentermine,phentermine
+Tramadol,tramadol
+Indecainide,indecainide hydrochloride
+Caffeine,58-08-2
+Pyrimethamine,pyrimethamine
+Oseltamivir,oseltamivir
+Succinylcholine,succinylcholine
+Dofetilide,dofetilide
+Citalopram,citalopram
+Adapalene,adapalene
+Midodrine,midodrine
+Ticlopidine,ticlopidine hydrochloride
+Reserpine,zolpidem
+Nelfinavir,nelfinavir mesylate
+Indinavir,indinavir
+Eletriptan,eletriptan
+Diflorasone,flumethasone (flumetasone and diflorasone)
+Moxifloxacin,354812-41-2
+Enflurane,enflurane
+Oxyphenonium,oxyphenonium
+Pregabalin,pregabalin
+Torasemide,torasemide
+Isoetharine,isoetharine
+Guanadrel,disulfiram
+Temazepam,temazepam
+Methyclothiazide,methyclothiazide
+Nevirapine,129618-40-2
+Aminosalicylic acid,clofazimine
+Butabarbital,butobarbitone
+Butalbital,butalbital
+Cefotiam,cefotiam
+Lovastatin,monacolin k
+Reboxetine,reboxetine
+Alclometasone,schembl13026158
+Pipobroman,pipobroman
+Ziprasidone,ziprasidone
+Oxiconazole,oxiconazole
+Cladribine,piroxicam
+Milrinone,milrinone
+Phenytoin,phenytoin
+Cabergoline,"n-[3-(dimethylamino)propyl]-n-(ethylcarbamoyl)-7-prop-2-enyl-6,6a,8,9,10,10a-hexahydro-4h-indolo[4,3-fg]quinoline-9-carboxamide"
+Methysergide,methysergide
+Mesalazine,mesalamine
+Idoxuridine,ophthalmadine
+Clotrimazole,clotrimazole
+Terconazole,triaconazole
+Carmustine,bis(chloroethyl)nitrosourea (carmustine) (bcnu)
+Cycloserine,dl-cycloserine
+Metoprolol,metoprolol
+Dicoumarol,dicumarol
+Ropinirole,ropinirole (skf101468)
+Sulfanilamide,sulfanilamide
+Diatrizoate,sodiumamidotrizoate
+Crotamiton,crotamiton
+Chlorotrianisene,chlorotrianisene
+Topiramate,topiramate
+Theophylline,theophylline
+Cefmetazole,ctk7d0713
+Betazole,betazole
+Lidocaine,lidocaine
+Olmesartan,olmesartan medoxomil
+Venlafaxine,venlafaxine
+Amsacrine,amsacrine
+Disopyramide,disopyramide
+Argatroban,121785-71-5
+Chlorambucil,chlorambucil
+Clemastine,clemastinum
+Etomidate,pimozide
+Amcinonide,cyclocort
+Morphine,morphine
+Atomoxetine,atomoxetine
+Etonogestrel,etonogestrel
+Ropivacaine,"1-propyl-2',6'-pipecoloxylidide"
+Bupivacaine,bupivacaine
+Talbutal,talbutal
+Flucloxacillin,chembl1622855
+Dapiprazole,dapiprazole
+Mitomycin,mitomycin
+Desogestrel,chembl3560261
+Pentobarbital,pentobarbital
+Valproic acid,valproate
+Zolmitriptan,139264-82-7
+Gefitinib,gefitinib
+Acetaminophen,acetaminophen (p-acetamidophenol)
+Codeine,"3-methoxy-17-methyl-7,8-didehydro-4,5-epoxymorphinan-6-ol"
+Bexarotene,bexarotene
+Amitriptyline,50-48-6
+Ibutilide,ibutilide
+Piperacillin,piperacillin
+Indomethacin,indomethacin
+Methadone,methadone
+Fluorometholone,fluoromethalone
+Atenolol,atenolol 
+Hydromorphone,hydromorphone
+Floxuridine,floxuridine
+Pyrazinamide,m-xylene
+Ethambutol,ritonavir
+Diltiazem,34933-06-7
+Terfenadine,terfenadine
+Cetirizine,levocetirizine
+Protriptyline,protriptyline
+Metixene,metixene
+Trimethadione,trimethadione
+Clobazam,22316-47-8
+Tioguanine,thioguanine
+Buclizine,buclizine
+Aminohippuric acid,4-aminohippuric acid
+Alfuzosin,alfuzosin
+Mefloquine,mefloquine
+Nitisinone,nitisinone
+Chlorzoxazone,chlorzoxazone
+Methylergometrine,mls000756415
+Doxylamine,doxylamine
+Grepafloxacin,grepafloxacin
+Norepinephrine,dl-arterenol
+Meprobamate,meprobamate
+Mirtazapine,mirtazapine
+Thiethylperazine,thiethylperazine
+Trihexyphenidyl,trihexyphenidyl
+Levonorgestrel,levonorgestrel
+Treprostinil,treprostinil
+Timolol,timolol
+Dydrogesterone,dydrogesterone
+Palonosetron,135729-75-8
+Tacrine,"tacrine, cognex"
+Dexrazoxane,razoxane
+Sulpiride,sulpiride
+Amlodipine,amlodipine besylate
+Nimodipine,nimodipine
+Triamterene,triamterene
+Procyclidine,procyclidine hydrochloride
+Profenamine,isothamine(profenamine)
+Oxyphencyclimine,oxyphencyclimine
+Beclomethasone dipropionate,beclomethasonedipropionate (beclometasone-dipropionate)
+Carbimazole,carbimazole
+Carisoprodol,carisoprodol
+Alprazolam,alprazolam
+Sorafenib,sorafenib
+Zoledronic acid,zoledronic acid
+Loxapine,loxapine
+Griseofulvin,griseofulvin
+Nisoldipine,nisoldipine
+Remoxipride,(s)-remoxipride
+Dexbrompheniramine,brompheniramine
+Secobarbital,secobarbital
+Carbamoylcholine,carbamylcholine
+Rosiglitazone,rosiglitazone
+Gentian violet cation,gentian violet
+Promazine,promazine
+Ampicillin,amiloride
+Methylphenidate,methylphenidate
+Zolpidem,zolpidem
+Phenoxymethylpenicillin,phenoxymethylpenicillin
+Methocarbamol,methocarbamol
+Pramipexole,104617-86-9
+Miglustat,"1-butyl-2-(hydroxymethyl)piperidine-3,4,5-triol"
+Spironolactone,mls000678252
+Streptozocin,ethosuximide
+Prochlorperazine,phenobarbital
+Cefpiramide,cefpiramide
+Cyproheptadine,cyproheptadine
+Bendroflumethiazide,bendroflumethiazide
+Trifluridine,"thymidine,.alpha.,.alpha.-trifluoro-"
+Epirubicin,nsc169534
+Gemcitabine,3'-epi gemcitabine (gemcitabine impurity)
+Betamethasone,dexamethasone
+Loracarbef,loracarbef
+Meperidine,meperidine
+Droperidol,droperidol
+Loratadine,loratadine
+Prazosin,prazosin
+Imipramine,imipramine
+Levothyroxine,dl-thyroxine
+Framycetin,neomycinbas2ethylbutyrate (framycetin)
+Metharbital,metharbital
+Quinine,quinidine (quinine)
+Cefalotin,cefalotin
+Fluoxetine,fluoxetine
+Tenoxicam,tenoxicam
+Methohexital,151-83-7
+Acitretin,acitretin
+Duloxetine,duloxetine
+Chlorpromazine,50-53-3
+Raloxifene,raloxifene
+Celecoxib,"celecoxib, celebrex"
+Dronabinol,dronabinol
+Nabilone,cesamet
+Sotalol,sotalol
+Dicloxacillin,dicloxacillin sodium
+Buspirone,buspirone
+Zidovudine,zidovudine
+Darifenacin,darifenacin
+Brimonidine,brimonidine
+Altretamine,altretamine
+Oxycodone,oxycodone
+Haloperidol,haloperidol
+Miglitol,"1-(2-hydroxyethyl)-2-(hydroxymethyl)piperidine-3,4,5-triol"
+Entacapone,entacapone
+Triflupromazine,trifluopromazine
+Levallorphan,brl52656
+Flutamide,flutamide
+Nitazoxanide,nitazoxanide
+Tridihexethyl,tridihexethyl chloride
+Carteolol,carteolol
+Dextromethorphan,dextromethorphan
+Dextrothyroxine,dl-thyroxine
+Trandolapril,indolapril
+Bentiromide,bentiromide
+Metolazone,metolazone
+Foscarnet,mesna
+Rofecoxib,"rofecoxib, vioxx"
+Tolnaftate,tolnaftate
+Mephenytoin,mephenytoin
+Cinchocaine,dibucaine
+Nortriptyline,nortriptyline
+Lercanidipine,lercanidipine
+Amoxapine,amoxapine
+Cyclophosphamide,cyclophosphamide
+Fluorouracil,5-fluorouracil
+Erlotinib,"tarceva, erlotinib"
+Guanidine,guanidine
+Toremifene,toremifene
+Adinazolam,adinazolam
+Benazepril,benazepril
+Azelaic acid,gr94839_c
+Desoximetasone,desoxymetasone
+Lamotrigine,lamotrigine
+Zafirlukast,zafirlukast
+Acetohydroxamic acid,acetohydroxamic acid
+Hydroxyzine,hydroxyzine
+Doxapram,doxapram
+Methoxsalen,methoxsalen
+Methotrexate,amethopterin
+Carbamazepine,carbamazepine
+Propylthiouracil,propylthiouracil
+Perflutren,perflutren
+Propranolol,upcmld-dp067
+Bosentan,bosentan
+Zanamivir,zanamivir
+Clonidine,2pnc
+Benzthiazide,benzthiazide
+Succimer,succimer
+Cephalexin,keforal
+Cinnarizine,cinnarizine
+Mazindol,mazindol
+Fenfluramine,fenfluramine
+Sulfamethizole,sulfamethizole
+Diclofenac,diclofenac
+Lactulose,lactulose
+Voriconazole,voriconazole
+Enalapril,enalapril
+Ethosuximide,ethosuximide
+Lisuride,lysuride
+Cinalukast,cinalukast
+Fluocinolone acetonide,fluovitef
+Ulobetasol,ft-0778082
+Thiopental,thiopental (thiopentone)
+Piperazine,piperazine citrate
+Doxazosin,doxazosin mesylate
+Medroxyprogesterone acetate,medroxyprogesterone
+Cyclothiazide,cyclothiazide
+Nafcillin,nafcillin
+Paramethadione,paramethadione
+Imatinib,imatinib
+Butorphanol,torbugesic
+Metaraminol,metaraminol
+Testosterone,testosterone
+Amodiaquine,amodiaquine
+Fluphenazine,fluphenazine
+Bisoprolol,bisoprolol fumarate
+Oxandrolone,oxandrolone
+Guanabenz,guanabenz
+Efavirenz,efavirenz
+Clorazepic acid,chlorazepate
+Astemizole,astemizole
+Niacin,niacin
+Prednisone,fernisone
+Clofarabine,clofarabine
+Dexmedetomidine,medetomidine
+Sulfacetamide,sulfacetamide
+Dyclonine,dyclonine hydrochloride
+Butoconazole,butoconazole
+Dextropropoxyphene,dextropropoxyphene
+Stavudine,stavudine
+Pentazocine,pentazocine
+Mitotane,mitotane
+Trazodone,trazodone
+Mebendazole,mebendazole
+Verapamil,verapamil
+Dyphylline,dyphylline
+Metaxalone,metaxalone
+Mecamylamine,mecamylamine
+Flumethasone,flumethasone (flumetasone and diflorasone)
+Trimethobenzamide,trimethobenzamide
+Sumatriptan,sumatriptan
+Epinephrine,dl-adrenaline
+Galantamine,357-70-0
+Sulfametopyrazine,sulfalene
+Tamoxifen,s123
+Nilutamide,nilutamide
+Thioridazine,thioridazine
+Isoflurophate,isoflurophate
+Benzyl benzoate,benzyl benzoate
+Midazolam,midazolam
+Flurazepam,methylprednisolone
+Tobramycin,tenebrimycin
+Cephaloglycin,"(6r,7r)-3-(acetyloxymethyl)-7-[[(2r)-2-amino-2-phenylacetyl]amino]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Pentosan polysulfate,pentosan polysulfate
+Mycophenolate mofetil,mycophenolate mofetil
+Moricizine,moricizine
+Nitrofurantoin,nitrofurantoin
+Furosemide,furosemide
+Moexipril,"[3s-[2[r*(r*)],3r*]]-2-[2-[[1-(ethoxycarbonyl)-3-phenylpropyl]amino]-1-oxopropyl]-1,2,3,4tetrahydro-6,7-dimethoxy-3-isoquinolinecarboxylic acid, monohydrochloride;[3s-[2[r*(r*)],3r*]]-2-[2-[[1-(ethoxycarbonyl)-3-phenylpropyl]amino]-1-oxopropyl]-1,2,3,4tetrahydro-6,7-dimethoxy-3-isoquinolinecarboxylic acid, monohydrochloride"
+Amprenavir,chembl195725
+Daunorubicin,hydrochlorothiazide
+Ergotamine,ergotamine
+Fluorescein,fluorescein
+Nicergoline,sermion
+Delavirdine,doxorubicin
+Sufentanil,sufentanil
+Tizanidine,tizanidine
+Flurbiprofen,flurbiprofen
+Eplerenone,eplerenone
+Naltrexone,naltrexone-hcl
+Tamsulosin,racemic tamsulosin
+Oxacillin,cefamandole
+Apomorphine,apomorphine_r
+Lamivudine,mls003373964
+Diethylcarbamazine,diethylcarbamazine citrate
+Ibandronate,ibandronate
+Paroxetine,"3-(1,3-benzodioxol-5-yloxymethyl)-4-(4-fluorophenyl)piperidine"
+Procaine,procaine
+Norethisterone,norethindrone
+Nedocromil,nedocromil
+Trimipramine,trimipramine
+Adefovir dipivoxil,adefovir dipivoxil
+Azatadine,azatadine
+Lisinopril,lisinopril
+Risperidone,risperidone
+Clodronic acid,clodronic acid
+Imiquimod,imiquimod
+Nitroglycerin,nitroglycerin
+Rocuronium,"[(2s,3s,5s,8r,9s,10s,13s,14s,16s,17r)-3-hydroxy-10,13-dimethyl-2-morpholin-4-yl-16-(1-prop-2-enylpyrrolidin-1-ium-1-yl)-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1h-cyclopenta[a]phenanthren-17-yl] acetate"
+Riluzole,riluzole
+Meclizine,meclizine
+Mannitol,mannitol (d-mannitol)
+Naftifine,naftifine
+Thiabendazole,thiabendazole
+Pentamidine,pentamidine
+Etodolac,etodolac
+Hetacillin,hetacillin
+Epinastine,epinastine
+Isoflurane,isoflurane
+Tretinoin,tretinoin
+Ethotoin,ethotoin
+Hydrocortisone,hydrocortisone
+Zileuton,zileuton
+Tranylcypromine,tranylcypromine
+Carbinoxamine,carbinoxamine
+Clopidogrel,clopidogrel bisulfate
+Benzquinamide,benzquinamide
+Methimazole,methimazole
+Etoposide,33419-42-0
+Hydrocortamate,hydrocortamate
+Olopatadine,olopatadine
+Nalidixic acid,nalidixicacid
+Phenelzine,phenelzine
+Oxcarbazepine,oxcarbazepine
+Propiomazine,propiomazine
+Propantheline,propantheline
+Malathion,malathion
+Acyclovir,aciclovir
+Marimastat,marimastat
+Perindopril,82978-68-5
+Primidone,primidone
+Naproxen,23981-80-8
+Uracil mustard,uramustine
+Alfentanil,trimethoprim
+Halazepam,halazepam
+Tripelennamine,tripelennamine
+Minaprine,minaprine
+Candesartan cilexetil,candesartan cilexetil
+Haloprogin,haloprogin
+Tolazoline,tolazoline
+Tazarotene,tazarotene
+Ribavirin,ribavirin
+Phenylbutazone,phenylbutazone
+Biperiden,biperiden
+Fenoldopam,fenoldopam
+Fentanyl,fentanyl
+Indapamide,indapamide
+Propofol,"propofol, diprivan"
+Acetazolamide,acetazolamide
+Tropicamide,tropicamide
+Tadalafil,ac1nfq3w
+Pentoxifylline,pentoxifylline
+Orciprenaline,metaproterenol
+Rosoxacin,rosoxacin
+Ethynodiol diacetate,"(17-acetyloxy-17-ethynyl-13-methyl-2,3,6,7,8,9,10,11,12,14,15,16-dodecahydro-1h-cyclopenta[a]phenanthren-3-yl) acetate"
+Enprofylline,enprofylline
+Diazepam,diazepam
+Levomenthol,menthol
+Phenmetrazine,phenmetrazine
+Trifluoperazine,117-89-5
+Phensuximide,phensuximide
+Loperamide,loperamide(1+)
+Cinoxacin,cinoxacin
+Tolazamide,tolazamide
+Mifepristone,mifepristone
+Oxazepam,604-75-1
+Cefaclor,cefaclor
+Donepezil,donepezil
+Brompheniramine,brompheniramine
+Clocortolone,schembl13026145
+Nalbuphine,nalbuphine
+Methylphenobarbital,mephobarbital(methylphenobarbital)
+Perphenazine,perphenazine
+Temozolomide,temozolomide
+Levorphanol,dl-morphan
+Flurandrenolide,"12-fluoro-5-hydroxy-6b-(hydroxyacetyl)-4a,6a,8,8-tetramethyl-3,4,4a,4b,5,6,6a,6b,9a,10,10a,10b,11,12-tetradecahydro-2h-naphtho[2',1':4,5]indeno[1,2-d][1,3]dioxol-2-one"
+Terbinafine,terbinafine
+Pseudoephedrine,ephedrine
+Ranitidine,ranitidine base
+Chlorphenesin,chlorphenesin
+Alprenolol,alprenolol
+Benzphetamine,benzphetamine(benzfetamine)
+Drostanolone,2.alpha.-methyldihydrotestosterone
+Terbutaline,terbutaline sulfate
+Ritodrine,ritodrine hydrochloride
+Loteprednol etabonate,loteprednol etabonate
+Dorzolamide,dorzolamide
+Flupentixol,flupentixol
+Chlorothiazide,chlorothiazide sodium
+Conivaptan,conivaptan
+Eprosartan,eprosartan
+Emtricitabine,racivir
+Isosorbide dinitrate,isosorbide dinitrate
+Risedronic acid,risedronate
+Pemirolast,pemirolast
+Mechlorethamine,mechlorethamine
+Ethanol,ethanol
+Sulfapyridine,sulfapyridine
+Triazolam,28911-01-5
+Rimexolone,rimexolone
+Bumetanide,bumetanide
+Remifentanil,remifentanil
+Etacrynic acid,etacrynicacid
+Testolactone,testolactone
+Oxybuprocaine,oxybuprocaine
+Ondansetron,ondansetron
+Quinidine,quinidine (quinine)
+Cocaine,cocaine
+Zonisamide,zonisamide
+Methdilazine,methdilazine
+Tiagabine,109857-64-9
+Anileridine,anileridine
+Paricalcitol,paricalcitol
+Amantadine,ornidazole
+Repaglinide,2-ethoxy-4-[2-[[3-methyl-1-(2-piperidin-1-ylphenyl)butyl]amino]-2-oxoethyl]benzoic acid
+Almotriptan,almotriptan
+Buprenorphine,buprenorphine
+Cyclobenzaprine,cyclobenzaprine
+Spectinomycin,spectinomicina
+Phenoxybenzamine,phenoxybenzamine
+Levosimendan,levosimendan
+Ketotifen,ketotifen
+Maprotiline,maprotiline
+Ceforanide,ceforanide
+Salicylic acid,salicylic acid (2-hydroxybenzoic acid)
+Etretinate,etretinate
+Misoprostol,misoprostol
+Azacitidine,"azacytidine, 5-"
+Tipranavir,174484-81-2
+Methantheline,methantheline
+Zalcitabine,nsc606170
+Acetylsalicylic acid,50-78-2
+Oxymetazoline,oxymetazoline
+Felbamate,felbamate
+Fexofenadine,fexofenadine (allegra)
+Hexafluronium,hexafluronium
+Naratriptan,naratriptan
+Phenprocoumon,phenprocoumon
+Mezlocillin,mezlocillin
+Pindolol,pindolol
+Netilmicin,"4-amino-3-{[3-amino-6-(aminomethyl)-3,4-dihydro-2h-pyran-2-yl]oxy}-6-(ethylamino)-2-hydroxycyclohexyl 3-deoxy-4-c-methyl-3-(methylamino)pentopyranoside"
+Rizatriptan,rizatriptan
+Hydrocodone,hydrocodone
+Zaleplon,zaleplon
+Methylprednisolone,protriptyline
+Methyldopa,3-hydroxy-alpha-methyl-dl-tyrosine
+Bromfenac,bromfenac
+Dipyridamole,dipyridamole
+Desloratadine,desloratadine
+Telmisartan,telmisartan
+Alosetron,alosetron
+Ezetimibe,1-(4-fluorophenyl)-3-(3-(4-fluorophenyl)-3-hydroxypropyl)-4-(4-hydroxyphenyl)azetidin-2-one
+Isotretinoin,isotretinoin (13-cis-retinoic acid)
+Physostigmine,"1,3a,8-trimethyl-1,2,3,3a,8,8a-hexahydropyrrolo[2,3-b]indol-5-yl methylcarbamate"
+Edetic acid,edta
+Ethinylestradiol,ethinyl estradiol
+Glycopyrronium,glycopyrrolate
+Rivastigmine,105601-20-5
+Cyclopentolate,cyclopentolate
+Ramelteon,ramelteon
+Cytarabine,cytarabin
+Formoterol,formoterol
+Nandrolone phenpropionate,nandrobolic
+Doxorubicin,nsc169534
+Exemestane,exemestane
+Salbutamol,salbutamol 
+Methyl aminolevulinate,methyl aminolevulinate
+Azathioprine,azathioprine
+Cyclacillin,mls002694856
+Frovatriptan,frovatriptan racemate
+Tioconazole,tz-3
+Levobupivacaine,bupivacaine
+Cromoglicic acid,cromoglicicacid
+Edrophonium,edrophoniumchloride
+Glyburide,glibenclamide
+Letrozole,letrozole
+Bethanechol,gr94839_f
+Metyrapone,metyrapone
+Clobetasol propionate,clobetasol-propionate
+Trichlormethiazide,trichlormethiazide
+Felodipine,felodipine
+Methoxyflurane,methoxyflurane
+Isosorbide mononitrate,isosorbide mononitrate
+Ketoconazole,cefazolin
+Probenecid,probenecid
+Mercaptopurine,6-mercaptopurine
+Mycophenolic acid,mycophenolic acid
+Amlexanox,amlexanox
+Carphenazine,carphenazine
+Selegiline,selegiline
+Irbesartan,irbesartan
+Thalidomide,thalidomide
+Melphalan,melphalan
+Procainamide,procainamide
+Cerulenin,nsc116069
+Memantine,memantine
+Ibuprofen,ibuprofen 
+Fenofibrate,fenofibrate
+Benzylpenicillin,penicillin
+Fluocinonide,fluocinonide
+Gatifloxacin,gatifloxacin
+Tocainide,tocainide
+Novobiocin,novobiocin
+Lubiprostone,lubiprostone
+Amoxicillin,26787-78-0 (anhydrous)
+Echothiophate,echothiophate
+Acetophenazine,acetophenazine
+Isoprenaline,isoproterenol hydrochloride
+Azlocillin,mls006011456
+Promethazine,promethazine
+Clonazepam,clonazepam
+Oxybutynin,oxybutynin
+Dihydrotachysterol,dihydrotachysterol
+Diphenhydramine,diphenhydramine
+Glipizide,glipizide
+Perhexiline,perhexiline
+Benzocaine,ethyl 4-aminobenzoate (benzocaine)
+Streptomycin,streptomycin a
+Etidronic acid,etidronic acid
+Atorvastatin,atorvastatin
+Emedastine,emedastine
+Pilocarpine,pilocarpine
+Pentolinium,pentolinium
+Ouabain,mls002702983
+Hesperetin,hesperetin
+Oxamniquine,oxamniquine
+Fluvastatin,chebi:38562
+Pimozide,maprotiline
+Sertraline,79559-97-0
+Leflunomide,leflunomide
+Sibutramine,sibutramine
+Rosuvastatin,rosuvastatin
+Methyprylon,methyprylon
+Capecitabine,"pentyl [1-(3,4-dihydroxy-5-methyl-oxolan-2-yl)-5-fluoro-2-oxo-pyrimidin-4-yl]aminoformate"
+Quinacrine,quinacrine
+Chlorpheniramine,chlorpheniramine
+Amiodarone,amiodarone
+Trilostane,modrastane
+Phenacemide,phenacemide
+Trimethaphan,trimethaphan
+Econazole,econazole
+Gliclazide,gliclazide
+Anisindione,anisindione
+Dutasteride,dutasteride
+Proflavine,proflavine
+Bicalutamide,bicalutamide
+Prednicarbate,73771-04-7
+Pioglitazone,pioglitazone
+Tiludronic acid,tiludronate disodium
+Doxepin,doxepin
+Carvedilol,carvedilol
+Cefapirin,cephapirin (cefapirin)
+Cefadroxil,cefadroxil
+Diclofenamide,dichlorphenamide
+Nefazodone,nefazodone
+Desipramine,2qju
+Sulfoxone,sulfoxone
+Diphenylpyraline,diphenylpyraline
+Cloxacillin,ampicillin
+Thiamylal,thiamylal
+Bupropion,bupropion (zyban)
+Flavoxate,flavoxate
+Halothane,halothane
+Bretylium,bretylium
+Ofloxacin,ofloxacin
+Sertaconazole,sertaconazole
+Itraconazole,itraconazole
+Terazosin,terazosin
+Cilostazol,cilostazol
+Guanethidine,guanethidinesulfate
+Phenobarbital,phenobarbital
+Escitalopram,citalopram
+Moclobemide,teflurane
+Kanamycin,"(2r,3s,4s,5r,6r)-2-(aminomethyl)-6-[(1r,2r,3s,4r,6s)-4,6-diamino-3-[(2s,3r,4s,5s,6r)-4-amino-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2-hydroxycyclohexyl]oxyoxane-3,4,5-triol"
+Chlormezanone,chlormezanone
+Propafenone,propafenone
+Domperidone,domperidone
+Idarubicin,nsc256439
+Pergolide,66104-22-1
+Cyclizine,cyclizine
+Podofilox,4354-76-1
+Ifosfamide,ifosfamide
+Desflurane,desflurane (suprane)
+Rescinnamine,recinnamine
+Naloxone,"(4r,4as,7ar,12bs)-4a,9-dihydroxy-3-prop-2-enyl-2,4,5,6,7a,13-hexahydro-1h-4,12-methanobenzofuro[3,2-e]isoquinoline-7-one"
+Acebutolol,acebutolol
+Fluoxymesterone,"9-fluoro-11,17-dihydroxy-10,13,17-trimethyl-1,2,6,7,8,11,12,14,15,16-decahydrocyclopenta[a]phenanthren-3-one"
+Oxymorphone,oxymorphone
+Ciclopirox,ciclopirox
+Iophendylate,ethyl 10-(2-iodophenyl)undecanoate
+Clindamycin,clindamycin
+Bromocriptine,bromocriptine
+Dexfenfluramine,fenfluramine
+Nadolol,anabet
+Captopril,1-(2-methyl-3-sulfanylpropanoyl)pyrrolidine-2-carboxylic acid
+Levetiracetam,etiracetam
+Flumazenil,78755-81-4
+Flecainide,flecainide acetate
+Brinzolamide,chembl6750
+Estramustine,estramustine
+Dezocine,dezocine
+Lomustine,lomustine
+Tubocurarine,tubocurarine
+Sparfloxacin,sb204484
+Mitoxantrone,mitoxantrone
+Estazolam,estazolam
+Fomepizole,fomepizole
+Ketamine,ketamine
+Finasteride,finasteride
+Quetiapine,quetiapine
+Levacetylmethadol,levacetylmethadol
+Halofantrine,halofantrine hydrochloride
+Metoclopramide,metoclopramide
+Levodopa,levodopa
+Sevoflurane,sevoflurane
+Anastrozole,anastrozole
+Dantrolene,dantrolene
+Bromodiphenhydramine,bromodiphenhydramine
+Chlorprothixene,chlorprothixene
+Aripiprazole,"aripiprazole, abilify"
+Clomipramine,clomipramine
+Dexamethasone,dexamethasone
+Bepridil,bepridil
+Alimemazine,alimemazine
+Isocarboxazid,isocarboxazid
+Decamethonium,decamethonium
+Chloroxine,chloroxine
+Gemfibrozil,gemfibrozil
+Mitiglinide,mitiglinide
+Dasatinib,dasatinib
+Gliquidone,gliquidone
+Desonide,desonide
+Paliperidone,paliperidone
+Lisdexamfetamine,lisdexamfetamine
+Sitagliptin,sitagliptin
+Lapatinib,lapatinib
+Decitabine,decitabine
+Darunavir,darunavir
+Telbivudine,telbivudine
+Fenoterol,fenoterol
+Arformoterol,formoterol
+Sunitinib,sunitinib
+Varenicline,varenicline
+Practolol,practolol
+Glisoxepide,glisoxepide
+Bevantolol,bevantolol
+Glucosamine,d-2-galactosamine
+Fosphenytoin,fosphenytoin
+Polythiazide,polythiazide
+Sulfacytine,sulfacytine
+Fosamprenavir,schembl10264224
+Sulfadoxine,sulfadoxine
+Quinethazone,quinethazone
+Cefamandole,7-[(2-hydroxy-2-phenylacetyl)amino]-3-[(1-methyltetrazol-5-yl)sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid
+Cefazolin,cefazolin
+Cefoperazone,cefoperazone impurity f
+Cefoxitin,schembl7766649
+Cefonicid,va10527
+Vecuronium,"3,17-bis(acetyloxy)-16-(1-methylpiperidinium-1-yl)-2-(piperidin-1-yl)androstane"
+Pipecuronium,pipecuronium
+Metocurine,ncgc00181151-01
+Pancuronium,bdbm86425
+Amobarbital,amobarbital
+Butobarbital,5-butyl-5-ethyl barbituric acid (butethal)
+Aprobarbital,aprobarbital
+Forasartan,forasartan
+Hexobarbital,56-29-1
+Heptabarbital,heptabarb
+Saprisartan,saprisartan
+Spirapril,spirapril
+Ephedrine,ephedrine
+Mestranol,inostral
+Iohexol,iohexol
+Procaterol,procaterol
+Rasagiline,1875-50-9
+Colchicine,colchicine
+Cortisone acetate,cortisone-acetate
+Mibefradil,"2-methoxyacetic acid [2-[2-[3-(1h-benzimidazol-2-yl)propyl-methylamino]ethyl]-6-fluoro-1-propan-2-yl-3,4-dihydro-1h-naphthalen-2-yl] ester"
+Bezafibrate,bezafibrate
+Drospirenone,"5a,7a-dimethyl-1,1a,5,5a,5b,6,7,7a,8a,9,9a,9b,9c,9d-tetradecahydro-3'h-spiro[cyclopropa[4,5]cyclopenta[1,2-a]cyclopropa[l]phenanthrene-8,2'-furan]-3,5'(4h,4'h)-dione"
+Temafloxacin,temafloxacin
+Theobromine,"theobromine (3,7-dimethylxanthine)"
+Methotrimeprazine,levopromazine
+Danazol,mls003115428
+Clenbuterol,clenbuterol
+Ciclesonide,126544-47-6
+Cefacetrile,cefacetrile
+Bambuterol,bambuterol
+Ceftibuten,ceftibuten
+Antrafenine,antrafenine
+Aminophenazone,aminophenazone
+Paromomycin,catenulin
+Acenocoumarol,acenocumarol
+Stepronin,stepronin
+Ajmaline,ajmaline
+Methadyl acetate,levacetylmethadol
+Antipyrine,antipyrine ok
+Amrinone,amrinone
+Glutethimide,piperacillin
+Allylestrenol,mcule-5010058438
+Bufotenine,bufotenine
+gamma-Hydroxybutyric acid,gamma hydroxybutyric acid
+Diamorphine,diamorphine
+Acetorphine,acetorphine
+Betaprodine,alphaprodine (betaprodine)
+Bolasterone,calusteron
+Haloxazolam,haloxazolam
+Fenethylline,fenethylline
+Barbital,barbital
+Cyprenorphine,cyprenorphine
+Embutramide,embutramide
+Camazepam,camazepam
+Dipipanone,dipipanone
+Ethylestrenol,ethylnandrol
+Etorphine,etorphine
+Alphamethadol,betamethadol
+Alphameprodine,betameprodine
+Difenoxin,difenoxin
+Delorazepam,delorazepam
+Hydromorphinol,hydromorphinol
+Betacetylmethadol,levacetylmethadol
+Dextromoramide,dextromoramide (levomoramide and racemoramide)
+Desomorphine,desomorphine
+Chlorhexadol,chloralodol
+Carfentanil,carfentanil
+Flunitrazepam,1622-62-4
+Ethyl loflazepate,ethyl-loflazepate
+Etryptamine,etryptamine
+Drotebanol,drotebanol
+Diprenorphine,diprenorphine
+Dihydrocodeine,"codeine, dihydro-"
+Alphacetylmethadol,levacetylmethadol
+Cloxazolam,cloxazolam
+Betameprodine,betameprodine
+Clotiazepam,clotiazepam
+Bromazepam,bromazepam
+Cathinone,cathinone
+Chloral hydrate,chloralhydrate
+Dihydromorphine,paramorfan
+Fludiazepam,fludiazepam
+Calusterone,calusteron
+Dextroamphetamine,amphetamine
+Metamfetamine,methamphetamine (pervertin)
+Oxprenolol,oxprenolol
+Ketazolam,ketazolam
+Phendimetrazine,phendimetrazine
+Quazepam,quazepam
+Prazepam,prazepam
+Cinolazepam,cinolazepam
+Nitrazepam,nitrazepam
+Ursodeoxycholic acid,"3,7-dihydroxycholan-24-oic acid"
+Sulfamerazine,sulfamerazine
+Solifenacin,180272-14-4
+Tiaprofenic acid,tiaprofenic
+Probucol,probucol
+Bacampicillin,bacampicillin hydrochloride
+Meticillin,methcillin
+Pivampicillin,pivampicillin
+Periciazine,pericyazine
+Tazobactam,tazobactam
+Acepromazine,acepromazine
+Aceprometazine,aceprometazine
+Molindone,molindone
+Hydroxychloroquine,hydroxychloroquine
+Erythrityl tetranitrate,erythrityl
+Amyl Nitrite,pentyl nitrite
+Pipotiazine,pipotiazine
+Thioproperazine,thioproperazine
+Pargyline,pargyline
+Zuclopenthixol,clopenthixol/zuclopenthixol
+Thiothixene,thiothixene (tiotixene)
+Phenindamine,phenindamine
+Lincomycin,lincomycine
+Isopropamide,isopropamide iodide
+Etoricoxib,etoricoxib
+Sorbitol,mannitol (d-mannitol)
+Roflumilast,roflumilast
+Virginiamycin M1,virginiamycin-factor-m1
+Propyl acetate,propyl acetate 
+Camphor,camphor
+D-Leucine,leucine
+Dalfopristin,dalfopristin
+D-Alanine,dl-alanine
+Pantothenic acid,dl-pantothenic acid
+D-Galctopyranosyl-1-On,gluconolactone
+"5,7-Dichlorokynurenic acid",dcka
+Rolipram,rolipram
+Alrestatin,alrestatin
+Epicaptopril,1-(2-methyl-3-sulfanylpropanoyl)pyrrolidine-2-carboxylic acid
+Cytidine,cytarabin
+Butyl alcohol,1-butanol
+Flufenamic acid,flufenamic
+Isoamyl alcohol,3-methyl-1-butanol (isopentanol)
+Isopropyl alcohol,2-propanol (isopropanol)
+Aminobenzoic acid,4-aminobenzoic acid
+D-Glutamic Acid,glutamic acid
+(3-Carboxy-2-(R)-Hydroxy-Propyl)-Trimethyl-Ammonium,levocarnitine
+beta-D-Galactosamine,d-2-galactosamine
+Nicotinamide,nicotinamide
+Sorbinil,sorbinil
+Uridine,58-96-8
+Piretanide,piretanide
+(R)-Bicalutamide,bicalutamide
+Fosmidomycin,fosmidomycin
+Bromoform,bromoform
+D-Lactic acid,lactic acid
+Propyl alcohol,propan-1-ol
+Beta-L-Arabinose,pentopyranose
+Phenol,phenol
+Cephalosporin C,chembl1624196
+Dexpropranolol,upcmld-dp067
+alpha-D-Xylopyranose,pentopyranose
+Alvocidib,flavopiridol
+Brequinar,brequinar
+Isopenicillin N,adicillin
+Phencyclidine,phencyclidine
+Oxyphenbutazone,oxyphenbutazone
+(S)-Rolipram,rolipram
+Piritrexim,piritrexim
+Ethylene Dichloride,"1,2-dichloroethane"
+Tromethamine,trometamol
+N-Propargyl-1(S)-Aminoindan,1875-50-9
+tert-butanol,tert-butylalcohol
+Urea,urea
+L-Xylopyranose,pentopyranose
+Clorgiline,clorgiline
+(R)-Rolipram,rolipram
+Nicotinyl alcohol,nicotinyl alcohol
+Valpromide,valpromide
+Aceglutamide,aceglutamide
+beta-D-Ribopyranose,pentopyranose
+7-(2-Amino-2-Phenyl-Acetylamino)-3-Chloro-8-Oxo-1-Aza-Bicyclo[4.2.0]Oct-2-Ene-2-Carboxylic Acid,loracarbef
+7-((Carboxy(4-Hydroxyphenyl)Acetyl)Amino)-7-Methoxy-(3-((1-Methyl-1h-Tetrazol-5-Yl)Thio)Methyl)-8-Oxo-5-Oxa-1-Azabicyclo[4.2.0]Oct-2-Ene-2-Carboxylic Acid,moxalactam
+Carbocisteine,loviscol
+Arecoline,arecoline
+Lactic acid,lactic acid
+Thymidine,telbivudine
+Niflumic acid,niflumic acid
+Gluconolactone,gluconolactone
+Trioxsalen,trioxsalen
+Fleroxacin,fleroxacin
+Estriol,estriol
+Estrone sulfate,estropipate
+Quinestrol,"(8r,9s,13s,14s,17r)-3-cyclopentyloxy-17-ethynyl-13-methyl-7,8,9,11,12,14,15,16-octahydro-6h-cyclopenta[a]phenanthren-17-ol"
+Aniracetam,aniracetam
+Apramycin,37321-09-8
+Aldosterone,urea
+"5-[(3AS,4R,6AR)-2-OXOHEXAHYDRO-1H-THIENO[3,4-D]IMIDAZOL-4-YL]PENTANOIC ACID",bioepiderm
+Metoprine,metoprine
+Corticosterone,corticosterone
+Camptothecin,candesartan
+Gentamicin C1a,gentamicinc1a
+Nimesulide,nimesulide
+Bifonazole,bifonazole
+Clioquinol,clioquinol
+Neamine,"5-amino-2-(aminomethyl)-6-(4,6-diamino-2,3-dihydroxycyclohexyl)oxyoxane-3,4-diol"
+Benoxaprofen,benoxaprofen
+Iproniazid,iproniazid
+Bithionol,bithionol
+Methapyrilene,methapyrilene
+Nomifensine,nomifensine
+Nialamide,nialamide
+Metamizole,dipyrone
+Urethane,urethane
+Phenolphthalein,phenolphthalein
+Tienilic acid,ticrynafen
+Zimelidine,zimeldine
+Methaqualone,morphine
+Amineptine,survector
+Mepenzolate,mepenzolatebromide
+Fluspirilene,fluspirilene
+Cyclandelate,cyclandelate
+Tetrabenazine,tetrabenazine (tetrabenzine)
+Cyproterone acetate,cyproterone
+Flunarizine,flunarizine
+Debrisoquine,debrisoquine
+Ixabepilone,schembl3670439
+Febuxostat,febuxostat
+Zanapezil,zanapezil
+Nebivolol,nebivolol
+Nilotinib,nilotinib
+Vatalanib,"ptk-787, vatalanib"
+Elacridar,elacridar
+Voglibose,voglibose
+Vildagliptin,vildagliptin
+Enoximone,enoximone
+Dapoxetine,119356-76-2
+Phenserine,acmc-20dhn6
+Bepotastine,4-(4-((4-chlorophenyl)(pyridin-2-yl)methoxy)piperidin-1-yl)butanoic acid
+Pagoclone,pagoclone
+Milnacipran,milnacipran
+Clevidipine,clevidipine
+Iloperidone,iloperidone
+Permethrin,permethrin
+Tamibarotene,tamibarotene
+Ezogabine,ezogabine
+Lofexidine,lofexidine
+Pirfenidone,pirfenidone
+Lesopitron,lesopitron
+Lucanthone,lucanthone
+Indacaterol,"(r)-5-(2-(5,6-diethyl-2,3-dihydro-1h-inden-2-ylamino)-1-hydroxyethyl)-8-hydroxyquinolin-2(1h)-one"
+Ganaxolone,ganaxolone
+Asimadoline,schembl8717354
+Lobeline,lobeline
+Methsuximide,methsuximide(mesuximide)
+Ibudilast,ibudilast
+Tarenflurbil,flurbiprofen
+Ecabet,ecabet
+Rotigotine,ent-rotigotine
+Histamine,histamine phosphate
+CP-122721,145877-52-7
+Levoketoconazole,cefazolin
+Perflubron,perflubron
+SNS-032,sns-032
+Sertindole,sertindole
+Mianserin,24219-97-4
+Nylidrin,nylidrin
+Pizotifen,pizotifen
+Sulfathiazole,sulfathiazole
+Sulfadimethoxine,sulfadimethoxine
+Acetylcysteine,acetylcysteine
+Pentaerythritol tetranitrate,pentaerythritol tetranitrate
+Rimonabant,rimonabant
+Noscapine,noscapine
+Seliciclib,roscovitine
+Alovudine,alovudine 
+Rufinamide,rufinamide
+Alogliptin,1108732-05-3
+Tapentadol,3-(1-(dimethylamino)-2-methylpentan-3-yl)phenol
+Silodosin,silodosin
+Asenapine,org-5222
+Prasugrel,prasugrel
+Ocaperidone,ocaperidone
+Nalmefene,nalmefene
+Tolvaptan,tolvaptan
+Vernakalant,schembl2624888
+Rivaroxaban,rivaroxaban
+Regadenoson,regadenoson
+Avanafil,avanafil
+Amrubicin,110267-81-7
+Sitaxentan,sitaxentan
+Amisulpride,amisulpride
+Dapagliflozin,chembl2139953
+Saxagliptin,saxagliptin
+Xaliproden,xaliproden
+Bazedoxifene,bazedoxifene
+Declopramide,declopramide
+Ticalopride,ticalopride
+Etravirine,etravirine
+Talnetant,nalorphine
+Semaxanib,semaxanib
+Remacemide,remacemide
+Clomethiazole,clomethiazole
+Prucalopride,prucalopride
+Levovirin,ribavirin
+Tramiprosate,"tramiprosate, alzhemed"
+Ocinaplon,ocinaplon
+Robalzotan,robalzotan
+Apixaban,apixaban
+Tafenoquine,tafenoquine
+Bosutinib,bosutinib
+Flupirtine,flupirtine
+Casopitant,414910-27-3
+Axitinib,axitinib
+Dalfampridine,4-aminopyridine
+Arverapamil,norverapamil
+Esmirtazapine,mirtazapine
+Clevudine,clevudine
+Mepyramine,mepyramine (pyrilamine)
+Betahistine,betahistine (y-g 14)
+Vilazodone,vilazodone
+Dexmethylphenidate,methylphenidate
+Mevastatin,mls002702124
+Arbekacin,arbekacin
+Xylometazoline,xylometazoline
+Artemether,71963-77-4
+Desvenlafaxine,desvenlafaxine
+Fesoterodine,2-(3-(diisopropylamino)-1-phenylpropyl)-4-(hydroxymethyl)phenyl isobutyrate
+Isometheptene,isometheptene
+Methyltestosterone,methyltestosterone
+Methacholine,methacholine
+Propylhexedrine,101-40-6
+Naphazoline,naphazoline
+Bufuralol,bufuralol
+Stanozolol,stanozolol
+Lornoxicam,lornoxicam
+Seproxetine,seproxetine
+Sulfaphenazole,sulfaphenazole
+Gestodene,smr000539419
+Ketobemidone,ketobemidone
+Enclomiphene,clomiphene
+Aceclofenac,aceclofenac
+Drotaverine,drotaverine
+Benzyl alcohol,benzyl alcohol
+Capsaicin,capsaicine
+Besifloxacin,besifloxacin
+Chenodeoxycholic acid,"3,7-dihydroxycholan-24-oic acid"
+Halcinonide,halcinonide
+Difluprednate,difluprednate
+Dimercaprol,dimercaprol
+Mebutamate,mebutamate
+Levopropoxyphene,dextropropoxyphene
+Hexocyclium,hexocyclium
+Lodoxamide,lodoxamide
+Mafenide,mafenide
+Niclosamide,niclosamide
+Pralatrexate,chembl306438
+Plerixafor,plerixafor
+Phenyl aminosalicylate,phenyl 4-aminosalicylate
+Protokylol,protokylol hydrochloride
+Phenylbutyric acid,4-phenylbutyric acid
+Sulconazole,sulconazole
+Sulfameter,sulfameter
+Tiopronin,tiopronin
+Triethylenetetramine,trientine hydrochloride
+Bisphenol A,bisphenol a
+(R)-Atenolol,atenolol 
+Hymecromone,hymecromone
+(S)-Indapamide,indapamide
+Felbinac,felbinac
+"1-BENZYL-4-[(5,6-DIMETHOXY-1-INDANON-2-YL)METHYL]PIPERIDINE",donepezil
+(S)-econazole,econazole
+17alpha-Estriol,estriol
+Epitestosterone,testosterone
+"N~3~-cyclopropyl-N~4~'-(cyclopropylmethyl)-6-methylbiphenyl-3,4'-dicarboxamide",515134-70-0
+Fasudil,fasudil
+Sulthiame,sulthiame(sultiame)
+Mardepodect,pf-2545920
+(R)-Fluoxetine,fluoxetine
+(S)-Fluoxetine,fluoxetine
+Triclosan,triclosan
+"6-CHLORO-3-(DICHLOROMETHYL)-3,4-DIHYDRO-2H-1,2,4-BENZOTHIADIAZINE-7-SULFONAMIDE 1,1-DIOXIDE",trichlormethiazide
+"4-{(1E)-3-OXO-3-[(2-PHENYLETHYL)AMINO]PROP-1-EN-1-YL}-1,2-PHENYLENE DIACETATE",y12
+"4-{2-[(7-amino-2-furan-2-yl[1,2,4]triazolo[1,5-a][1,3,5]triazin-5-yl)amino]ethyl}phenol",17 zm0241385
+Ethyl biscoumacetate,ethyl biscoumacetate
+Azidocillin,ft-0770806
+Diloxanide,diloxanide
+Sulfamoxole,sulfamoxole
+Tymazoline,tymazoline
+Antazoline,antazoline
+Nandrolone decanoate,nandrolone decanoate
+Dimetindene,dimethindene
+Roxatidine acetate,roxatidine acetate
+Bopindolol,bopindolol
+Dichloroacetic acid,dichloroacetate
+Ticagrelor,ticagrelor
+Ivacaftor,ivacaftor
+Taurochenodeoxycholic acid,tauroursodeoxycholic acid
+Tauroursodeoxycholic acid,tauroursodeoxycholic acid
+Rilpivirine,rilpivirine
+Crizotinib,crizotinib
+Boceprevir,394730-60-0
+Ruxolitinib,941688-05-7
+Vemurafenib,vemurafenib
+Linagliptin,"8-(3-aminopiperidin-1-yl)-7-(but-2-yn-1-yl)-3-methyl-1-((4-methylquinazolin-2-yl)methyl)-1h-purine-2,6(3h,7h)-dione"
+Mirabegron,(s)-mirabegron
+Regorafenib,regorafenib
+Aclidinium,schembl72140
+Ponatinib,ponatinib
+Formestane,formestane
+Trametinib,trametinib
+Levomilnacipran,milnacipran
+Perospirone,sm-9018 (free base)
+Amperozide,amperozide
+Chlorcyclizine,chlorcyclizine
+Sofosbuvir,sofosbuvir
+Isoxicam,brl52580
+Isoxsuprine,isoxsuprine
+Iopanoic acid,iopanoic acid
+Indalpine,indalpine
+Ifenprodil,ifenprodil
+Hexoprenaline,hexoprenaline
+Fursultiamine,fursultiamine
+Fluprednidene,ft-0697029
+Fominoben,fominoben
+Flumequine,flumequine
+Fluclorolone acetonide,flucloronide (fluclorolone-acetonide)
+Floctafenine,floctafenine
+Fenbufen,fenbufen
+Etilefrine,etilefrine
+Etozoline,etozoline
+Etifoxine,etifoxine
+Dimetacrine,dimetacrine
+Demexiptiline,demexiptiline
+Cyamemazine,cyamemazine
+Diosmin,diosmin
+Clocapramine,clocapramine
+Chlorphenoxamine,chlorphenoxamine
+Clobutinol,clobutinol
+Clinofibrate,clinofibrate
+Beclamide,beclamide
+Captodiame,captodiame
+Bromopride,bromopride
+Brotizolam,brotizolam
+Benzoctamine,benzoctamine
+Cytisine,cytisine
+Befunolol,befunolol
+Benactyzine,benactyzine
+Bisacodyl,bisacodyl
+Benfluorex,benfluorex
+Bromhexine,bromhexine
+Acipimox,acipimox
+Cefminox,75481-73-1
+Tibolone,tibolone
+Ciprofibrate,ciprofibrate
+Edoxaban,edoxaban
+Idebenone,idebenone
+Benzydamine,benzydamine
+Tixocortol,ft-0675254
+Quinagolide,quinagolidum [inn-latin]
+Pinaverium,pinaverium
+Difluocortolone,diflucortolone
+Paraldehyde,paraldehyde
+Stiripentol,stiripentol
+Benzoyl peroxide,benzoyl peroxide
+Diiodohydroxyquinoline,iodoquinol
+Dienogest,dienogest
+Water,water
+Ioversol,ioversol
+Isosulfan blue,schembl180549
+Nitrogen,nitrogen
+Etizolam,etizolam
+Dosulepin,dothiepin
+Mirfentanil,mirfentanil
+Brifentanil,brifentanil
+Lofentanil,lofentanil
+Trefentanil,trefentanil
+Viloxazine,viloxazine
+Nisoxetine,nisoxetine
+Talsupram,talsupram
+Amedalin,amedalin
+Daledalin,daledalin
+Talopram,talopram
+Tandamine,tandamine
+Etoperidone,etoperidone
+Mepiprazole,mepiprazole
+Lorpiprazole,lorpiprazole
+Piracetam,piracetam
+Dexibuprofen,ibuprofen 
+Blonanserin,blonanserin
+Clonixin,clonixin
+Melperone,melperone
+Zotepine,zotepine
+Nicorandil,nicorandil
+Levamlodipine,amlodipine besylate
+Lacidipine,lacidipine
+Pirlindole,pirlindole
+Toloxatone,toloxatone
+Benmoxin,benmoxin
+Iproclozide,iproclozide
+Mebanazine,mebanazine
+Octamoxin,octamoxin
+Pheniprazine,pheniprazine
+Phenoxypropazine,phenoxypropazine
+Moxonidine,moxonidine
+Caroxazone,caroxazone
+Tegafur,tegafur
+Imidafenacin,imidafenacin
+Doxofylline,doxofylline
+Pipamperone,pipamperone
+Fimasartan,fimasartan
+Propacetamol,propacetamol
+Tianeptine,tianeptine
+Morniflumate,morniflumate
+Setiptiline,setiptiline
+Aptazapine,aptazapine maleate
+Metralindole,metralindole
+Oxaprotiline,oxaprotiline
+Carindacillin,schembl4936924
+Sulbactam,sulbactam sodium
+Tyropanoic acid,tyropanoate sodium
+Levobetaxolol,betaxolol
+Hydroxyamphetamine,4-(2-aminopropyl)phenol
+Dexpanthenol,dl-panthenol
+Propyliodone,propyliodone
+Meprednisone,meprednisone
+Iocetamic acid,iocetamic acid
+Glycerin,glycerol
+Isosorbide,isosorbide
+Cetyl alcohol,1-hexadecanol
+Mequinol,mequinol
+Levmetamfetamine,methamphetamine (pervertin)
+Octocrylene,octocrylene
+Phenyl salicylate,phenyl salicylate
+Butamben,butyl 4-aminobenzoate (butamben)
+Anthralin,anthralin
+Pentoxyverine,carbetapentane
+Panthenol,dl-panthenol
+Dihydro-alpha-ergocryptine,ergoloidmesylate
+(S)-camphor,camphor
+(+)-menthol,menthol
+Selexipag,selexipag
+Alfaxalone,alfaxalone (renanolone)
+Azaperone,azaperone
+Chloroform,trichloromethane (chloroform)
+Chlorobutanol,chlorobutanol
+Diclazuril,diclazuril
+Florfenicol,florfenicol
+Maropitant,147116-67-4
+Medetomidine,medetomidine
+Oleandomycin,oleandomycin
+Xylazine,xylazine
+Nalorphine,nalorphine
+Difloxacin,sevoflurane
+Etymemazine,etymemazine
+Dihydrostreptomycin,"1,1'-[4-({5-deoxy-2-o-[2-deoxy-2-(methylamino)hexopyranosyl]-3-c-(hydroxymethyl)pentofuranosyl}oxy)-2,5,6-trihydroxycyclohexane-1,3-diyl]diguanidine"
+Isoflupredone,isoflupredone
+Metoserpate,metoserpate
+Romifidine,romifidine
+Tiletamine,tiletamine
+Toluene,toluene
+Zolazepam,zolazepam
+Detomidine,detomidine
+Pipradrol,pipradrol
+Bilastine,bilastine
+Normethadone,normethadone
+Oxilofrine,hydroxyephedrine
+Pirarubicin,pirarubicin
+Gestrinone,gestrinone
+Dehydrocholic acid,dehydrocholic
+Tafamidis,tafamidis
+Rebamipide,rebamipide
+Psilocybin,psilocybine
+Treosulfan,treosulfan
+Ebastine,efavirenz
+Rilmenidine,rilmenidine
+Benfotiamine,benfotiamine
+Clobetasol,"21-chloro-9-fluoro-11,17-dihydroxy-16-methylpregna-1,4-diene-3,20-dione"
+Talinolol,talinolol
+Dexmecamylamine,mecamylamine
+Esketamine,ketamine
+Brexanolone,allopregnanolone
+Etiracetam,etiracetam
+Prulifloxacin,prulifloxacin
+Deflazacort,deflazacort
+Flomoxef,ctk8a5118
+Kynurenic Acid,kynurenic acid
+Selinexor,selinexor
+PF-04447943,pf-4447943
+Benznidazole,benznidazole
+Diacerein,diacerein
+GW-406381,gw406381
+Fostamatinib,fostamatinib
+Ozagrel,ozagrel
+Vesnarinone,vesnarinone
+m-Chlorophenylpiperazine,1-(3-chlorophenyl)piperazine
+Sultamicillin,76497-13-7
+Erdafitinib,erdafitinib
+Sarpogrelate,sarpogrelate
+Gepirone,gepirone
+Faropenem,fropenem (faropenem)
+Bunazosin,bunazosin
+Iguratimod,iguratimod
+Edaravone,edaravone
+Triclabendazole,triclabendazole
+Atevirdine,atevirdine
+Simendan,levosimendan
+Tacedinaline,tacedinaline
+Nefopam,nefopam
+Eltanolone,allopregnanolone
+Temocillin,"temocillin, antibiotic for culture media use only"
+Bromperidol,bromperidol
+Esreboxetine,reboxetine
+Saccharin,saccharin
+Vofopitant,"gr 205171, vofopitant"
+Nadifloxacin,nadifloxacin
+Ketanserin,ketanserin
+Levodropropizine,dropropizine
+Taurolidine,taurolidine
+Piribedil,piribedil
+Piritramide,piritramide
+Mizolastine,mizolastine
+N-acetylmannosamine,2-acetamido-2-deoxyglucose
+Fluocinolone,fluocinolone
+Mebeverine,mebeverine
+AEE-788,aee-788
+Sisomicin,sisomicin
+Mizoribine,mizoribine
+Ritanserin,ritanserin
+Spiradoline,chembl118865
+Perazine,perazine
+Racivir,racivir
+Cicletanine,cicletanine
+Benserazide,benserazide
+Picropodophyllin,4354-76-1
+Benperidol,benperidol
+Oxatomide,oxatomide
+Eltoprazine,eltoprazine
+Trofosfamide,trofosfamide
+Mitolactol,"1,6-dibromo-1,6-dideoxyhexitol"
+Cafedrine,cafedrine
+Theodrenaline,theodrenaline
+Opipramol,opipramol
+Lactitol,lactitol
+Pivagabine,pivagabine
+Prothipendyl,prothipendyl
+Sepranolone,allopregnanolone
+Cortivazol,cortivazol
+Dimiracetam,dimiracetam
+Tiapride,tiapride
+Ornidazole,ornidazole
+Liarozole,liarozole
+Nefiracetam,nefiracetam
+Enoxolone,biosone
+Pyritinol,pyritinol
+Valnoctamide,valnoctamide
+Gacyclidine,schembl3457748
+Amitriptylinoxide,amitriptylinoxide
+Norflurane,norflurane
+Levosalbutamol,salbutamol 
+Alphaprodine,alphaprodine (betaprodine)
+Clobetasone,clobetasone
+Alclofenac,alclofenac
+Daidzein,daidzein ok
+Prednylidene,prednylidene
+Butaperazine,butaperazine
+Medifoxamine,medifoxamine
+Dibenzepin,dibenzepin
+Alaproclate,alaproclate
+Propanidid,propanidid
+Quinupramine,quinupramine
+Pramiracetam,pramiracetam
+Proxibarbal,proxibarbal
+Clothiapine,clothiapine (clotiapine)
+Ethyl chloride,chloroethane
+Prifinium,prifinium
+Phthalylsulfathiazole,phthalylsulfathiazole
+Cefatrizine,51627-14-6
+Dibekacin,dibekacin
+Sultopride,sultopride
+Pimethixene,pimethixene
+Sulfaisodimidine,sulfisomidine
+Febarbamate,febarbamate
+Azidamfenicol,azidamfenicol
+Epicillin,"4-thia-1-azabicyclo(3.2.0)heptane-2-carboxylic acid, 6-(2-amino-2-(1,4-cyclohexadien-1-yl)acetamido)-3,3-dimethyl-7-oxo-, d-"
+Delapril,schembl20840151
+Trichloroethylene,trichloroethene
+Tetrazepam,tetrazepam
+Pyrithyldione,pyrithyldione
+Pinazepam,pinazepam
+Pheneticillin,"3,3-dimethyl-7-oxo-6-[(2-phenoxypropanoyl)amino]-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+Deanol,deanol
+Phenprobamate,phenprobamate
+Pheneturide,pheneturide
+Bromisoval,bromisoval
+Feprazone,feprazone
+Vinbarbital,vinbarbital
+Norfenefrine,norfenefrine
+Vincamine,isovincamine
+Melitracen,melitracen
+Emetine,emetine
+Oxypertine,oxypertine
+Terguride,lysuride
+Lofepramine,lofepramine
+Pentetrazol,pentylenetetrazole (metrazole)
+Pirisudanol,pirisudanol
+Troxipide,troxipide
+Tolonidine,tolonidine
+Flutrimazole,flutrimazole
+Proglumide,proglumide
+Medazepam,medazepam
+Prolintane,prolintane
+Fenticonazole,fenticonazole
+Esatenolol,atenolol 
+Proxyphylline,proxyphylline
+Cadralazine,cadralazine
+Nicomorphine,nicomorphine
+Thebacon,thebacon
+Oxaflozane,oxaflozane
+Bephenium,bephenium
+Cyclofenil,cyclofenil
+Meptazinol,meptazinol
+Iprindole,iprindole
+Budipine,budipine
+Emepronium,emepronium
+Carfecillin,carfecillin
+Levomethadone,methadone
+Veralipride,veralipride
+Propyphenazone,propyphenazone
+Gedocarnil,gedocarnil
+Isepamicin,isepamicin
+Ethenzamide,ethenzamide
+Bevonium,bevonium
+Mitobronitol,"1,6-dibromo-1,6-dideoxyhexitol"
+Bifemelane,bifemelane
+Nizofenone,nizofenone
+Trifluperidol,trifluperidol
+Moperone,moperone
+Thiopropazate,thiopropazate
+Emylcamate,emylcamate
+Allobarbital,allobarbital
+Succinylsulfathiazole,succinylsulfathiazole
+Metopimazine,metopimazine
+Etamiphylline,etamiphyllin
+Diethyl ether,diethylether (ether)
+Oxiracetam,oxiracetam
+Phenazocine,phenazocine
+Phenoperidine,phenoperidine
+Carbuterol,carbuterol
+Ipriflavone,ipriflavone
+Oxolinic acid,oxolinic
+Loprazolam,loprazolam
+Proquazone,proquazone
+Nikethamide,nikethamide
+Propicillin,mls006011441
+Hexapropymate,hexapropymate
+Eberconazole,eberconazole
+Fluanisone,fluanisone
+Formocortal,cutisterol
+Bekanamycin,kanamycin b
+Dexchlorpheniramine,chlorpheniramine
+Mosapramine,mosapramine
+Niaprazine,niaprazine
+Vinyl ether,divinylether
+Clometocillin,clometocillin
+Sulbenicillin,sulbenicillin
+Distigmine,distigmine
+Fenquizone,fenquizone
+Diphemanil,diphemanil
+Halometasone,db-051804
+Methylpentynol,3-methyl-1-pentyn-3-ol
+Cyclobarbital,cyclobarbital
+Fenoxazoline,fenoxazoline
+Penamecillin,schembl33896
+Bemegride,bemegride
+Mephenoxalone,mephenoxalone
+Meclofenoxate,meclofenoxate
+Vorozole,vorozole
+Sulfamethoxypyridazine,sulfamethoxypyridazine
+Lidoflazine,lidoflazine
+Vinylbital,vinylbital
+Cefazedone,cefazedone
+Imipramine oxide,imipraminoxide
+Dixyrazine,dixyrazine
+Tilidine,tilidine
+Fipexide,fipexide
+Penfluridol,penfluridol
+Acemetacin,acemetacin
+Dropropizine,dropropizine
+Linopirdine,linopirdine
+Dimemorfan,schembl4111708
+Carbromal,carbromal
+Talampicillin,talampicillin
+Oxomemazine,oxomemazine
+Aspoxicillin,aspoxicillin
+Meprotixol,meprotixol
+Ceftezole,ceftezole
+Metampicillin,6489-97-0
+Doxefazepam,doxefazepam
+Clopenthixol,clopenthixol
+Cloprednol,cloprednol
+Nifuroxazide,nifuroxazide
+Fluticasone,90566-53-3
+Lormetazepam,lormetazepam
+Brofaromine,brofaromine
+Adefovir,adefovir
+Candesartan,candesartan
+Cyclopropane,cyclopropane (trimethylene)
+Pipequaline,pipequaline
+Nordazepam,1088-11-5
+Acetyl sulfisoxazole,sulfisoxazole acetyl
+Hopantenic acid,hopantenic-acid
+Dexverapamil,verapamil
+Dimercaptosuccinic acid,succimer
+Menthol,menthol
+Tenofovir,apropovir
+Synthetic camphor,camphor
+Perindoprilat,perindoprilat
+L-Lactic acid,lactic acid
+Mometasone furoate,mometasone (mometasone-furoate)
+Hydrocortisone aceponate,db-086784
+Hydrocortisone acetate,hydrocortisoni acetas
+Hydrocortisone butyrate,13609-67-1
+Hydrocortisone probutate,ft-0669272
+Hydrocortisone valerate,westcort
+Hydrocortisone succinate,hydrocortisone-hemisuccinate
+Eslicarbazepine,s-licarbizine
+Prednisolone tebutate,prednisolone_tebutate
+Prednisolone hemisuccinate,prednisolut
+Isoflupredone acetate,isoflupredone-acetate
+Methylprednisolone aceponate,stl504716
+Methylprednisolone hemisuccinate,methylprednisolone21hemisuccinate (methylprednisolone-hemisuccinate)
+Dexamethasone acetate,dexamethasone-21-acetate
+Clocortolone acetate,clocortolone-acetate
+Chlorphenesin carbamate,chlorphenesin carbamate
+Paramethasone acetate,paramethasone-acetate
+Flunisolide acetate,flunisolide-acetate
+Difluocortolone pivalate,"[2-(6,9-difluoro-11-hydroxy-10,13,16-trimethyl-3-oxo-7,8,11,12,14,15,16,17-octahydro-6h-cyclopenta[a]phenanthren-17-yl)-2-oxoethyl] 2,2-dimethylpropanoate"
+Dextrorphan,dl-morphan
+Cidoxepin,sinequan
+Racephedrine,ephedrine
+Cycloguanil,cycloguanil
+Lucerastat,"1-butyl-2-(hydroxymethyl)piperidine-3,4,5-triol"
+Litoxetine,litoxetine
+Ribose,xylose
+Dexpramipexole,104617-86-9
+Dubermatinib,compound 13
+Dextromethadone,methadone
+Epalrestat,epalrestat
+Posiphen,acmc-20dhn6
+Xanomeline,xanomeline
+(S)-Propafenone,propafenone
+Mexazolam,mexazolam
+Oxazolam,oxazolam
+Prednisolone acetate,prednisolone 21-acetate
+Aminopromazine,aminopromazine
+Mecloxamine,mecloxamine
+Fluocortolone caproate,fluocortolone-21-hexanoat
+Buthiazide,buthiazide
+Pipethanate,piperilate
+Amyl acetate,pentyl acetate
+Raubasine,.delta.-yohimbine
+Clorotepine,clorotepine
+Chloroprednisone,schembl24949
+Homochlorcyclizine,homochlorcyclizine
+Methane,methane
+Nifekalant,nifekalant
+Levosulpiride,sulpiride
+Dexisometheptene mucate,isometheptene
+Esflurbiprofen,flurbiprofen
+Fasoracetam,59388-44-2
+Levonadifloxacin,nadifloxacin
+Revaprazan,revaprazan
+Dextilidine,tilidine
+Tebipenem pivoxil,tebipenem
+Tosufloxacin,tosufloxacin
+Maltitol,lactitol
+L-Arabinose,xylose
+S-Apomorphine,apomorphine_r
+Ilepcimide,ilepcimide
+Indatraline,chembl296602
+Spiperone,spiperone
+Acecainide,n-acetylprocainamide
+L-Cycloserine,dl-cycloserine
+Algestone,ft-0661485
