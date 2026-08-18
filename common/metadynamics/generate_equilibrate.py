@@ -26,3 +26,17 @@ with open('equilibrate2.dat', 'w') as f:
     f.write('RESTART\n' + equilibrate.format(lig=str(atom_num[0]) + '-' + str(atom_num[-1])))
 with open('ini_com.dat', 'w') as f:
     f.write(ini_com.format(lig=str(atom_num[0]) + '-' + str(atom_num[-1])))
+
+# Since the reviewers asked us to simulate with other locations, we now need to jank our way into updating the restraint locations
+# When the locations are not the centre, we'll use a different named location file
+from pathlib import Path
+import subprocess
+
+if not Path("./location.dat").is_file():
+    fn = list(Path("./").glob("location*dat"))[0]
+    with open(fn) as f:
+        location = f.readline()
+        location = re.sub("\s+", ",", location.strip())
+
+        subprocess.call(['sed', '-i', 's/3.4,3.4,16.5/'+location+'/g', 'equilibrate.dat', 'equilibrate2.dat'])
+
