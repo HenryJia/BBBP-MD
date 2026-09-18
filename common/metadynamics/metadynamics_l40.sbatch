@@ -5,8 +5,8 @@
 #SBATCH --gres=gpu:lovelace_l40:1
 #SBATCH --time=48:00:00
 #SBATCH --mem-per-cpu=3850 
-#SBATCH --partition=gpu
-#SBATCH --account=su007-gcs-gpu
+#SBATCH --partition=gpulowpri
+#SBATCH --account=su007-gpulowpri
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=h.jia.2@warwick.ac.uk
 
